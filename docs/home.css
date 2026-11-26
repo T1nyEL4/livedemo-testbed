@@ -71,8 +71,25 @@ a:focus-visible, button:focus-visible { outline: 2px solid #c5e2ff; outline-offs
 }
 
 .hero h1 {
+  position: relative;
+  isolation: isolate;
+  width: fit-content;
+  margin-inline: auto;
   font: 400 7.08cqw / 0.99 var(--serif);
   letter-spacing: -0.035em;
+}
+
+.hero h1::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: -0.4em -0.45em;
+  background: #383838ed;
+  mask-image:
+    linear-gradient(to right, transparent, #000 12%, #000 88%, transparent),
+    linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
+  mask-composite: intersect;
+  pointer-events: none;
 }
 
 .hero h1:focus { outline: none; }
