@@ -1,0 +1,4001 @@
+{
+  "model": "model.glb",
+  "units": "metres",
+  "up": "+Y (glTF)",
+  "front": "+Z (glTF) = -Y (Blender)",
+  "size_m": [
+    0.0464,
+    0.022,
+    0.0721
+  ],
+  "boundsScope": "All registered non-glow parts, including loose accessories; not necessarily nominal assembled-product dimensions.",
+  "parts": [
+    {
+      "id": "case_middle",
+      "label": "Stainless steel case middle",
+      "glow": false,
+      "materials": [
+        "Satin stainless steel"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.043,
+        0.0086,
+        0.043
+      ],
+      "center_m": [
+        0.0,
+        0.0003,
+        0.0
+      ],
+      "parents": []
+    },
+    {
+      "id": "bezel",
+      "label": "Brushed front bezel",
+      "glow": false,
+      "materials": [
+        "Satin stainless steel"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0425,
+        0.0019,
+        0.0425
+      ],
+      "center_m": [
+        0.0,
+        -0.0048,
+        0.0
+      ],
+      "parents": [
+        "front_layer_display",
+        "front_layer_display_frame"
+      ]
+    },
+    {
+      "id": "front_crystal",
+      "label": "Front sapphire crystal",
+      "glow": false,
+      "materials": [
+        "Clear sapphire"
+      ],
+      "presets": [
+        "glass_clear"
+      ],
+      "size_m": [
+        0.0374,
+        0.001,
+        0.0374
+      ],
+      "center_m": [
+        0.0,
+        -0.0055,
+        0.0
+      ],
+      "parents": [
+        "front_layer_display",
+        "front_layer_display_frame"
+      ]
+    },
+    {
+      "id": "front_gasket",
+      "label": "Front crystal gasket",
+      "glow": false,
+      "materials": [
+        "Gasket"
+      ],
+      "presets": [
+        "rubber"
+      ],
+      "size_m": [
+        0.0381,
+        0.0003,
+        0.0381
+      ],
+      "center_m": [
+        0.0,
+        -0.0049,
+        0.0
+      ],
+      "parents": [
+        "front_layer_display",
+        "front_layer_display_frame"
+      ]
+    },
+    {
+      "id": "caseback",
+      "label": "Exhibition caseback",
+      "glow": false,
+      "materials": [
+        "Satin stainless steel"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0407,
+        0.0014,
+        0.0407
+      ],
+      "center_m": [
+        0.0,
+        0.0053,
+        0.0
+      ],
+      "parents": [
+        "case_middle"
+      ]
+    },
+    {
+      "id": "caseback_markings",
+      "label": "Caseback markings",
+      "glow": false,
+      "materials": [
+        "Graphite chapter ring"
+      ],
+      "presets": [
+        "painted_metal"
+      ],
+      "size_m": [
+        0.0322,
+        0.0,
+        0.0379
+      ],
+      "center_m": [
+        0.0001,
+        0.006,
+        0.0001
+      ],
+      "parents": [
+        "caseback",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "rear_crystal",
+      "label": "Rear sapphire crystal",
+      "glow": false,
+      "materials": [
+        "Clear sapphire"
+      ],
+      "presets": [
+        "glass_clear"
+      ],
+      "size_m": [
+        0.0336,
+        0.0012,
+        0.0336
+      ],
+      "center_m": [
+        0.0,
+        0.0053,
+        0.0
+      ],
+      "parents": [
+        "caseback",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "movement_spacer",
+      "label": "Movement locating ring",
+      "glow": false,
+      "materials": [
+        "Gasket"
+      ],
+      "presets": [
+        "rubber"
+      ],
+      "size_m": [
+        0.0384,
+        0.0004,
+        0.0384
+      ],
+      "center_m": [
+        0.0,
+        0.0044,
+        0.0
+      ],
+      "parents": [
+        "case_middle"
+      ]
+    },
+    {
+      "id": "upper_lugs",
+      "label": "Upper lug pair",
+      "glow": false,
+      "materials": [
+        "Satin stainless steel"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0342,
+        0.0052,
+        0.0134
+      ],
+      "center_m": [
+        0.0,
+        0.001,
+        0.0186
+      ],
+      "parents": [
+        "case_middle"
+      ]
+    },
+    {
+      "id": "upper_bar",
+      "label": "Upper spring bar",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0223,
+        0.0013,
+        0.0013
+      ],
+      "center_m": [
+        0.0,
+        0.0023,
+        0.0239
+      ],
+      "parents": [
+        "upper_lugs",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "upper_strap",
+      "label": "Upper black leather strap",
+      "glow": false,
+      "materials": [
+        "Black calf leather"
+      ],
+      "presets": [
+        "leather"
+      ],
+      "size_m": [
+        0.0218,
+        0.0152,
+        0.0162
+      ],
+      "center_m": [
+        0.0,
+        0.0084,
+        0.0279
+      ],
+      "parents": [
+        "upper_bar",
+        "upper_lugs",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "upper_emboss",
+      "label": "Upper leather embossing",
+      "glow": false,
+      "materials": [
+        "Raised leather grain"
+      ],
+      "presets": [
+        "leather"
+      ],
+      "size_m": [
+        0.0161,
+        0.0088,
+        0.0125
+      ],
+      "center_m": [
+        0.0,
+        0.0052,
+        0.0282
+      ],
+      "parents": [
+        "upper_strap",
+        "upper_bar",
+        "upper_lugs",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "upper_stitch",
+      "label": "Upper strap stitching",
+      "glow": false,
+      "materials": [
+        "Strap stitching"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0197,
+        0.0103,
+        0.0141
+      ],
+      "center_m": [
+        0.0,
+        0.0058,
+        0.0276
+      ],
+      "parents": [
+        "upper_strap",
+        "upper_bar",
+        "upper_lugs",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "lower_lugs",
+      "label": "Lower lug pair",
+      "glow": false,
+      "materials": [
+        "Satin stainless steel"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0342,
+        0.0052,
+        0.0134
+      ],
+      "center_m": [
+        0.0,
+        0.001,
+        -0.0186
+      ],
+      "parents": [
+        "case_middle"
+      ]
+    },
+    {
+      "id": "lower_bar",
+      "label": "Lower spring bar",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0223,
+        0.0013,
+        0.0013
+      ],
+      "center_m": [
+        0.0,
+        0.0023,
+        -0.0239
+      ],
+      "parents": [
+        "lower_lugs",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "lower_strap",
+      "label": "Lower black leather strap",
+      "glow": false,
+      "materials": [
+        "Black calf leather"
+      ],
+      "presets": [
+        "leather"
+      ],
+      "size_m": [
+        0.0218,
+        0.0152,
+        0.0162
+      ],
+      "center_m": [
+        0.0,
+        0.0084,
+        -0.0279
+      ],
+      "parents": [
+        "lower_bar",
+        "lower_lugs",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "lower_emboss",
+      "label": "Lower leather embossing",
+      "glow": false,
+      "materials": [
+        "Raised leather grain"
+      ],
+      "presets": [
+        "leather"
+      ],
+      "size_m": [
+        0.0161,
+        0.0088,
+        0.0125
+      ],
+      "center_m": [
+        0.0,
+        0.0052,
+        -0.0282
+      ],
+      "parents": [
+        "lower_strap",
+        "lower_bar",
+        "lower_lugs",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "lower_stitch",
+      "label": "Lower strap stitching",
+      "glow": false,
+      "materials": [
+        "Strap stitching"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0197,
+        0.0103,
+        0.0141
+      ],
+      "center_m": [
+        0.0,
+        0.0058,
+        -0.0276
+      ],
+      "parents": [
+        "lower_strap",
+        "lower_bar",
+        "lower_lugs",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "clasp",
+      "label": "Steel folding clasp cover",
+      "glow": false,
+      "materials": [
+        "Satin stainless steel"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0203,
+        0.0016,
+        0.0048
+      ],
+      "center_m": [
+        0.0,
+        0.0135,
+        0.0332
+      ],
+      "parents": [
+        "upper_strap",
+        "upper_bar",
+        "upper_lugs",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "clasp_mark",
+      "label": "Clasp emblem",
+      "glow": false,
+      "materials": [
+        "Graphite chapter ring"
+      ],
+      "presets": [
+        "painted_metal"
+      ],
+      "size_m": [
+        0.0018,
+        0.0,
+        0.0021
+      ],
+      "center_m": [
+        0.0,
+        0.0143,
+        0.0333
+      ],
+      "parents": [
+        "clasp",
+        "upper_strap",
+        "upper_bar",
+        "upper_lugs",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "clasp_blade_1",
+      "label": "Folding clasp blade",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0036,
+        0.0011,
+        0.01
+      ],
+      "center_m": [
+        -0.0072,
+        0.0151,
+        0.027
+      ],
+      "parents": [
+        "clasp",
+        "upper_strap",
+        "upper_bar",
+        "upper_lugs",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "clasp_blade_3",
+      "label": "Folding clasp blade",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0036,
+        0.0011,
+        0.01
+      ],
+      "center_m": [
+        0.0072,
+        0.0151,
+        0.027
+      ],
+      "parents": [
+        "clasp",
+        "upper_strap",
+        "upper_bar",
+        "upper_lugs",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "chapter_ring",
+      "label": "Graphite chapter ring",
+      "glow": false,
+      "materials": [
+        "Graphite chapter ring"
+      ],
+      "presets": [
+        "painted_metal"
+      ],
+      "size_m": [
+        0.0376,
+        0.001,
+        0.0376
+      ],
+      "center_m": [
+        0.0,
+        -0.0037,
+        0.0
+      ],
+      "parents": [
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_marker_00",
+      "label": "12 o\u2019clock appliqu\u00e9",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0012,
+        0.0003,
+        0.0021
+      ],
+      "center_m": [
+        0.0,
+        -0.0043,
+        0.0178
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_lume_00",
+      "label": "12 o\u2019clock lume",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0003,
+        0.0001,
+        0.0017
+      ],
+      "center_m": [
+        0.0,
+        -0.0045,
+        0.0179
+      ],
+      "parents": [
+        "hour_marker_00",
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "minute_scale",
+      "label": "Minute graduations",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0368,
+        0.0,
+        0.0368
+      ],
+      "center_m": [
+        0.0,
+        -0.0042,
+        0.0
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_marker_01",
+      "label": "1 o\u2019clock appliqu\u00e9",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0019,
+        0.0003,
+        0.0023
+      ],
+      "center_m": [
+        0.0089,
+        -0.0043,
+        0.0154
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_lume_01",
+      "label": "1 o\u2019clock lume",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0011,
+        0.0001,
+        0.0016
+      ],
+      "center_m": [
+        0.0089,
+        -0.0045,
+        0.0155
+      ],
+      "parents": [
+        "hour_marker_01",
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_marker_02",
+      "label": "2 o\u2019clock appliqu\u00e9",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0023,
+        0.0003,
+        0.0019
+      ],
+      "center_m": [
+        0.0154,
+        -0.0043,
+        0.0089
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_lume_02",
+      "label": "2 o\u2019clock lume",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0016,
+        0.0001,
+        0.0011
+      ],
+      "center_m": [
+        0.0155,
+        -0.0045,
+        0.0089
+      ],
+      "parents": [
+        "hour_marker_02",
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_marker_03",
+      "label": "3 o\u2019clock appliqu\u00e9",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0021,
+        0.0003,
+        0.0012
+      ],
+      "center_m": [
+        0.0178,
+        -0.0043,
+        0.0
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_lume_03",
+      "label": "3 o\u2019clock lume",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0017,
+        0.0001,
+        0.0003
+      ],
+      "center_m": [
+        0.0179,
+        -0.0045,
+        0.0
+      ],
+      "parents": [
+        "hour_marker_03",
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_marker_04",
+      "label": "4 o\u2019clock appliqu\u00e9",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0023,
+        0.0003,
+        0.0019
+      ],
+      "center_m": [
+        0.0154,
+        -0.0043,
+        -0.0089
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_lume_04",
+      "label": "4 o\u2019clock lume",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0016,
+        0.0001,
+        0.0011
+      ],
+      "center_m": [
+        0.0155,
+        -0.0045,
+        -0.0089
+      ],
+      "parents": [
+        "hour_marker_04",
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_marker_05",
+      "label": "5 o\u2019clock appliqu\u00e9",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0019,
+        0.0003,
+        0.0023
+      ],
+      "center_m": [
+        0.0089,
+        -0.0043,
+        -0.0154
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_lume_05",
+      "label": "5 o\u2019clock lume",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0011,
+        0.0001,
+        0.0016
+      ],
+      "center_m": [
+        0.0089,
+        -0.0045,
+        -0.0155
+      ],
+      "parents": [
+        "hour_marker_05",
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_marker_06",
+      "label": "6 o\u2019clock appliqu\u00e9",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0012,
+        0.0003,
+        0.0021
+      ],
+      "center_m": [
+        0.0,
+        -0.0043,
+        -0.0178
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_lume_06",
+      "label": "6 o\u2019clock lume",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0003,
+        0.0001,
+        0.0017
+      ],
+      "center_m": [
+        0.0,
+        -0.0045,
+        -0.0179
+      ],
+      "parents": [
+        "hour_marker_06",
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_marker_07",
+      "label": "7 o\u2019clock appliqu\u00e9",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0019,
+        0.0003,
+        0.0023
+      ],
+      "center_m": [
+        -0.0089,
+        -0.0043,
+        -0.0154
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_lume_07",
+      "label": "7 o\u2019clock lume",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0011,
+        0.0001,
+        0.0016
+      ],
+      "center_m": [
+        -0.0089,
+        -0.0045,
+        -0.0155
+      ],
+      "parents": [
+        "hour_marker_07",
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_marker_08",
+      "label": "8 o\u2019clock appliqu\u00e9",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0023,
+        0.0003,
+        0.0019
+      ],
+      "center_m": [
+        -0.0154,
+        -0.0043,
+        -0.0089
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_lume_08",
+      "label": "8 o\u2019clock lume",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0016,
+        0.0001,
+        0.0011
+      ],
+      "center_m": [
+        -0.0155,
+        -0.0045,
+        -0.0089
+      ],
+      "parents": [
+        "hour_marker_08",
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_marker_09",
+      "label": "9 o\u2019clock appliqu\u00e9",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0021,
+        0.0003,
+        0.0012
+      ],
+      "center_m": [
+        -0.0178,
+        -0.0043,
+        0.0
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_lume_09",
+      "label": "9 o\u2019clock lume",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0017,
+        0.0001,
+        0.0003
+      ],
+      "center_m": [
+        -0.0179,
+        -0.0045,
+        0.0
+      ],
+      "parents": [
+        "hour_marker_09",
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_marker_10",
+      "label": "10 o\u2019clock appliqu\u00e9",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0023,
+        0.0003,
+        0.0019
+      ],
+      "center_m": [
+        -0.0154,
+        -0.0043,
+        0.0089
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_lume_10",
+      "label": "10 o\u2019clock lume",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0016,
+        0.0001,
+        0.0011
+      ],
+      "center_m": [
+        -0.0155,
+        -0.0045,
+        0.0089
+      ],
+      "parents": [
+        "hour_marker_10",
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_marker_11",
+      "label": "11 o\u2019clock appliqu\u00e9",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0019,
+        0.0003,
+        0.0023
+      ],
+      "center_m": [
+        -0.0089,
+        -0.0043,
+        0.0154
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_lume_11",
+      "label": "11 o\u2019clock lume",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0011,
+        0.0001,
+        0.0016
+      ],
+      "center_m": [
+        -0.0089,
+        -0.0045,
+        0.0155
+      ],
+      "parents": [
+        "hour_marker_11",
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "swiss",
+      "label": "SWISS",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0018,
+        0.0,
+        0.0008
+      ],
+      "center_m": [
+        -0.003,
+        -0.0043,
+        -0.017
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "made",
+      "label": "MADE",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0018,
+        0.0,
+        0.0007
+      ],
+      "center_m": [
+        0.003,
+        -0.0043,
+        -0.0169
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "nameplate",
+      "label": "Graphite nameplate",
+      "glow": false,
+      "materials": [
+        "Graphite chapter ring"
+      ],
+      "presets": [
+        "painted_metal"
+      ],
+      "size_m": [
+        0.0112,
+        0.0004,
+        0.0046
+      ],
+      "center_m": [
+        0.0118,
+        -0.0031,
+        0.0055
+      ],
+      "parents": [
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "signature",
+      "label": "TISSOT 1853 signature",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0059,
+        0.0,
+        0.0026
+      ],
+      "center_m": [
+        0.0119,
+        -0.0034,
+        0.0052
+      ],
+      "parents": [
+        "nameplate",
+        "chapter_ring",
+        "chapter_ring_display",
+        "chapter_ring_display_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "mainplate",
+      "label": "Skeleton mainplate perimeter",
+      "glow": false,
+      "materials": [
+        "Dark movement perimeter"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0366,
+        0.0013,
+        0.0366
+      ],
+      "center_m": [
+        0.0,
+        0.0003,
+        0.0
+      ],
+      "parents": [
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "dial_web",
+      "label": "Openworked dial-side plate",
+      "glow": false,
+      "materials": [
+        "Satin skeleton bridge faces",
+        "Machined skeleton cut walls"
+      ],
+      "presets": [
+        "aluminum_brushed",
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0333,
+        0.001,
+        0.0293
+      ],
+      "center_m": [
+        -0.0006,
+        -0.0012,
+        -0.0032
+      ],
+      "parents": [
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "balance_cock",
+      "label": "Dial-side balance cock",
+      "glow": false,
+      "materials": [
+        "Satin skeleton bridge faces",
+        "Machined skeleton cut walls"
+      ],
+      "presets": [
+        "aluminum_brushed",
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.011,
+        0.0008,
+        0.0129
+      ],
+      "center_m": [
+        -0.0049,
+        -0.0016,
+        0.0104
+      ],
+      "parents": [
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "setting_bridge",
+      "label": "Winding and setting bridge",
+      "glow": false,
+      "materials": [
+        "Satin skeleton bridge faces",
+        "Machined skeleton cut walls"
+      ],
+      "presets": [
+        "aluminum_brushed",
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0133,
+        0.0008,
+        0.0132
+      ],
+      "center_m": [
+        0.0092,
+        -0.0019,
+        0.008
+      ],
+      "parents": [
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "rear_train_bridge",
+      "label": "Rear train bridge",
+      "glow": false,
+      "materials": [
+        "Satin barrel steel",
+        "Machined skeleton cut walls"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0138,
+        0.0008,
+        0.0229
+      ],
+      "center_m": [
+        -0.01,
+        0.0033,
+        -0.0015
+      ],
+      "parents": [
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "rear_barrel_bridge",
+      "label": "Rear barrel bridge",
+      "glow": false,
+      "materials": [
+        "Satin barrel steel",
+        "Machined skeleton cut walls"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0171,
+        0.0009,
+        0.019
+      ],
+      "center_m": [
+        0.0068,
+        0.0034,
+        -0.0075
+      ],
+      "parents": [
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "rear_balance_cock",
+      "label": "Rear balance cock",
+      "glow": false,
+      "materials": [
+        "Satin barrel steel",
+        "Machined skeleton cut walls"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0082,
+        0.0007,
+        0.0078
+      ],
+      "center_m": [
+        -0.0013,
+        0.0031,
+        0.0121
+      ],
+      "parents": [
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "barrel",
+      "label": "Mainspring barrel",
+      "glow": false,
+      "materials": [
+        "Satin barrel steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0164,
+        0.0011,
+        0.0164
+      ],
+      "center_m": [
+        0.0044,
+        0.0024,
+        -0.0082
+      ],
+      "parents": [
+        "barrel_pivot",
+        "barrel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "barrel_cap",
+      "label": "Barrel cover",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0157,
+        0.0001,
+        0.0157
+      ],
+      "center_m": [
+        0.0044,
+        0.0018,
+        -0.0082
+      ],
+      "parents": [
+        "barrel",
+        "barrel_pivot",
+        "barrel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "ratchet_wheel",
+      "label": "Ratchet wheel",
+      "glow": false,
+      "materials": [
+        "Satin stainless steel"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0135,
+        0.0005,
+        0.0135
+      ],
+      "center_m": [
+        0.0044,
+        0.004,
+        -0.0082
+      ],
+      "parents": [
+        "ratchet_wheel_pivot",
+        "ratchet_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "crown_wheel",
+      "label": "Crown wheel",
+      "glow": false,
+      "materials": [
+        "Satin stainless steel"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0084,
+        0.0005,
+        0.0084
+      ],
+      "center_m": [
+        0.0104,
+        0.0039,
+        -0.0
+      ],
+      "parents": [
+        "crown_wheel_pivot",
+        "crown_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "click",
+      "label": "Ratchet click",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0035,
+        0.0005,
+        0.0016
+      ],
+      "center_m": [
+        0.0028,
+        0.0039,
+        -0.0147
+      ],
+      "parents": [
+        "rear_barrel_bridge",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "center_wheel",
+      "label": "Center wheel",
+      "glow": false,
+      "materials": [
+        "Brass wheels"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0113,
+        0.0005,
+        0.0113
+      ],
+      "center_m": [
+        -0.0,
+        0.0006,
+        -0.0
+      ],
+      "parents": [
+        "center_wheel_pivot",
+        "center_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "third_wheel",
+      "label": "Third wheel",
+      "glow": false,
+      "materials": [
+        "Brass wheels"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.008,
+        0.0005,
+        0.008
+      ],
+      "center_m": [
+        -0.006,
+        0.0015,
+        -0.0031
+      ],
+      "parents": [
+        "third_wheel_pivot",
+        "third_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "fourth_wheel",
+      "label": "Fourth wheel",
+      "glow": false,
+      "materials": [
+        "Brass wheels"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0078,
+        0.0005,
+        0.0078
+      ],
+      "center_m": [
+        -0.0102,
+        0.0008,
+        0.0
+      ],
+      "parents": [
+        "fourth_wheel_pivot",
+        "fourth_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "escape_wheel",
+      "label": "Escape wheel",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0047,
+        0.0003,
+        0.0047
+      ],
+      "center_m": [
+        -0.0102,
+        0.0017,
+        0.0049
+      ],
+      "parents": [
+        "escape_wheel_pivot",
+        "escape_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "minute_wheel",
+      "label": "Minute wheel",
+      "glow": false,
+      "materials": [
+        "Brass wheels"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0073,
+        0.0003,
+        0.0073
+      ],
+      "center_m": [
+        0.0023,
+        -0.0026,
+        0.0042
+      ],
+      "parents": [
+        "minute_wheel_pivot",
+        "minute_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_wheel",
+      "label": "Hour wheel",
+      "glow": false,
+      "materials": [
+        "Brass wheels"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0087,
+        0.0004,
+        0.0087
+      ],
+      "center_m": [
+        -0.0,
+        -0.002,
+        0.0
+      ],
+      "parents": [
+        "hour_wheel_pivot",
+        "hour_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "cannon_pinion",
+      "label": "Cannon Pinion",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.002,
+        0.0007,
+        0.002
+      ],
+      "center_m": [
+        0.0,
+        -0.0028,
+        0.0
+      ],
+      "parents": [
+        "center_wheel",
+        "center_wheel_pivot",
+        "center_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "sliding_pinion",
+      "label": "Sliding Pinion",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0007,
+        0.0026,
+        0.0026
+      ],
+      "center_m": [
+        0.0136,
+        -0.0001,
+        0.0
+      ],
+      "parents": [
+        "sliding_pinion_pivot",
+        "sliding_pinion_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "winding_pinion",
+      "label": "Winding Pinion",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0007,
+        0.003,
+        0.003
+      ],
+      "center_m": [
+        0.0154,
+        -0.0001,
+        0.0
+      ],
+      "parents": [
+        "winding_pinion_pivot",
+        "winding_pinion_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "stem",
+      "label": "Winding stem",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0101,
+        0.001,
+        0.001
+      ],
+      "center_m": [
+        0.018,
+        0.0002,
+        0.0
+      ],
+      "parents": [
+        "stem_pivot",
+        "stem_pivot_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "crown",
+      "label": "Fluted winding crown",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0029,
+        0.0062,
+        0.0062
+      ],
+      "center_m": [
+        0.0234,
+        0.0002,
+        0.0
+      ],
+      "parents": [
+        "stem",
+        "stem_pivot",
+        "stem_pivot_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "crown_inset",
+      "label": "Crown cap detail",
+      "glow": false,
+      "materials": [
+        "Satin stainless steel"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0001,
+        0.0004,
+        0.0018
+      ],
+      "center_m": [
+        0.0249,
+        0.0002,
+        0.0
+      ],
+      "parents": [
+        "crown",
+        "stem",
+        "stem_pivot",
+        "stem_pivot_frame",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "balance",
+      "label": "Gold balance wheel",
+      "glow": false,
+      "materials": [
+        "Brass wheels"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0134,
+        0.0004,
+        0.0134
+      ],
+      "center_m": [
+        -0.0043,
+        0.0012,
+        0.0096
+      ],
+      "parents": [
+        "balance_pivot",
+        "balance_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hairspring",
+      "label": "Coiled hairspring",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0077,
+        0.0001,
+        0.0076
+      ],
+      "center_m": [
+        -0.0042,
+        0.0019,
+        0.0096
+      ],
+      "parents": [
+        "rear_balance_cock",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "pallet_fork",
+      "label": "Swiss lever pallet fork",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0036,
+        0.0002,
+        0.0024
+      ],
+      "center_m": [
+        -0.0088,
+        0.0022,
+        0.0068
+      ],
+      "parents": [
+        "pallet_pivot",
+        "pallet_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "pallet_1",
+      "label": "Pallet stone 1",
+      "glow": false,
+      "materials": [
+        "Synthetic ruby"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0004,
+        0.0002,
+        0.0004
+      ],
+      "center_m": [
+        -0.0101,
+        0.0023,
+        0.0059
+      ],
+      "parents": [
+        "pallet_fork",
+        "pallet_pivot",
+        "pallet_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "pallet_2",
+      "label": "Pallet stone 2",
+      "glow": false,
+      "materials": [
+        "Synthetic ruby"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0004,
+        0.0002,
+        0.0004
+      ],
+      "center_m": [
+        -0.0103,
+        0.0023,
+        0.007
+      ],
+      "parents": [
+        "pallet_fork",
+        "pallet_pivot",
+        "pallet_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "front_setting_1",
+      "label": "Front jewel setting 1",
+      "glow": false,
+      "materials": [
+        "Brass wheels"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0017,
+        0.0002,
+        0.0017
+      ],
+      "center_m": [
+        -0.0043,
+        -0.0024,
+        0.0096
+      ],
+      "parents": [
+        "balance_cock",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "front_jewel_1",
+      "label": "Front ruby bearing 1",
+      "glow": false,
+      "materials": [
+        "Synthetic ruby"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.001,
+        0.0002,
+        0.001
+      ],
+      "center_m": [
+        -0.0043,
+        -0.0025,
+        0.0096
+      ],
+      "parents": [
+        "front_setting_1",
+        "balance_cock",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "front_setting_2",
+      "label": "Front jewel setting 2",
+      "glow": false,
+      "materials": [
+        "Brass wheels"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0013,
+        0.0002,
+        0.0013
+      ],
+      "center_m": [
+        -0.0102,
+        -0.0019,
+        0.0
+      ],
+      "parents": [
+        "dial_web",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "front_jewel_2",
+      "label": "Front ruby bearing 2",
+      "glow": false,
+      "materials": [
+        "Synthetic ruby"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0007,
+        0.0002,
+        0.0007
+      ],
+      "center_m": [
+        -0.0102,
+        -0.002,
+        0.0
+      ],
+      "parents": [
+        "front_setting_2",
+        "dial_web",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "front_setting_3",
+      "label": "Front jewel setting 3",
+      "glow": false,
+      "materials": [
+        "Brass wheels"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0013,
+        0.0002,
+        0.0013
+      ],
+      "center_m": [
+        -0.0102,
+        -0.0019,
+        0.0049
+      ],
+      "parents": [
+        "dial_web",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "front_jewel_3",
+      "label": "Front ruby bearing 3",
+      "glow": false,
+      "materials": [
+        "Synthetic ruby"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0007,
+        0.0002,
+        0.0007
+      ],
+      "center_m": [
+        -0.0102,
+        -0.002,
+        0.0049
+      ],
+      "parents": [
+        "front_setting_3",
+        "dial_web",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "front_setting_4",
+      "label": "Front jewel setting 4",
+      "glow": false,
+      "materials": [
+        "Brass wheels"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0014,
+        0.0002,
+        0.0014
+      ],
+      "center_m": [
+        -0.0061,
+        -0.0019,
+        -0.0022
+      ],
+      "parents": [
+        "dial_web",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "front_jewel_4",
+      "label": "Front ruby bearing 4",
+      "glow": false,
+      "materials": [
+        "Synthetic ruby"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0008,
+        0.0002,
+        0.0008
+      ],
+      "center_m": [
+        -0.0061,
+        -0.002,
+        -0.0022
+      ],
+      "parents": [
+        "front_setting_4",
+        "dial_web",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "rear_setting_1",
+      "label": "Rear jewel setting 1",
+      "glow": false,
+      "materials": [
+        "Brass wheels"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0017,
+        0.0002,
+        0.0017
+      ],
+      "center_m": [
+        -0.0043,
+        0.0036,
+        0.0096
+      ],
+      "parents": [
+        "rear_balance_cock",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "rear_jewel_1",
+      "label": "Rear ruby bearing 1",
+      "glow": false,
+      "materials": [
+        "Synthetic ruby"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.001,
+        0.0002,
+        0.001
+      ],
+      "center_m": [
+        -0.0043,
+        0.0037,
+        0.0096
+      ],
+      "parents": [
+        "rear_setting_1",
+        "rear_balance_cock",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "rear_setting_2",
+      "label": "Rear jewel setting 2",
+      "glow": false,
+      "materials": [
+        "Brass wheels"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0015,
+        0.0002,
+        0.0015
+      ],
+      "center_m": [
+        -0.0102,
+        0.0039,
+        0.0
+      ],
+      "parents": [
+        "rear_train_bridge",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "rear_jewel_2",
+      "label": "Rear ruby bearing 2",
+      "glow": false,
+      "materials": [
+        "Synthetic ruby"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0009,
+        0.0002,
+        0.0009
+      ],
+      "center_m": [
+        -0.0102,
+        0.004,
+        0.0
+      ],
+      "parents": [
+        "rear_setting_2",
+        "rear_train_bridge",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "rear_setting_3",
+      "label": "Rear jewel setting 3",
+      "glow": false,
+      "materials": [
+        "Brass wheels"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0015,
+        0.0002,
+        0.0015
+      ],
+      "center_m": [
+        -0.0102,
+        0.0039,
+        0.0049
+      ],
+      "parents": [
+        "rear_train_bridge",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "rear_jewel_3",
+      "label": "Rear ruby bearing 3",
+      "glow": false,
+      "materials": [
+        "Synthetic ruby"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0009,
+        0.0002,
+        0.0009
+      ],
+      "center_m": [
+        -0.0102,
+        0.004,
+        0.0049
+      ],
+      "parents": [
+        "rear_setting_3",
+        "rear_train_bridge",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "rear_setting_4",
+      "label": "Rear jewel setting 4",
+      "glow": false,
+      "materials": [
+        "Brass wheels"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0015,
+        0.0002,
+        0.0015
+      ],
+      "center_m": [
+        -0.0071,
+        0.0039,
+        -0.0023
+      ],
+      "parents": [
+        "rear_train_bridge",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "rear_jewel_4",
+      "label": "Rear ruby bearing 4",
+      "glow": false,
+      "materials": [
+        "Synthetic ruby"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0009,
+        0.0002,
+        0.0009
+      ],
+      "center_m": [
+        -0.0071,
+        0.004,
+        -0.0023
+      ],
+      "parents": [
+        "rear_setting_4",
+        "rear_train_bridge",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "rear_setting_5",
+      "label": "Rear jewel setting 5",
+      "glow": false,
+      "materials": [
+        "Brass wheels"
+      ],
+      "presets": [
+        "aluminum_brushed"
+      ],
+      "size_m": [
+        0.0017,
+        0.0002,
+        0.0017
+      ],
+      "center_m": [
+        0.0,
+        0.004,
+        -0.0
+      ],
+      "parents": [
+        "rear_barrel_bridge",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "rear_jewel_5",
+      "label": "Rear ruby bearing 5",
+      "glow": false,
+      "materials": [
+        "Synthetic ruby"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.001,
+        0.0002,
+        0.001
+      ],
+      "center_m": [
+        0.0,
+        0.0041,
+        0.0
+      ],
+      "parents": [
+        "rear_setting_5",
+        "rear_barrel_bridge",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_01",
+      "label": "Balance Cock screw",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0011,
+        0.0002,
+        0.0011
+      ],
+      "center_m": [
+        -0.0067,
+        -0.0021,
+        0.014
+      ],
+      "parents": [
+        "balance_cock",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_02",
+      "label": "Balance Cock screw",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0011,
+        0.0002,
+        0.0011
+      ],
+      "center_m": [
+        -0.0089,
+        -0.0021,
+        0.0072
+      ],
+      "parents": [
+        "balance_cock",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_03",
+      "label": "Balance Cock screw",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0011,
+        0.0002,
+        0.0011
+      ],
+      "center_m": [
+        -0.0021,
+        -0.0021,
+        0.007
+      ],
+      "parents": [
+        "balance_cock",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_04",
+      "label": "Setting Bridge screw",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0011,
+        0.0002,
+        0.0011
+      ],
+      "center_m": [
+        0.0111,
+        -0.0024,
+        0.0117
+      ],
+      "parents": [
+        "setting_bridge",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_05",
+      "label": "Setting Bridge screw",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0011,
+        0.0002,
+        0.0011
+      ],
+      "center_m": [
+        0.0101,
+        -0.0024,
+        0.0036
+      ],
+      "parents": [
+        "setting_bridge",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_06",
+      "label": "Dial Web screw",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0011,
+        0.0002,
+        0.0011
+      ],
+      "center_m": [
+        -0.0147,
+        -0.0018,
+        0.0011
+      ],
+      "parents": [
+        "dial_web",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_07",
+      "label": "Dial Web screw",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0011,
+        0.0002,
+        0.0011
+      ],
+      "center_m": [
+        -0.0131,
+        -0.0018,
+        -0.0082
+      ],
+      "parents": [
+        "dial_web",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_08",
+      "label": "Dial Web screw",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0011,
+        0.0002,
+        0.0011
+      ],
+      "center_m": [
+        -0.0074,
+        -0.0018,
+        -0.0129
+      ],
+      "parents": [
+        "dial_web",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_09",
+      "label": "Dial Web screw",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0011,
+        0.0002,
+        0.0011
+      ],
+      "center_m": [
+        0.0104,
+        -0.0018,
+        -0.0104
+      ],
+      "parents": [
+        "dial_web",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_10",
+      "label": "Dial Web screw",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0011,
+        0.0002,
+        0.0011
+      ],
+      "center_m": [
+        0.0143,
+        -0.0018,
+        -0.003
+      ],
+      "parents": [
+        "dial_web",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_11",
+      "label": "Rear Train Bridge screw",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0011,
+        0.0002,
+        0.0011
+      ],
+      "center_m": [
+        -0.0132,
+        0.0038,
+        -0.0086
+      ],
+      "parents": [
+        "rear_train_bridge",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_12",
+      "label": "Rear Train Bridge screw",
+      "glow": false,
+      "materials": [
+        "Polished stainless steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0011,
+        0.0002,
+        0.0011
+      ],
+      "center_m": [
+        -0.014,
+        0.0038,
+        0.0063
+      ],
+      "parents": [
+        "rear_train_bridge",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_13",
+      "label": "Rear Balance Cock screw",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0011,
+        0.0002,
+        0.0011
+      ],
+      "center_m": [
+        0.0012,
+        0.0036,
+        0.0147
+      ],
+      "parents": [
+        "rear_balance_cock",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_14",
+      "label": "Rear Barrel Bridge screw",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0011,
+        0.0002,
+        0.0011
+      ],
+      "center_m": [
+        0.0089,
+        0.004,
+        -0.012
+      ],
+      "parents": [
+        "rear_barrel_bridge",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_15",
+      "label": "Ratchet Wheel screw",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0019,
+        0.0002,
+        0.0019
+      ],
+      "center_m": [
+        0.0044,
+        0.0044,
+        -0.0082
+      ],
+      "parents": [
+        "ratchet_wheel",
+        "ratchet_wheel_pivot",
+        "ratchet_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "screw_16",
+      "label": "Crown Wheel screw",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0019,
+        0.0002,
+        0.0019
+      ],
+      "center_m": [
+        0.0104,
+        0.0042,
+        -0.0001
+      ],
+      "parents": [
+        "crown_wheel",
+        "crown_wheel_pivot",
+        "crown_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_hand",
+      "label": "Hour hand",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0108,
+        0.0003,
+        0.0065
+      ],
+      "center_m": [
+        -0.0044,
+        -0.0034,
+        0.0022
+      ],
+      "parents": [
+        "hour_wheel",
+        "hour_wheel_pivot",
+        "hour_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hour_hand_inlay",
+      "label": "Hour hand luminous inlay",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.005,
+        0.0,
+        0.0033
+      ],
+      "center_m": [
+        -0.0059,
+        -0.0036,
+        0.0031
+      ],
+      "parents": [
+        "hour_hand",
+        "hour_wheel",
+        "hour_wheel_pivot",
+        "hour_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "minute_hand",
+      "label": "Minute hand",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0137,
+        0.0003,
+        0.0121
+      ],
+      "center_m": [
+        0.0058,
+        -0.0039,
+        0.005
+      ],
+      "parents": [
+        "cannon_pinion",
+        "center_wheel",
+        "center_wheel_pivot",
+        "center_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "minute_hand_inlay",
+      "label": "Minute hand luminous inlay",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0064,
+        0.0,
+        0.0057
+      ],
+      "center_m": [
+        0.0077,
+        -0.0041,
+        0.0066
+      ],
+      "parents": [
+        "minute_hand",
+        "cannon_pinion",
+        "center_wheel",
+        "center_wheel_pivot",
+        "center_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "seconds_hand",
+      "label": "Small seconds hand",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0046,
+        0.0003,
+        0.0043
+      ],
+      "center_m": [
+        -0.0114,
+        -0.0024,
+        -0.001
+      ],
+      "parents": [
+        "fourth_wheel",
+        "fourth_wheel_pivot",
+        "fourth_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "seconds_hand_inlay",
+      "label": "Small seconds hand luminous inlay",
+      "glow": false,
+      "materials": [
+        "Luminous inlay and printing"
+      ],
+      "presets": [
+        "abs_satin"
+      ],
+      "size_m": [
+        0.0019,
+        0.0,
+        0.0017
+      ],
+      "center_m": [
+        -0.0123,
+        -0.0026,
+        -0.0019
+      ],
+      "parents": [
+        "seconds_hand",
+        "fourth_wheel",
+        "fourth_wheel_pivot",
+        "fourth_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "hand_cap",
+      "label": "Central hand stack cap",
+      "glow": false,
+      "materials": [
+        "Blued steel"
+      ],
+      "presets": [
+        "stainless_steel"
+      ],
+      "size_m": [
+        0.0016,
+        0.0003,
+        0.0016
+      ],
+      "center_m": [
+        0.0,
+        -0.0041,
+        0.0
+      ],
+      "parents": [
+        "minute_hand",
+        "cannon_pinion",
+        "center_wheel",
+        "center_wheel_pivot",
+        "center_wheel_pivot_frame",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    },
+    {
+      "id": "seconds_mark",
+      "label": "Subsidiary seconds legend",
+      "glow": false,
+      "materials": [
+        "Graphite chapter ring"
+      ],
+      "presets": [
+        "painted_metal"
+      ],
+      "size_m": [
+        0.0012,
+        0.0,
+        0.0022
+      ],
+      "center_m": [
+        -0.0114,
+        -0.0017,
+        0.0009
+      ],
+      "parents": [
+        "dial_web",
+        "mainplate",
+        "movement_spacer",
+        "case_middle"
+      ]
+    }
+  ],
+  "joints": [
+    {
+      "id": "balance_pivot",
+      "type": "knob",
+      "limits": [
+        -255,
+        255
+      ],
+      "parts": [
+        "balance"
+      ],
+      "pivot_m": [
+        -0.0043,
+        0.0012,
+        0.0096
+      ]
+    },
+    {
+      "id": "pallet_pivot",
+      "type": "knob",
+      "limits": [
+        -11,
+        11
+      ],
+      "parts": [
+        "pallet_fork"
+      ],
+      "pivot_m": [
+        -0.0085,
+        0.0022,
+        0.0065
+      ]
+    },
+    {
+      "id": "barrel_pivot",
+      "type": "knob",
+      "limits": [
+        0.0,
+        9.0
+      ],
+      "parts": [
+        "barrel"
+      ],
+      "pivot_m": [
+        0.0044,
+        0.0024,
+        -0.0082
+      ]
+    },
+    {
+      "id": "center_wheel_pivot",
+      "type": "knob",
+      "limits": [
+        -72.0,
+        -0.0
+      ],
+      "parts": [
+        "center_wheel"
+      ],
+      "pivot_m": [
+        0.0,
+        0.0006,
+        0.0
+      ]
+    },
+    {
+      "id": "third_wheel_pivot",
+      "type": "knob",
+      "limits": [
+        0.0,
+        540.0
+      ],
+      "parts": [
+        "third_wheel"
+      ],
+      "pivot_m": [
+        -0.006,
+        0.0015,
+        -0.0031
+      ]
+    },
+    {
+      "id": "fourth_wheel_pivot",
+      "type": "knob",
+      "limits": [
+        -4320.0,
+        -0.0
+      ],
+      "parts": [
+        "fourth_wheel"
+      ],
+      "pivot_m": [
+        -0.0102,
+        0.0008,
+        0.0
+      ]
+    },
+    {
+      "id": "escape_wheel_pivot",
+      "type": "knob",
+      "limits": [
+        0.0,
+        43200.0
+      ],
+      "parts": [
+        "escape_wheel"
+      ],
+      "pivot_m": [
+        -0.0102,
+        0.0017,
+        0.0049
+      ]
+    },
+    {
+      "id": "minute_wheel_pivot",
+      "type": "knob",
+      "limits": [
+        0.0,
+        18.0
+      ],
+      "parts": [
+        "minute_wheel"
+      ],
+      "pivot_m": [
+        0.0023,
+        -0.0026,
+        0.0042
+      ]
+    },
+    {
+      "id": "hour_wheel_pivot",
+      "type": "knob",
+      "limits": [
+        -6.0,
+        -0.0
+      ],
+      "parts": [
+        "hour_wheel"
+      ],
+      "pivot_m": [
+        0.0,
+        -0.002,
+        0.0
+      ]
+    },
+    {
+      "id": "stem_pivot",
+      "type": "knob",
+      "limits": [
+        0.0,
+        360.0
+      ],
+      "parts": [
+        "stem"
+      ],
+      "pivot_m": [
+        0.018,
+        0.0002,
+        0.0
+      ]
+    },
+    {
+      "id": "sliding_pinion_pivot",
+      "type": "knob",
+      "limits": [
+        0.0,
+        360.0
+      ],
+      "parts": [
+        "sliding_pinion"
+      ],
+      "pivot_m": [
+        0.0136,
+        -0.0001,
+        0.0
+      ]
+    },
+    {
+      "id": "winding_pinion_pivot",
+      "type": "knob",
+      "limits": [
+        0.0,
+        360.0
+      ],
+      "parts": [
+        "winding_pinion"
+      ],
+      "pivot_m": [
+        0.0154,
+        -0.0001,
+        0.0
+      ]
+    },
+    {
+      "id": "crown_wheel_pivot",
+      "type": "knob",
+      "limits": [
+        0.0,
+        120.0
+      ],
+      "parts": [
+        "crown_wheel"
+      ],
+      "pivot_m": [
+        0.0104,
+        0.0039,
+        -0.0
+      ]
+    },
+    {
+      "id": "ratchet_wheel_pivot",
+      "type": "knob",
+      "limits": [
+        -80.0,
+        -0.0
+      ],
+      "parts": [
+        "ratchet_wheel"
+      ],
+      "pivot_m": [
+        0.0044,
+        0.004,
+        -0.0082
+      ]
+    },
+    {
+      "id": "front_layer_display",
+      "type": "slider",
+      "limits": [
+        0.0,
+        0.022
+      ],
+      "parts": [
+        "bezel",
+        "front_crystal",
+        "front_gasket"
+      ],
+      "pivot_m": [
+        0.0,
+        -0.0048,
+        0.0
+      ]
+    },
+    {
+      "id": "chapter_ring_display",
+      "type": "slider",
+      "limits": [
+        0.0,
+        0.01
+      ],
+      "parts": [
+        "chapter_ring"
+      ],
+      "pivot_m": [
+        0.0,
+        -0.0037,
+        0.0
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "name": "how_to_use",
+      "seconds": 27.0
+    },
+    {
+      "name": "manual_winding",
+      "seconds": 4.8
+    },
+    {
+      "name": "run_cycle",
+      "seconds": 12.8
+    }
+  ],
+  "schemaVersion": 5,
+  "mechanism": {},
+  "cameraViews": {
+    "isometric": [
+      -35,
+      25
+    ],
+    "front": [
+      0,
+      8
+    ],
+    "rear": [
+      180,
+      12
+    ],
+    "left": [
+      -90,
+      12
+    ],
+    "right": [
+      90,
+      12
+    ],
+    "top": [
+      0,
+      75
+    ],
+    "underside": [
+      0,
+      -60
+    ]
+  },
+  "clipCameras": {
+    "run_cycle": {
+      "camera": {
+        "view": "front",
+        "azimuth": -8,
+        "elevation": 5,
+        "parts": [
+          "bezel"
+        ],
+        "padding": 1.18
+      },
+      "motionStartSeconds": 0.8,
+      "actionEndSeconds": 12.8,
+      "endSeconds": 12.8
+    },
+    "manual_winding": {
+      "camera": {
+        "view": "rear",
+        "parts": [
+          "caseback",
+          "crown"
+        ],
+        "padding": 1.2
+      },
+      "motionStartSeconds": 0.8,
+      "actionEndSeconds": 4.8,
+      "endSeconds": 4.8
+    }
+  },
+  "guides": [
+    {
+      "id": "how_to_use",
+      "clip": "how_to_use",
+      "title": "How it works",
+      "initialState": "assembled_off",
+      "steps": [
+        {
+          "id": "overview",
+          "instruction": "Read the hours and minutes at the center and the small seconds at nine.",
+          "startSeconds": 0.0,
+          "actionEndSeconds": 3.4,
+          "endSeconds": 4.2,
+          "evidence": [
+            {
+              "source": "tissot-front.png",
+              "locator": "Factory front view"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 0.8,
+          "camera": {
+            "view": "isometric",
+            "azimuth": 19,
+            "elevation": 11,
+            "padding": 1.18
+          }
+        },
+        {
+          "id": "sapphire",
+          "instruction": "Lift the front glazing in this display to reveal the open dial.",
+          "startSeconds": 4.2,
+          "actionEndSeconds": 7.4,
+          "endSeconds": 8.0,
+          "evidence": [
+            {
+              "source": "PLAN.md",
+              "locator": "Display poses and escapement scope"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 5.0,
+          "camera": {
+            "view": "front",
+            "azimuth": 41,
+            "elevation": 13,
+            "padding": 1.15
+          }
+        },
+        {
+          "id": "chapter_ring",
+          "instruction": "Separate the chapter ring to expose the movement perimeter.",
+          "startSeconds": 8.0,
+          "actionEndSeconds": 11.2,
+          "endSeconds": 11.8,
+          "evidence": [
+            {
+              "source": "PLAN.md",
+              "locator": "Display poses and escapement scope"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 8.8,
+          "camera": {
+            "view": "front",
+            "azimuth": 35,
+            "elevation": 11,
+            "parts": [
+              "case_middle",
+              "chapter_ring"
+            ],
+            "padding": 1.42
+          }
+        },
+        {
+          "id": "energy",
+          "instruction": "Follow the mainspring barrel through the wheel train to the small-seconds pivot.",
+          "startSeconds": 11.8,
+          "actionEndSeconds": 14.8,
+          "endSeconds": 15.9,
+          "evidence": [
+            {
+              "source": "PLAN.md",
+              "locator": "Display poses and escapement scope"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 12.6,
+          "camera": {
+            "view": "front",
+            "azimuth": -21,
+            "elevation": -10,
+            "parts": [
+              "barrel",
+              "center_wheel",
+              "fourth_wheel"
+            ],
+            "padding": 1.5
+          }
+        },
+        {
+          "id": "regulation",
+          "instruction": "The pallet fork meters the escape wheel. The balance and hairspring set the rhythm.",
+          "startSeconds": 15.9,
+          "actionEndSeconds": 18.4,
+          "endSeconds": 18.8,
+          "evidence": [
+            {
+              "source": "PLAN.md",
+              "locator": "Display poses and escapement scope"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 16.7,
+          "camera": {
+            "view": "front",
+            "azimuth": -25,
+            "elevation": 12,
+            "parts": [
+              "balance",
+              "pallet_fork",
+              "escape_wheel"
+            ],
+            "padding": 1.56
+          }
+        },
+        {
+          "id": "return_regulator",
+          "instruction": "Return the regulating parts to their display position.",
+          "startSeconds": 18.8,
+          "actionEndSeconds": 19.9,
+          "endSeconds": 20.1,
+          "evidence": [
+            {
+              "source": "PLAN.md",
+              "locator": "Display poses and escapement scope"
+            }
+          ],
+          "pauseAfter": false
+        },
+        {
+          "id": "restore_dial",
+          "instruction": "Return the chapter ring to the case.",
+          "startSeconds": 20.1,
+          "actionEndSeconds": 22.8,
+          "endSeconds": 23.1,
+          "evidence": [
+            {
+              "source": "PLAN.md",
+              "locator": "Display poses and escapement scope"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 20.9,
+          "camera": {
+            "view": "front",
+            "azimuth": 37,
+            "elevation": 12,
+            "padding": 1.25
+          }
+        },
+        {
+          "id": "restore_glass",
+          "instruction": "Reassemble the front glazing and return to the watch.",
+          "startSeconds": 23.1,
+          "actionEndSeconds": 26.2,
+          "endSeconds": 27.0,
+          "evidence": [
+            {
+              "source": "PLAN.md",
+              "locator": "Display poses and escapement scope"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 23.9,
+          "camera": {
+            "view": "isometric",
+            "azimuth": 21,
+            "elevation": 11,
+            "padding": 1.18
+          }
+        }
+      ]
+    }
+  ],
+  "allowed_contacts": [
+    {
+      "a": "bezel",
+      "b": "case_middle",
+      "reason": "Bezel flange seats in the case recess.",
+      "motion_clips": []
+    },
+    {
+      "a": "upper_lugs",
+      "b": "case_middle",
+      "reason": "Upper lug pair is integral to the case middle.",
+      "motion_clips": []
+    },
+    {
+      "a": "lower_lugs",
+      "b": "case_middle",
+      "reason": "Lower lug pair is integral to the case middle.",
+      "motion_clips": []
+    },
+    {
+      "a": "upper_bar",
+      "b": "upper_lugs",
+      "reason": "Spring-bar ends engage the upper lug bores.",
+      "motion_clips": []
+    },
+    {
+      "a": "lower_bar",
+      "b": "lower_lugs",
+      "reason": "Spring-bar ends engage the lower lug bores.",
+      "motion_clips": []
+    },
+    {
+      "a": "upper_bar",
+      "b": "upper_strap",
+      "reason": "The spring bar passes through the strap end.",
+      "motion_clips": []
+    },
+    {
+      "a": "lower_bar",
+      "b": "lower_strap",
+      "reason": "The spring bar passes through the strap end.",
+      "motion_clips": []
+    },
+    {
+      "a": "crown",
+      "b": "stem",
+      "reason": "Stem fits the axial crown socket.",
+      "motion_clips": []
+    },
+    {
+      "a": "crown",
+      "b": "crown_inset",
+      "reason": "Crown inlay seats in the end cap.",
+      "motion_clips": []
+    },
+    {
+      "a": "hand_cap",
+      "b": "minute_hand",
+      "reason": "The cap sits on the minute-hand collet.",
+      "motion_clips": []
+    },
+    {
+      "a": "pallet_1",
+      "b": "pallet_fork",
+      "reason": "The entry stone is fixed to the fork.",
+      "motion_clips": []
+    },
+    {
+      "a": "pallet_2",
+      "b": "pallet_fork",
+      "reason": "The exit stone is fixed to the fork.",
+      "motion_clips": []
+    }
+  ],
+  "provenance": {
+    "sourceBlend": {
+      "file": "model.blend",
+      "bytes": 7664576,
+      "sha256": "7f850c368889e98ef9c32f5173892d0990838925fdb330b58950e6a392cb8ea8"
+    },
+    "exporter": {
+      "file": "export_glb.py",
+      "bytes": 7226,
+      "sha256": "d907fc95961e1ae507d963ade959ebe8ab8a0d6fbcac2951c9993c5b755db3be"
+    }
+  },
+  "artifact": {
+    "file": "model.glb",
+    "bytes": 7847680,
+    "sha256": "6f15bae73efdda7b3a717cb1846abb213f7d4146c403a96faf209c835ad35703"
+  },
+  "validation": {
+    "status": "partial",
+    "issues": [
+      "Check report contains 120 error(s)."
+    ],
+    "reviewStatus": "human_review_required"
+  },
+  "checks": {
+    "errors": 120,
+    "warnings": 91,
+    "parts": 123,
+    "clips": [
+      "how_to_use",
+      "manual_winding",
+      "run_cycle"
+    ]
+  }
+}

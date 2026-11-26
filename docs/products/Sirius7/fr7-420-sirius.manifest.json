@@ -1,0 +1,3965 @@
+{
+  "model": "fr7-420-sirius.glb",
+  "schemaVersion": 5,
+  "units": "metres",
+  "parts": [
+    {
+      "id": "back_plate",
+      "label": "back plate",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "cam_follower_ex_c01",
+      "label": "cam follower ex c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_follower_ex_c02",
+      "label": "cam follower ex c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_follower_ex_c03",
+      "label": "cam follower ex c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_follower_ex_c04",
+      "label": "cam follower ex c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_follower_ex_c05",
+      "label": "cam follower ex c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_follower_ex_c06",
+      "label": "cam follower ex c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_follower_ex_c07",
+      "label": "cam follower ex c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_follower_in_c01",
+      "label": "cam follower in c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_follower_in_c02",
+      "label": "cam follower in c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_follower_in_c03",
+      "label": "cam follower in c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_follower_in_c04",
+      "label": "cam follower in c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_follower_in_c05",
+      "label": "cam follower in c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_follower_in_c06",
+      "label": "cam follower in c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_follower_in_c07",
+      "label": "cam follower in c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_gear",
+      "label": "cam gear",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_holder",
+      "label": "cam holder",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_holder_bearing",
+      "label": "cam holder bearing",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "cam_thrust_washer_a",
+      "label": "cam thrust washer a",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "cam_thrust_washer_b",
+      "label": "cam thrust washer b",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "carb_body",
+      "label": "carb body",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "carb_needle",
+      "label": "carb needle",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "carb_rotor",
+      "label": "carb rotor",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "carb_spacer",
+      "label": "carb spacer",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "cover_screw_ex_c01",
+      "label": "cover screw ex c01",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "cover_screw_ex_c02",
+      "label": "cover screw ex c02",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "cover_screw_ex_c03",
+      "label": "cover screw ex c03",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "cover_screw_ex_c04",
+      "label": "cover screw ex c04",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "cover_screw_ex_c05",
+      "label": "cover screw ex c05",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "cover_screw_ex_c06",
+      "label": "cover screw ex c06",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "cover_screw_ex_c07",
+      "label": "cover screw ex c07",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "cover_screw_in_c01",
+      "label": "cover screw in c01",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "cover_screw_in_c02",
+      "label": "cover screw in c02",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "cover_screw_in_c03",
+      "label": "cover screw in c03",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "cover_screw_in_c04",
+      "label": "cover screw in c04",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "cover_screw_in_c05",
+      "label": "cover screw in c05",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "cover_screw_in_c06",
+      "label": "cover screw in c06",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "cover_screw_in_c07",
+      "label": "cover screw in c07",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "crankcase",
+      "label": "crankcase",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "crankpin_stop_screw",
+      "label": "crankpin stop screw",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "crankpin_washer",
+      "label": "crankpin washer",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "crankshaft",
+      "label": "crankshaft",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "crankshaft_spacer",
+      "label": "crankshaft spacer",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "drive_hub",
+      "label": "drive hub",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "drive_hub_key",
+      "label": "drive hub key",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "drive_shaft_spacer",
+      "label": "drive shaft spacer",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "drive_wave_washer",
+      "label": "drive wave washer",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "exhaust_c01",
+      "label": "exhaust c01",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "exhaust_c02",
+      "label": "exhaust c02",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "exhaust_c03",
+      "label": "exhaust c03",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "exhaust_c04",
+      "label": "exhaust c04",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "exhaust_c05",
+      "label": "exhaust c05",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "exhaust_c06",
+      "label": "exhaust c06",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "exhaust_c07",
+      "label": "exhaust c07",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "exhaust_cam",
+      "label": "exhaust cam",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "exhaust_nut_c01",
+      "label": "exhaust nut c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "exhaust_nut_c02",
+      "label": "exhaust nut c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "exhaust_nut_c03",
+      "label": "exhaust nut c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "exhaust_nut_c04",
+      "label": "exhaust nut c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "exhaust_nut_c05",
+      "label": "exhaust nut c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "exhaust_nut_c06",
+      "label": "exhaust nut c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "exhaust_nut_c07",
+      "label": "exhaust nut c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "front_bearing",
+      "label": "front bearing",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "front_housing",
+      "label": "front housing",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "front_plate",
+      "label": "front plate",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "front_screw_01",
+      "label": "front screw 01",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "front_screw_02",
+      "label": "front screw 02",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "front_screw_03",
+      "label": "front screw 03",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "front_screw_04",
+      "label": "front screw 04",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "front_screw_05",
+      "label": "front screw 05",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "front_screw_06",
+      "label": "front screw 06",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "front_screw_07",
+      "label": "front screw 07",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "fuel_nipple",
+      "label": "fuel nipple",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "glow_plug_c01",
+      "label": "glow plug c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "glow_plug_c02",
+      "label": "glow plug c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "glow_plug_c03",
+      "label": "glow plug c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "glow_plug_c04",
+      "label": "glow plug c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "glow_plug_c05",
+      "label": "glow plug c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "glow_plug_c06",
+      "label": "glow plug c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "glow_plug_c07",
+      "label": "glow plug c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "head_c01",
+      "label": "head c01",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "head_c02",
+      "label": "head c02",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "head_c03",
+      "label": "head c03",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "head_c04",
+      "label": "head c04",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "head_c05",
+      "label": "head c05",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "head_c06",
+      "label": "head c06",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "head_c07",
+      "label": "head c07",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "head_gasket_c01",
+      "label": "head gasket c01",
+      "materials": [
+        "aluminum_anodized_aa7951_7d4c07cf5d"
+      ]
+    },
+    {
+      "id": "head_gasket_c02",
+      "label": "head gasket c02",
+      "materials": [
+        "aluminum_anodized_aa7951_7d4c07cf5d"
+      ]
+    },
+    {
+      "id": "head_gasket_c03",
+      "label": "head gasket c03",
+      "materials": [
+        "aluminum_anodized_aa7951_7d4c07cf5d"
+      ]
+    },
+    {
+      "id": "head_gasket_c04",
+      "label": "head gasket c04",
+      "materials": [
+        "aluminum_anodized_aa7951_7d4c07cf5d"
+      ]
+    },
+    {
+      "id": "head_gasket_c05",
+      "label": "head gasket c05",
+      "materials": [
+        "aluminum_anodized_aa7951_7d4c07cf5d"
+      ]
+    },
+    {
+      "id": "head_gasket_c06",
+      "label": "head gasket c06",
+      "materials": [
+        "aluminum_anodized_aa7951_7d4c07cf5d"
+      ]
+    },
+    {
+      "id": "head_gasket_c07",
+      "label": "head gasket c07",
+      "materials": [
+        "aluminum_anodized_aa7951_7d4c07cf5d"
+      ]
+    },
+    {
+      "id": "head_screw_01_c01",
+      "label": "head screw 01 c01",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "head_screw_01_c02",
+      "label": "head screw 01 c02",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "head_screw_01_c03",
+      "label": "head screw 01 c03",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "head_screw_01_c04",
+      "label": "head screw 01 c04",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "head_screw_01_c05",
+      "label": "head screw 01 c05",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "head_screw_01_c06",
+      "label": "head screw 01 c06",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "head_screw_01_c07",
+      "label": "head screw 01 c07",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "head_screw_02_c01",
+      "label": "head screw 02 c01",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "head_screw_02_c02",
+      "label": "head screw 02 c02",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "head_screw_02_c03",
+      "label": "head screw 02 c03",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "head_screw_02_c04",
+      "label": "head screw 02 c04",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "head_screw_02_c05",
+      "label": "head screw 02 c05",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "head_screw_02_c06",
+      "label": "head screw 02 c06",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "head_screw_02_c07",
+      "label": "head screw 02 c07",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "impeller",
+      "label": "impeller",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "impeller_retaining_screw",
+      "label": "impeller retaining screw",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "intake_c01",
+      "label": "intake c01",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "intake_c02",
+      "label": "intake c02",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "intake_c03",
+      "label": "intake c03",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "intake_c04",
+      "label": "intake c04",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "intake_c05",
+      "label": "intake c05",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "intake_c06",
+      "label": "intake c06",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "intake_c07",
+      "label": "intake c07",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "intake_cam",
+      "label": "intake cam",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "jacket_c01",
+      "label": "jacket c01",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "jacket_c02",
+      "label": "jacket c02",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "jacket_c03",
+      "label": "jacket c03",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "jacket_c04",
+      "label": "jacket c04",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "jacket_c05",
+      "label": "jacket c05",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "jacket_c06",
+      "label": "jacket c06",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "jacket_c07",
+      "label": "jacket c07",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "liner_c01",
+      "label": "liner c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "liner_c02",
+      "label": "liner c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "liner_c03",
+      "label": "liner c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "liner_c04",
+      "label": "liner c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "liner_c05",
+      "label": "liner c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "liner_c06",
+      "label": "liner c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "liner_c07",
+      "label": "liner c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "link_pin_c02",
+      "label": "link pin c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "link_pin_c03",
+      "label": "link pin c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "link_pin_c04",
+      "label": "link pin c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "link_pin_c05",
+      "label": "link pin c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "link_pin_c06",
+      "label": "link pin c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "link_pin_c07",
+      "label": "link pin c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "link_pin_ering_c02",
+      "label": "link pin ering c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "link_pin_ering_c03",
+      "label": "link pin ering c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "link_pin_ering_c04",
+      "label": "link pin ering c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "link_pin_ering_c05",
+      "label": "link pin ering c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "link_pin_ering_c06",
+      "label": "link pin ering c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "link_pin_ering_c07",
+      "label": "link pin ering c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "link_rod_c02",
+      "label": "link rod c02",
+      "materials": [
+        "aluminum_anodized_b39a65_187c814909"
+      ]
+    },
+    {
+      "id": "link_rod_c03",
+      "label": "link rod c03",
+      "materials": [
+        "aluminum_anodized_b39a65_187c814909"
+      ]
+    },
+    {
+      "id": "link_rod_c04",
+      "label": "link rod c04",
+      "materials": [
+        "aluminum_anodized_b39a65_187c814909"
+      ]
+    },
+    {
+      "id": "link_rod_c05",
+      "label": "link rod c05",
+      "materials": [
+        "aluminum_anodized_b39a65_187c814909"
+      ]
+    },
+    {
+      "id": "link_rod_c06",
+      "label": "link rod c06",
+      "materials": [
+        "aluminum_anodized_b39a65_187c814909"
+      ]
+    },
+    {
+      "id": "link_rod_c07",
+      "label": "link rod c07",
+      "materials": [
+        "aluminum_anodized_b39a65_187c814909"
+      ]
+    },
+    {
+      "id": "master_rod",
+      "label": "master rod",
+      "materials": [
+        "aluminum_anodized_b39a65_187c814909"
+      ]
+    },
+    {
+      "id": "mount_ear_01",
+      "label": "mount ear 01",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "mount_ear_02",
+      "label": "mount ear 02",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "mount_ear_03",
+      "label": "mount ear 03",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "mount_ear_04",
+      "label": "mount ear 04",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "mount_screw_01",
+      "label": "mount screw 01",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "mount_screw_02",
+      "label": "mount screw 02",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "mount_screw_03",
+      "label": "mount screw 03",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "mount_screw_04",
+      "label": "mount screw 04",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "mount_standoff_01",
+      "label": "mount standoff 01",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "mount_standoff_02",
+      "label": "mount standoff 02",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "mount_standoff_03",
+      "label": "mount standoff 03",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "mount_standoff_04",
+      "label": "mount standoff 04",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "piston_c01",
+      "label": "piston c01",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "piston_c02",
+      "label": "piston c02",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "piston_c03",
+      "label": "piston c03",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "piston_c04",
+      "label": "piston c04",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "piston_c05",
+      "label": "piston c05",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "piston_c06",
+      "label": "piston c06",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "piston_c07",
+      "label": "piston c07",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "piston_pin_c01",
+      "label": "piston pin c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "piston_pin_c02",
+      "label": "piston pin c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "piston_pin_c03",
+      "label": "piston pin c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "piston_pin_c04",
+      "label": "piston pin c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "piston_pin_c05",
+      "label": "piston pin c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "piston_pin_c06",
+      "label": "piston pin c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "piston_pin_c07",
+      "label": "piston pin c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "piston_ring_c01",
+      "label": "piston ring c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "piston_ring_c02",
+      "label": "piston ring c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "piston_ring_c03",
+      "label": "piston ring c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "piston_ring_c04",
+      "label": "piston ring c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "piston_ring_c05",
+      "label": "piston ring c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "piston_ring_c06",
+      "label": "piston ring c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "piston_ring_c07",
+      "label": "piston ring c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "prop_jamnut",
+      "label": "prop jamnut",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "prop_locknut",
+      "label": "prop locknut",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "prop_washer",
+      "label": "prop washer",
+      "materials": [
+        "aluminum_brushed_c6cbd0_0d9b1d498e"
+      ]
+    },
+    {
+      "id": "pushrod_ex_c01",
+      "label": "pushrod ex c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "pushrod_ex_c02",
+      "label": "pushrod ex c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "pushrod_ex_c03",
+      "label": "pushrod ex c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "pushrod_ex_c04",
+      "label": "pushrod ex c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "pushrod_ex_c05",
+      "label": "pushrod ex c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "pushrod_ex_c06",
+      "label": "pushrod ex c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "pushrod_ex_c07",
+      "label": "pushrod ex c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "pushrod_in_c01",
+      "label": "pushrod in c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "pushrod_in_c02",
+      "label": "pushrod in c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "pushrod_in_c03",
+      "label": "pushrod in c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "pushrod_in_c04",
+      "label": "pushrod in c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "pushrod_in_c05",
+      "label": "pushrod in c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "pushrod_in_c06",
+      "label": "pushrod in c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "pushrod_in_c07",
+      "label": "pushrod in c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "pushrod_seal_lower_ex_c01",
+      "label": "pushrod seal lower ex c01",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_lower_ex_c02",
+      "label": "pushrod seal lower ex c02",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_lower_ex_c03",
+      "label": "pushrod seal lower ex c03",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_lower_ex_c04",
+      "label": "pushrod seal lower ex c04",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_lower_ex_c05",
+      "label": "pushrod seal lower ex c05",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_lower_ex_c06",
+      "label": "pushrod seal lower ex c06",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_lower_ex_c07",
+      "label": "pushrod seal lower ex c07",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_lower_in_c01",
+      "label": "pushrod seal lower in c01",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_lower_in_c02",
+      "label": "pushrod seal lower in c02",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_lower_in_c03",
+      "label": "pushrod seal lower in c03",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_lower_in_c04",
+      "label": "pushrod seal lower in c04",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_lower_in_c05",
+      "label": "pushrod seal lower in c05",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_lower_in_c06",
+      "label": "pushrod seal lower in c06",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_lower_in_c07",
+      "label": "pushrod seal lower in c07",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_upper_ex_c01",
+      "label": "pushrod seal upper ex c01",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_upper_ex_c02",
+      "label": "pushrod seal upper ex c02",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_upper_ex_c03",
+      "label": "pushrod seal upper ex c03",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_upper_ex_c04",
+      "label": "pushrod seal upper ex c04",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_upper_ex_c05",
+      "label": "pushrod seal upper ex c05",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_upper_ex_c06",
+      "label": "pushrod seal upper ex c06",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_upper_ex_c07",
+      "label": "pushrod seal upper ex c07",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_upper_in_c01",
+      "label": "pushrod seal upper in c01",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_upper_in_c02",
+      "label": "pushrod seal upper in c02",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_upper_in_c03",
+      "label": "pushrod seal upper in c03",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_upper_in_c04",
+      "label": "pushrod seal upper in c04",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_upper_in_c05",
+      "label": "pushrod seal upper in c05",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_upper_in_c06",
+      "label": "pushrod seal upper in c06",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_seal_upper_in_c07",
+      "label": "pushrod seal upper in c07",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "pushrod_tube_ex_c01",
+      "label": "pushrod tube ex c01",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "pushrod_tube_ex_c02",
+      "label": "pushrod tube ex c02",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "pushrod_tube_ex_c03",
+      "label": "pushrod tube ex c03",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "pushrod_tube_ex_c04",
+      "label": "pushrod tube ex c04",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "pushrod_tube_ex_c05",
+      "label": "pushrod tube ex c05",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "pushrod_tube_ex_c06",
+      "label": "pushrod tube ex c06",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "pushrod_tube_ex_c07",
+      "label": "pushrod tube ex c07",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "pushrod_tube_in_c01",
+      "label": "pushrod tube in c01",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "pushrod_tube_in_c02",
+      "label": "pushrod tube in c02",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "pushrod_tube_in_c03",
+      "label": "pushrod tube in c03",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "pushrod_tube_in_c04",
+      "label": "pushrod tube in c04",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "pushrod_tube_in_c05",
+      "label": "pushrod tube in c05",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "pushrod_tube_in_c06",
+      "label": "pushrod tube in c06",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "pushrod_tube_in_c07",
+      "label": "pushrod tube in c07",
+      "materials": [
+        "chrome_d2d7db_da27281a6b"
+      ]
+    },
+    {
+      "id": "radial_mount",
+      "label": "radial mount",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "rear_bearing",
+      "label": "rear bearing",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rear_cover",
+      "label": "rear cover",
+      "materials": [
+        "aluminum_brushed_91999e_323c3776af"
+      ]
+    },
+    {
+      "id": "rear_cover_seal",
+      "label": "rear cover seal",
+      "materials": [
+        "rubber_242527_181753c78f"
+      ]
+    },
+    {
+      "id": "rear_drive_shaft",
+      "label": "rear drive shaft",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "reduction_bearing_front",
+      "label": "reduction bearing front",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "reduction_bearing_rear",
+      "label": "reduction bearing rear",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "reduction_gear",
+      "label": "reduction gear",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_cover_ex_c01",
+      "label": "rocker cover ex c01",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "rocker_cover_ex_c02",
+      "label": "rocker cover ex c02",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "rocker_cover_ex_c03",
+      "label": "rocker cover ex c03",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "rocker_cover_ex_c04",
+      "label": "rocker cover ex c04",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "rocker_cover_ex_c05",
+      "label": "rocker cover ex c05",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "rocker_cover_ex_c06",
+      "label": "rocker cover ex c06",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "rocker_cover_ex_c07",
+      "label": "rocker cover ex c07",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "rocker_cover_in_c01",
+      "label": "rocker cover in c01",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "rocker_cover_in_c02",
+      "label": "rocker cover in c02",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "rocker_cover_in_c03",
+      "label": "rocker cover in c03",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "rocker_cover_in_c04",
+      "label": "rocker cover in c04",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "rocker_cover_in_c05",
+      "label": "rocker cover in c05",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "rocker_cover_in_c06",
+      "label": "rocker cover in c06",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "rocker_cover_in_c07",
+      "label": "rocker cover in c07",
+      "materials": [
+        "painted_metal_252930_08f097216f"
+      ]
+    },
+    {
+      "id": "rocker_ex_c01",
+      "label": "rocker ex c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_ex_c02",
+      "label": "rocker ex c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_ex_c03",
+      "label": "rocker ex c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_ex_c04",
+      "label": "rocker ex c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_ex_c05",
+      "label": "rocker ex c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_ex_c06",
+      "label": "rocker ex c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_ex_c07",
+      "label": "rocker ex c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_in_c01",
+      "label": "rocker in c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_in_c02",
+      "label": "rocker in c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_in_c03",
+      "label": "rocker in c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_in_c04",
+      "label": "rocker in c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_in_c05",
+      "label": "rocker in c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_in_c06",
+      "label": "rocker in c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_in_c07",
+      "label": "rocker in c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_shaft_ex_c01",
+      "label": "rocker shaft ex c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_shaft_ex_c02",
+      "label": "rocker shaft ex c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_shaft_ex_c03",
+      "label": "rocker shaft ex c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_shaft_ex_c04",
+      "label": "rocker shaft ex c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_shaft_ex_c05",
+      "label": "rocker shaft ex c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_shaft_ex_c06",
+      "label": "rocker shaft ex c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_shaft_ex_c07",
+      "label": "rocker shaft ex c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_shaft_in_c01",
+      "label": "rocker shaft in c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_shaft_in_c02",
+      "label": "rocker shaft in c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_shaft_in_c03",
+      "label": "rocker shaft in c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_shaft_in_c04",
+      "label": "rocker shaft in c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_shaft_in_c05",
+      "label": "rocker shaft in c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_shaft_in_c06",
+      "label": "rocker shaft in c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_shaft_in_c07",
+      "label": "rocker shaft in c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_ex_01_c01",
+      "label": "rocker washer ex 01 c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_ex_01_c02",
+      "label": "rocker washer ex 01 c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_ex_01_c03",
+      "label": "rocker washer ex 01 c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_ex_01_c04",
+      "label": "rocker washer ex 01 c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_ex_01_c05",
+      "label": "rocker washer ex 01 c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_ex_01_c06",
+      "label": "rocker washer ex 01 c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_ex_01_c07",
+      "label": "rocker washer ex 01 c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_ex_02_c01",
+      "label": "rocker washer ex 02 c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_ex_02_c02",
+      "label": "rocker washer ex 02 c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_ex_02_c03",
+      "label": "rocker washer ex 02 c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_ex_02_c04",
+      "label": "rocker washer ex 02 c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_ex_02_c05",
+      "label": "rocker washer ex 02 c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_ex_02_c06",
+      "label": "rocker washer ex 02 c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_ex_02_c07",
+      "label": "rocker washer ex 02 c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_in_01_c01",
+      "label": "rocker washer in 01 c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_in_01_c02",
+      "label": "rocker washer in 01 c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_in_01_c03",
+      "label": "rocker washer in 01 c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_in_01_c04",
+      "label": "rocker washer in 01 c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_in_01_c05",
+      "label": "rocker washer in 01 c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_in_01_c06",
+      "label": "rocker washer in 01 c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_in_01_c07",
+      "label": "rocker washer in 01 c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_in_02_c01",
+      "label": "rocker washer in 02 c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_in_02_c02",
+      "label": "rocker washer in 02 c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_in_02_c03",
+      "label": "rocker washer in 02 c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_in_02_c04",
+      "label": "rocker washer in 02 c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_in_02_c05",
+      "label": "rocker washer in 02 c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_in_02_c06",
+      "label": "rocker washer in 02 c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "rocker_washer_in_02_c07",
+      "label": "rocker washer in 02 c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "spring_retainer_ex_c01",
+      "label": "spring retainer ex c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "spring_retainer_ex_c02",
+      "label": "spring retainer ex c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "spring_retainer_ex_c03",
+      "label": "spring retainer ex c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "spring_retainer_ex_c04",
+      "label": "spring retainer ex c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "spring_retainer_ex_c05",
+      "label": "spring retainer ex c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "spring_retainer_ex_c06",
+      "label": "spring retainer ex c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "spring_retainer_ex_c07",
+      "label": "spring retainer ex c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "spring_retainer_in_c01",
+      "label": "spring retainer in c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "spring_retainer_in_c02",
+      "label": "spring retainer in c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "spring_retainer_in_c03",
+      "label": "spring retainer in c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "spring_retainer_in_c04",
+      "label": "spring retainer in c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "spring_retainer_in_c05",
+      "label": "spring retainer in c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "spring_retainer_in_c06",
+      "label": "spring retainer in c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "spring_retainer_in_c07",
+      "label": "spring retainer in c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tappet_adjuster_ex_c01",
+      "label": "tappet adjuster ex c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tappet_adjuster_ex_c02",
+      "label": "tappet adjuster ex c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tappet_adjuster_ex_c03",
+      "label": "tappet adjuster ex c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tappet_adjuster_ex_c04",
+      "label": "tappet adjuster ex c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tappet_adjuster_ex_c05",
+      "label": "tappet adjuster ex c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tappet_adjuster_ex_c06",
+      "label": "tappet adjuster ex c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tappet_adjuster_ex_c07",
+      "label": "tappet adjuster ex c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tappet_adjuster_in_c01",
+      "label": "tappet adjuster in c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tappet_adjuster_in_c02",
+      "label": "tappet adjuster in c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tappet_adjuster_in_c03",
+      "label": "tappet adjuster in c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tappet_adjuster_in_c04",
+      "label": "tappet adjuster in c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tappet_adjuster_in_c05",
+      "label": "tappet adjuster in c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tappet_adjuster_in_c06",
+      "label": "tappet adjuster in c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tappet_adjuster_in_c07",
+      "label": "tappet adjuster in c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "throttle_lever",
+      "label": "throttle lever",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tube_ferrule_ex_c01",
+      "label": "tube ferrule ex c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tube_ferrule_ex_c02",
+      "label": "tube ferrule ex c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tube_ferrule_ex_c03",
+      "label": "tube ferrule ex c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tube_ferrule_ex_c04",
+      "label": "tube ferrule ex c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tube_ferrule_ex_c05",
+      "label": "tube ferrule ex c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tube_ferrule_ex_c06",
+      "label": "tube ferrule ex c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tube_ferrule_ex_c07",
+      "label": "tube ferrule ex c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tube_ferrule_in_c01",
+      "label": "tube ferrule in c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tube_ferrule_in_c02",
+      "label": "tube ferrule in c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tube_ferrule_in_c03",
+      "label": "tube ferrule in c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tube_ferrule_in_c04",
+      "label": "tube ferrule in c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tube_ferrule_in_c05",
+      "label": "tube ferrule in c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tube_ferrule_in_c06",
+      "label": "tube ferrule in c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "tube_ferrule_in_c07",
+      "label": "tube ferrule in c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_ex_01_c01",
+      "label": "valve cotter ex 01 c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_ex_01_c02",
+      "label": "valve cotter ex 01 c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_ex_01_c03",
+      "label": "valve cotter ex 01 c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_ex_01_c04",
+      "label": "valve cotter ex 01 c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_ex_01_c05",
+      "label": "valve cotter ex 01 c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_ex_01_c06",
+      "label": "valve cotter ex 01 c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_ex_01_c07",
+      "label": "valve cotter ex 01 c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_ex_02_c01",
+      "label": "valve cotter ex 02 c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_ex_02_c02",
+      "label": "valve cotter ex 02 c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_ex_02_c03",
+      "label": "valve cotter ex 02 c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_ex_02_c04",
+      "label": "valve cotter ex 02 c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_ex_02_c05",
+      "label": "valve cotter ex 02 c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_ex_02_c06",
+      "label": "valve cotter ex 02 c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_ex_02_c07",
+      "label": "valve cotter ex 02 c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_in_01_c01",
+      "label": "valve cotter in 01 c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_in_01_c02",
+      "label": "valve cotter in 01 c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_in_01_c03",
+      "label": "valve cotter in 01 c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_in_01_c04",
+      "label": "valve cotter in 01 c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_in_01_c05",
+      "label": "valve cotter in 01 c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_in_01_c06",
+      "label": "valve cotter in 01 c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_in_01_c07",
+      "label": "valve cotter in 01 c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_in_02_c01",
+      "label": "valve cotter in 02 c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_in_02_c02",
+      "label": "valve cotter in 02 c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_in_02_c03",
+      "label": "valve cotter in 02 c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_in_02_c04",
+      "label": "valve cotter in 02 c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_in_02_c05",
+      "label": "valve cotter in 02 c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_in_02_c06",
+      "label": "valve cotter in 02 c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_cotter_in_02_c07",
+      "label": "valve cotter in 02 c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_ex_c01",
+      "label": "valve ex c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_ex_c02",
+      "label": "valve ex c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_ex_c03",
+      "label": "valve ex c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_ex_c04",
+      "label": "valve ex c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_ex_c05",
+      "label": "valve ex c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_ex_c06",
+      "label": "valve ex c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_ex_c07",
+      "label": "valve ex c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_guide_ex_c01",
+      "label": "valve guide ex c01",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_guide_ex_c02",
+      "label": "valve guide ex c02",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_guide_ex_c03",
+      "label": "valve guide ex c03",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_guide_ex_c04",
+      "label": "valve guide ex c04",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_guide_ex_c05",
+      "label": "valve guide ex c05",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_guide_ex_c06",
+      "label": "valve guide ex c06",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_guide_ex_c07",
+      "label": "valve guide ex c07",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_guide_in_c01",
+      "label": "valve guide in c01",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_guide_in_c02",
+      "label": "valve guide in c02",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_guide_in_c03",
+      "label": "valve guide in c03",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_guide_in_c04",
+      "label": "valve guide in c04",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_guide_in_c05",
+      "label": "valve guide in c05",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_guide_in_c06",
+      "label": "valve guide in c06",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_guide_in_c07",
+      "label": "valve guide in c07",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_in_c01",
+      "label": "valve in c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_in_c02",
+      "label": "valve in c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_in_c03",
+      "label": "valve in c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_in_c04",
+      "label": "valve in c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_in_c05",
+      "label": "valve in c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_in_c06",
+      "label": "valve in c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_in_c07",
+      "label": "valve in c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_seat_ex_c01",
+      "label": "valve seat ex c01",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_seat_ex_c02",
+      "label": "valve seat ex c02",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_seat_ex_c03",
+      "label": "valve seat ex c03",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_seat_ex_c04",
+      "label": "valve seat ex c04",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_seat_ex_c05",
+      "label": "valve seat ex c05",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_seat_ex_c06",
+      "label": "valve seat ex c06",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_seat_ex_c07",
+      "label": "valve seat ex c07",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_seat_in_c01",
+      "label": "valve seat in c01",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_seat_in_c02",
+      "label": "valve seat in c02",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_seat_in_c03",
+      "label": "valve seat in c03",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_seat_in_c04",
+      "label": "valve seat in c04",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_seat_in_c05",
+      "label": "valve seat in c05",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_seat_in_c06",
+      "label": "valve seat in c06",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_seat_in_c07",
+      "label": "valve seat in c07",
+      "materials": [
+        "aluminum_anodized_9a7850_bc611b6427"
+      ]
+    },
+    {
+      "id": "valve_spring_ex_c01",
+      "label": "valve spring ex c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_spring_ex_c02",
+      "label": "valve spring ex c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_spring_ex_c03",
+      "label": "valve spring ex c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_spring_ex_c04",
+      "label": "valve spring ex c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_spring_ex_c05",
+      "label": "valve spring ex c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_spring_ex_c06",
+      "label": "valve spring ex c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_spring_ex_c07",
+      "label": "valve spring ex c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_spring_in_c01",
+      "label": "valve spring in c01",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_spring_in_c02",
+      "label": "valve spring in c02",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_spring_in_c03",
+      "label": "valve spring in c03",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_spring_in_c04",
+      "label": "valve spring in c04",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_spring_in_c05",
+      "label": "valve spring in c05",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_spring_in_c06",
+      "label": "valve spring in c06",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    },
+    {
+      "id": "valve_spring_in_c07",
+      "label": "valve spring in c07",
+      "materials": [
+        "stainless_steel_777f88_a73ebedf58"
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "id": "how_to_use",
+      "clip": "how_to_use",
+      "title": "How it works",
+      "initialState": "assembled_rest",
+      "steps": [
+        {
+          "id": "whole",
+          "instruction": "Seven cylinders share one crankshaft. Hidden geometry is estimated; this is an explanatory exhibit.",
+          "startSeconds": 0.0,
+          "actionEndSeconds": 1.0,
+          "endSeconds": 3.0,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 0.0,
+          "camera": {
+            "view": "isometric",
+            "padding": 1.18,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "shared_cycle",
+          "instruction": "One crank angle coordinates every piston through one master rod and six links. Motion speed is illustrative.",
+          "startSeconds": 3.0,
+          "actionEndSeconds": 15.0,
+          "endSeconds": 16.0,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 3.0,
+          "camera": {
+            "view": "front",
+            "azimuth": -25,
+            "elevation": 14,
+            "padding": 1.18,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "release_front",
+          "instruction": "Release the outer screws first. The separation shown here is an illustrative layout, not a service procedure.",
+          "startSeconds": 16.0,
+          "actionEndSeconds": 17.0,
+          "endSeconds": 17.5,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 16.0,
+          "camera": {
+            "view": "front",
+            "azimuth": -18,
+            "elevation": 12,
+            "parts": [
+              "front_housing",
+              "front_plate",
+              "crankcase",
+              "front_screw_01",
+              "front_screw_02",
+              "front_screw_03",
+              "front_screw_04",
+              "front_screw_05",
+              "front_screw_06",
+              "front_screw_07"
+            ],
+            "padding": 1.3,
+            "minContext": 0.25,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "clear_prop",
+          "instruction": "Move the front drive hardware clear. Key and fastener geometry is simplified.",
+          "startSeconds": 17.5,
+          "actionEndSeconds": 19.5,
+          "endSeconds": 20.0,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 17.5,
+          "camera": {
+            "view": "right",
+            "azimuth": 55,
+            "elevation": 15,
+            "parts": [
+              "drive_hub",
+              "prop_washer",
+              "prop_locknut",
+              "prop_jamnut",
+              "crankshaft",
+              "front_housing"
+            ],
+            "padding": 1.25,
+            "minContext": 0.25,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "nose",
+          "instruction": "The hollow nose exposes the front layer while the outer hardware stays clear.",
+          "startSeconds": 20.0,
+          "actionEndSeconds": 22.0,
+          "endSeconds": 22.5,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 20.0,
+          "camera": {
+            "view": "right",
+            "azimuth": 55,
+            "elevation": 16,
+            "parts": [
+              "front_housing",
+              "front_bearing",
+              "front_plate",
+              "crankcase",
+              "crankshaft"
+            ],
+            "padding": 1.25,
+            "minContext": 0.25,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "plate",
+          "instruction": "A separate front plate surrounds the shaft.",
+          "startSeconds": 22.5,
+          "actionEndSeconds": 24.0,
+          "endSeconds": 24.5,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 22.5,
+          "camera": {
+            "view": "right",
+            "azimuth": 50,
+            "elevation": 14,
+            "parts": [
+              "front_plate",
+              "cam_holder",
+              "cam_gear",
+              "crankcase",
+              "crankshaft"
+            ],
+            "padding": 1.25,
+            "minContext": 0.25,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "cam_layer",
+          "instruction": "Cam parts and follower geometry are schematic. Exact valve timing and gear ratio are unknown.",
+          "startSeconds": 24.5,
+          "actionEndSeconds": 26.0,
+          "endSeconds": 27.0,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 24.5,
+          "camera": {
+            "view": "front",
+            "azimuth": 40,
+            "elevation": 14,
+            "parts": [
+              "cam_holder",
+              "cam_gear",
+              "intake_cam",
+              "exhaust_cam",
+              "crankcase",
+              "crankshaft",
+              "master_rod"
+            ],
+            "padding": 1.25,
+            "minContext": 0.2,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "working_connection",
+          "instruction": "The crankpin carries the master rod. Its six articulated pivots guide the other pistons inside their liners.",
+          "startSeconds": 27.0,
+          "actionEndSeconds": 39.0,
+          "endSeconds": 42.0,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 27.0,
+          "camera": {
+            "view": "front",
+            "azimuth": 35,
+            "elevation": -12,
+            "parts": [
+              "crankshaft",
+              "master_rod",
+              "crankpin_washer",
+              "crankcase",
+              "piston_c01",
+              "piston_c02",
+              "piston_c03",
+              "piston_c04",
+              "piston_c05",
+              "piston_c06",
+              "piston_c07",
+              "piston_pin_c01",
+              "piston_pin_c02",
+              "piston_pin_c03",
+              "piston_pin_c04",
+              "piston_pin_c05",
+              "piston_pin_c06",
+              "piston_pin_c07",
+              "liner_c01",
+              "liner_c02",
+              "liner_c03",
+              "liner_c04",
+              "liner_c05",
+              "liner_c06",
+              "liner_c07",
+              "link_rod_c02",
+              "link_rod_c03",
+              "link_rod_c04",
+              "link_rod_c05",
+              "link_rod_c06",
+              "link_rod_c07"
+            ],
+            "padding": 1.12,
+            "minContext": 0.15,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "release_caps",
+          "instruction": "Release the top cover screws before lifting the covers.",
+          "startSeconds": 42.0,
+          "actionEndSeconds": 43.0,
+          "endSeconds": 43.5,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 42.0,
+          "camera": {
+            "view": "top",
+            "azimuth": -35,
+            "elevation": 40,
+            "parts": [
+              "head_c01",
+              "rocker_cover_in_c01",
+              "rocker_cover_ex_c01",
+              "cover_screw_in_c01",
+              "cover_screw_ex_c01",
+              "jacket_c01"
+            ],
+            "padding": 1.22,
+            "minContext": 0.12,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "top_cylinder",
+          "instruction": "Two valves, spring stacks and rocker arms serve this cylinder. The valve train stays static because timing is undocumented.",
+          "startSeconds": 43.5,
+          "actionEndSeconds": 45.5,
+          "endSeconds": 48.5,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 43.5,
+          "camera": {
+            "view": "front",
+            "azimuth": -30,
+            "elevation": 22,
+            "parts": [
+              "head_c01",
+              "rocker_in_c01",
+              "rocker_ex_c01",
+              "rocker_shaft_in_c01",
+              "rocker_shaft_ex_c01",
+              "valve_spring_in_c01",
+              "valve_spring_ex_c01",
+              "rocker_cover_in_c01",
+              "rocker_cover_ex_c01",
+              "cover_screw_in_c01",
+              "cover_screw_ex_c01"
+            ],
+            "padding": 1.25,
+            "minContext": 0.12,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "reseat_caps",
+          "instruction": "Return the covers over the rocker assemblies.",
+          "startSeconds": 48.5,
+          "actionEndSeconds": 50.5,
+          "endSeconds": 51.0,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 48.5,
+          "camera": {
+            "view": "front",
+            "azimuth": -30,
+            "elevation": 22,
+            "parts": [
+              "head_c01",
+              "rocker_in_c01",
+              "rocker_ex_c01",
+              "rocker_shaft_in_c01",
+              "rocker_shaft_ex_c01",
+              "valve_spring_in_c01",
+              "valve_spring_ex_c01",
+              "rocker_cover_in_c01",
+              "rocker_cover_ex_c01",
+              "cover_screw_in_c01",
+              "cover_screw_ex_c01"
+            ],
+            "padding": 1.25,
+            "minContext": 0.12,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "secure_caps",
+          "instruction": "Return the cover screws to their receiving bores.",
+          "startSeconds": 51.0,
+          "actionEndSeconds": 52.0,
+          "endSeconds": 52.5,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 51.0,
+          "camera": {
+            "view": "top",
+            "azimuth": -35,
+            "elevation": 40,
+            "parts": [
+              "head_c01",
+              "rocker_cover_in_c01",
+              "rocker_cover_ex_c01",
+              "cover_screw_in_c01",
+              "cover_screw_ex_c01",
+              "jacket_c01"
+            ],
+            "padding": 1.22,
+            "minContext": 0.12,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "restore_cams",
+          "instruction": "Restore the inner cam stack with the outer shells held clear.",
+          "startSeconds": 52.5,
+          "actionEndSeconds": 54.0,
+          "endSeconds": 54.5,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 52.5,
+          "camera": {
+            "view": "front",
+            "azimuth": 40,
+            "elevation": 14,
+            "parts": [
+              "cam_holder",
+              "cam_gear",
+              "intake_cam",
+              "exhaust_cam",
+              "crankcase",
+              "crankshaft",
+              "master_rod"
+            ],
+            "padding": 1.25,
+            "minContext": 0.2,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "restore_plate",
+          "instruction": "Return the front plate.",
+          "startSeconds": 54.5,
+          "actionEndSeconds": 56.0,
+          "endSeconds": 56.5,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 54.5,
+          "camera": {
+            "view": "right",
+            "azimuth": 50,
+            "elevation": 14,
+            "parts": [
+              "front_plate",
+              "cam_holder",
+              "cam_gear",
+              "crankcase",
+              "crankshaft"
+            ],
+            "padding": 1.25,
+            "minContext": 0.25,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "restore_nose",
+          "instruction": "Return the front housing and its bearing.",
+          "startSeconds": 56.5,
+          "actionEndSeconds": 58.5,
+          "endSeconds": 59.0,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 56.5,
+          "camera": {
+            "view": "right",
+            "azimuth": 55,
+            "elevation": 16,
+            "parts": [
+              "front_housing",
+              "front_bearing",
+              "front_plate",
+              "crankcase",
+              "crankshaft"
+            ],
+            "padding": 1.25,
+            "minContext": 0.25,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "restore_prop",
+          "instruction": "Return the drive hardware.",
+          "startSeconds": 59.0,
+          "actionEndSeconds": 61.0,
+          "endSeconds": 61.5,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 59.0,
+          "camera": {
+            "view": "right",
+            "azimuth": 55,
+            "elevation": 15,
+            "parts": [
+              "drive_hub",
+              "prop_washer",
+              "prop_locknut",
+              "prop_jamnut",
+              "crankshaft",
+              "front_housing"
+            ],
+            "padding": 1.25,
+            "minContext": 0.25,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "secure_front",
+          "instruction": "Seat the front screws. All physical reveal joints are now at rest.",
+          "startSeconds": 61.5,
+          "actionEndSeconds": 62.5,
+          "endSeconds": 63.0,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 61.5,
+          "camera": {
+            "view": "front",
+            "azimuth": -18,
+            "elevation": 12,
+            "parts": [
+              "front_housing",
+              "front_plate",
+              "crankcase",
+              "front_screw_01",
+              "front_screw_02",
+              "front_screw_03",
+              "front_screw_04",
+              "front_screw_05",
+              "front_screw_06",
+              "front_screw_07"
+            ],
+            "padding": 1.3,
+            "minContext": 0.25,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "every_component",
+          "instruction": "All 448 modeled components separate individually. Outer hardware moves first, followed by cylinders, the mechanism and fine internal stacks.",
+          "startSeconds": 63.0,
+          "actionEndSeconds": 73.0,
+          "endSeconds": 78.0,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 63.0,
+          "camera": {
+            "view": "isometric",
+            "azimuth": -22,
+            "elevation": 18,
+            "padding": 1.16,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "cylinder_stack",
+          "instruction": "Trace one cylinder: liner, piston ring, head, valve springs, split cotters and seals. Hidden details are illustrative.",
+          "startSeconds": 78.0,
+          "actionEndSeconds": 79.0,
+          "endSeconds": 84.0,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 78.0,
+          "camera": {
+            "view": "front",
+            "azimuth": -18,
+            "elevation": 12,
+            "parts": [
+              "piston_c01",
+              "piston_pin_c01",
+              "liner_c01",
+              "jacket_c01",
+              "head_c01",
+              "glow_plug_c01",
+              "rocker_cover_in_c01",
+              "pushrod_tube_in_c01",
+              "pushrod_in_c01",
+              "valve_in_c01",
+              "rocker_in_c01",
+              "rocker_shaft_in_c01",
+              "tube_ferrule_in_c01",
+              "rocker_cover_ex_c01",
+              "pushrod_tube_ex_c01",
+              "pushrod_ex_c01",
+              "valve_ex_c01",
+              "rocker_ex_c01",
+              "rocker_shaft_ex_c01",
+              "tube_ferrule_ex_c01",
+              "exhaust_c01",
+              "exhaust_nut_c01",
+              "intake_c01",
+              "head_gasket_c01",
+              "piston_ring_c01",
+              "valve_spring_in_c01",
+              "spring_retainer_in_c01",
+              "valve_guide_in_c01",
+              "valve_seat_in_c01",
+              "tappet_adjuster_in_c01",
+              "cam_follower_in_c01",
+              "pushrod_seal_lower_in_c01",
+              "pushrod_seal_upper_in_c01",
+              "cover_screw_in_c01",
+              "valve_cotter_in_01_c01",
+              "rocker_washer_in_01_c01",
+              "valve_cotter_in_02_c01",
+              "rocker_washer_in_02_c01",
+              "valve_spring_ex_c01",
+              "spring_retainer_ex_c01",
+              "valve_guide_ex_c01",
+              "valve_seat_ex_c01",
+              "tappet_adjuster_ex_c01",
+              "cam_follower_ex_c01",
+              "pushrod_seal_lower_ex_c01",
+              "pushrod_seal_upper_ex_c01",
+              "cover_screw_ex_c01",
+              "valve_cotter_ex_01_c01",
+              "rocker_washer_ex_01_c01",
+              "valve_cotter_ex_02_c01",
+              "rocker_washer_ex_02_c01",
+              "head_screw_01_c01",
+              "head_screw_02_c01"
+            ],
+            "padding": 1.12,
+            "minContext": 0.12,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "core_stack",
+          "instruction": "Inspect the master hub, six link pins and retainers. This layout shows relationships; exploded rods are not a running mechanism.",
+          "startSeconds": 84.0,
+          "actionEndSeconds": 85.0,
+          "endSeconds": 89.0,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 84.0,
+          "camera": {
+            "view": "front",
+            "azimuth": 25,
+            "elevation": 12,
+            "parts": [
+              "crankshaft",
+              "master_rod",
+              "crankpin_washer",
+              "crankcase",
+              "piston_c01",
+              "piston_c02",
+              "piston_c03",
+              "piston_c04",
+              "piston_c05",
+              "piston_c06",
+              "piston_c07",
+              "piston_pin_c01",
+              "piston_pin_c02",
+              "piston_pin_c03",
+              "piston_pin_c04",
+              "piston_pin_c05",
+              "piston_pin_c06",
+              "piston_pin_c07",
+              "liner_c01",
+              "liner_c02",
+              "liner_c03",
+              "liner_c04",
+              "liner_c05",
+              "liner_c06",
+              "liner_c07",
+              "link_rod_c02",
+              "link_rod_c03",
+              "link_rod_c04",
+              "link_rod_c05",
+              "link_rod_c06",
+              "link_rod_c07"
+            ],
+            "padding": 1.15,
+            "minContext": 0.12,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "restore_all",
+          "instruction": "Reverse the same staged layout: fine internals return first, then the mechanism, cylinders and exterior.",
+          "startSeconds": 89.0,
+          "actionEndSeconds": 99.0,
+          "endSeconds": 101.0,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 89.0,
+          "camera": {
+            "view": "isometric",
+            "azimuth": -22,
+            "elevation": 18,
+            "padding": 1.16,
+            "transitionSeconds": 0
+          }
+        },
+        {
+          "id": "restored",
+          "instruction": "Every component returns to its original seat. The shared linkage runs again in the complete machine.",
+          "startSeconds": 101.0,
+          "actionEndSeconds": 113.0,
+          "endSeconds": 115.0,
+          "evidence": [
+            {
+              "source": "manual.pdf",
+              "locator": "PDF page 1, exploded FR7-420 engine and numbered component list"
+            }
+          ],
+          "pauseAfter": false,
+          "motionStartSeconds": 101.0,
+          "camera": {
+            "view": "isometric",
+            "padding": 1.18,
+            "transitionSeconds": 0
+          }
+        }
+      ]
+    }
+  ],
+  "clipCameras": {
+    "cover_detail": {
+      "camera": {
+        "view": "front",
+        "azimuth": -30,
+        "elevation": 22,
+        "parts": [
+          "head_c01",
+          "rocker_in_c01",
+          "rocker_ex_c01",
+          "rocker_shaft_in_c01",
+          "rocker_shaft_ex_c01",
+          "valve_spring_in_c01",
+          "valve_spring_ex_c01",
+          "rocker_cover_in_c01",
+          "rocker_cover_ex_c01",
+          "cover_screw_in_c01",
+          "cover_screw_ex_c01"
+        ],
+        "padding": 1.25,
+        "minContext": 0.12,
+        "transitionSeconds": 0.6
+      },
+      "motionStartSeconds": 0.6,
+      "actionEndSeconds": 7.6,
+      "endSeconds": 7.6
+    },
+    "run_cycle": {
+      "camera": {
+        "view": "isometric",
+        "azimuth": -30,
+        "elevation": 18,
+        "padding": 1.18,
+        "transitionSeconds": 0.6
+      },
+      "motionStartSeconds": 0.6,
+      "actionEndSeconds": 13.6,
+      "endSeconds": 13.6
+    }
+  },
+  "mechanism": {},
+  "clips": [
+    {
+      "name": "how_to_use",
+      "seconds": 115.0
+    },
+    {
+      "name": "run_cycle",
+      "seconds": 13.6
+    },
+    {
+      "name": "cover_detail",
+      "seconds": 7.6
+    }
+  ],
+  "validation": {
+    "status": "partial",
+    "issues": [
+      "Geometry and motion checks timed out on compute. Local preview export only."
+    ]
+  },
+  "provenance": {
+    "sourceBlend": "source/model.blend",
+    "sha256": "d99f55a427d650078048e0804f7a1915400c8252240c53e8088262377baa6563",
+    "animationSampling": "15 fps guide, 30 fps run cycle; evaluated world poses; flattened preview nodes"
+  }
+}

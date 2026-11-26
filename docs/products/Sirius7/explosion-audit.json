@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "modeledParts": 448,
+  "displayGroups": 448,
+  "separatedParts": 448,
+  "minimum": 300,
+  "missing": [],
+  "unknown": [],
+  "repeated": [],
+  "errors": [],
+  "limitations": "Inventory and metadata only; not visual, collision, geometry or engineering validation."
+}

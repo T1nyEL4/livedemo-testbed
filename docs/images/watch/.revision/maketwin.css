@@ -1,0 +1,34 @@
+  .orientation{width:90px;height:82px;perspective:500px;display:grid;place-items:center;order:3}
+  .view-cube{width:48px;height:48px;position:relative;transform-style:preserve-3d;transform:rotateX(-25deg) rotateY(-35deg)}
+  .cube-face{position:absolute;inset:0;width:48px;height:48px;border:1px solid #71869c;background:#e8f1fa;font:10px Inter,sans-serif;color:#263f58;backface-visibility:hidden;padding:0}
+  .cube-face:hover,.cube-face:focus-visible{background:#a7cff0}.cube-front{transform:translateZ(24px)}.cube-back{transform:rotateY(180deg) translateZ(24px)}.cube-right{transform:rotateY(90deg) translateZ(24px);background:#b2c6db}.cube-left{transform:rotateY(-90deg) translateZ(24px)}.cube-top{transform:rotateX(90deg) translateZ(24px);background:#f6faff}.cube-bottom{transform:rotateX(-90deg) translateZ(24px)}
+
+:root{--ink:#172c3d;--line:#bdccdd;--violet:#234f86;--violet-dark:#17365c;--accent:#234f86;--serif:"Helvetica Neue",Helvetica,Arial,sans-serif}
+body,body *{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif!important}
+body{background:radial-gradient(ellipse at 20% 15%,#fff9 0,transparent 48%),radial-gradient(ellipse at 78% 38%,#a5cfe9 0,transparent 55%),linear-gradient(135deg,#e7eaf5,#d5e9f2 60%,#c0e1ef)}
+.site-header{height:62px;border:1px solid #ffffffb3;background:#ffffff40;backdrop-filter:blur(14px);border-radius:0 0 12px 12px}
+.brand,.brand span{font-family:"Heiti SC",sans-serif!important;font-weight:700;color:#172c3d;font-size:18px}.brand{gap:9px}.brand img{width:30px;height:30px;object-fit:contain}
+main{padding-top:12px}.titlebar{align-items:center}.titlebar h1{font-size:32px;font-weight:400;letter-spacing:0}.titlebar .download-link{margin-left:auto}.picker[hidden]{display:none}.strip .picker{margin-left:auto}
+.stage{border:0;border-radius:12px;background:#d6dee9}.strip{background:#edf3f9;border:0}.controls{background:#dce5ef;border-color:#b8c6d6}
+.viewer-panel,#viewer,#loading{background:#d6dee9}.viewer-panel{position:relative;height:clamp(580px,72vh,840px)}
+.viewer-top{position:absolute;right:18px;top:14px;padding:0;z-index:5;background:none}.viewer-tools{gap:20px}.orientation{width:70px;height:70px}.view-cube{touch-action:none;cursor:grab}.view-cube:active{cursor:grabbing}
+#reset-view{width:44px;height:44px;border-radius:50%;background:#f6f9fc;color:#234f86;border:1px solid #bdccdd}
+.showcase-readouts{display:block;left:16px;right:auto;top:16px;width:130px;background:#f6f9fced;border:1px solid #bdccdd;border-radius:8px;box-sizing:border-box}.showcase-readouts dd{color:#234f86}
+.explorer-panel{position:absolute;right:16px;top:104px;width:224px;box-sizing:border-box;display:flex;flex-direction:column;gap:14px;margin:0;padding:18px;background:#f6f9fced;border:1px solid #bdccdd;border-radius:8px;z-index:5;font-size:12px;max-height:calc(100% - 220px);overflow:auto}
+.explorer-panel label{display:flex;flex-direction:column;align-items:stretch;gap:8px}.explorer-panel input,.explorer-panel select{width:100%;box-sizing:border-box;margin:0;min-width:0}.explorer-panel select{font-size:12px;border:1px solid #bdccdd;border-radius:4px;padding:7px}
+.explorer-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}.explorer-panel button{font-size:11px;padding:8px;border-color:#bdccdd}.explorer-panel [data-action],.explorer-panel button[aria-pressed=true],#tour,#dots button.current{background:#234f86;color:#fff;border-color:#234f86}.explorer-panel details{font-size:11px;color:#526b86}.explorer-panel summary{cursor:pointer}.explorer-evidence,.explorer-notice{font-size:11px;margin-top:8px}
+#toggle-labels{position:static;background:#234F86;color:white;white-space:nowrap}.step-instruction{border-radius:12px}input{accent-color:#234f86}footer{border:0}
+@media(max-width:700px){main{padding:12px}.titlebar h1{font-size:27px}.strip{flex-wrap:wrap}.strip .picker{width:100%}.viewer-panel{height:860px}.explorer-panel{top:100px;width:190px;padding:12px;max-height:410px}.showcase-readouts{width:112px;padding:10px}.showcase-readouts small{display:none}#toggle-labels{position:static;background:#234F86;color:white;white-space:nowrap}.titlebar .download-link{display:flex}.viewer-top{right:16px}}
+
+#timeline{accent-color:#234F86}
+#timeline::-webkit-slider-thumb{background:#234F86}
+#timeline::-moz-range-thumb{background:#234F86}
+#timeline:focus-visible{outline-color:#234F86}
+
+/* Match the camera toolbar to the exploration panel below. */
+.viewer-top{right:16px;width:224px}
+.viewer-top .viewer-tools{width:100%;display:flex;align-items:center;justify-content:space-between;gap:0}
+.viewer-top #toggle-labels,.viewer-top #reset-view,.viewer-top .orientation{flex-shrink:0}
+@media(max-width:700px){.viewer-top{width:190px}.viewer-top .orientation{width:60px}.viewer-top #toggle-labels{padding-left:7px;padding-right:7px}}
+
+.step-buttons .next-button:hover{background:#3D6FA8;border-color:#3D6FA8;color:#fff}

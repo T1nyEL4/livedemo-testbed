@@ -1,0 +1,2633 @@
+{
+  "schemaVersion": 1,
+  "units": "metres",
+  "coordinateSystem": "glTF-Y-up",
+  "product": "Tissot T-Complication Squelette",
+  "assemblies": [
+    {
+      "id": "case",
+      "label": "Case and glazing",
+      "purpose": "Protects the movement while exposing both sides."
+    },
+    {
+      "id": "dial",
+      "label": "Chapter ring and indications",
+      "purpose": "Makes hours, minutes and subsidiary seconds readable."
+    },
+    {
+      "id": "structure",
+      "label": "Skeletonized movement frame",
+      "purpose": "Locates wheel pivots and carries the winding and regulating assemblies."
+    },
+    {
+      "id": "winding",
+      "label": "Manual winding",
+      "purpose": "Transmits input from the crown to the mainspring barrel."
+    },
+    {
+      "id": "train",
+      "label": "Wheel train",
+      "purpose": "Transfers torque from the barrel toward the escapement and hands."
+    },
+    {
+      "id": "regulation",
+      "label": "Escapement and balance",
+      "purpose": "Meters the release of energy from the train."
+    },
+    {
+      "id": "strap",
+      "label": "Strap and clasp",
+      "purpose": "Fastens the watch to the wrist."
+    }
+  ],
+  "parts": [
+    {
+      "id": "case_middle",
+      "label": "Stainless steel case middle",
+      "function": "Locates the movement and carries the front bezel, lugs and crown.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "case",
+      "parent": null,
+      "interfaces": [],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "bezel",
+      "label": "Brushed front bezel",
+      "function": "Retains the front sapphire.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "case",
+      "parent": "case_middle",
+      "interfaces": [
+        {
+          "target": "case_middle",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "front_crystal",
+      "label": "Front sapphire crystal",
+      "function": "Protects the exposed display and lets light pass through it.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "case",
+      "parent": "bezel",
+      "interfaces": [
+        {
+          "target": "bezel",
+          "type": "mounts to",
+          "evidence": "inferred"
+        },
+        {
+          "target": "front_gasket",
+          "type": "seals against",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "front_gasket",
+      "label": "Front crystal gasket",
+      "function": "Seals the front crystal seat.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "case",
+      "parent": "bezel",
+      "interfaces": [
+        {
+          "target": "bezel",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "caseback",
+      "label": "Exhibition caseback",
+      "function": "Retains the rear display window and closes the case.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "case",
+      "parent": "case_middle",
+      "interfaces": [
+        {
+          "target": "case_middle",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "caseback_markings",
+      "label": "Caseback markings",
+      "function": "Identifies the case reference, sapphire glazing and stainless steel.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "case",
+      "parent": "caseback",
+      "interfaces": [
+        {
+          "target": "caseback",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "rear_crystal",
+      "label": "Rear sapphire crystal",
+      "function": "Provides a view of the movement from the back.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "case",
+      "parent": "caseback",
+      "interfaces": [
+        {
+          "target": "caseback",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "movement_spacer",
+      "label": "Movement locating ring",
+      "function": "Centers the movement in the case.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "structure",
+      "parent": "case_middle",
+      "interfaces": [
+        {
+          "target": "case_middle",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "upper_lugs",
+      "label": "Upper lug pair",
+      "function": "Supports the spring bar at the 22 mm strap fitting.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "case",
+      "parent": "case_middle",
+      "interfaces": [
+        {
+          "target": "case_middle",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "upper_bar",
+      "label": "Upper spring bar",
+      "function": "Pins the leather strap between the lugs.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "strap",
+      "parent": "upper_lugs",
+      "interfaces": [
+        {
+          "target": "upper_lugs",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "upper_strap",
+      "label": "Upper black leather strap",
+      "function": "Wraps around the wrist and connects to the clasp.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "strap",
+      "parent": "upper_bar",
+      "interfaces": [
+        {
+          "target": "upper_bar",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "upper_emboss",
+      "label": "Upper leather embossing",
+      "function": "Forms the visible raised grain of the leather.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "strap",
+      "parent": "upper_strap",
+      "interfaces": [
+        {
+          "target": "upper_strap",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "upper_stitch",
+      "label": "Upper strap stitching",
+      "function": "Holds the strap edge layers together.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "strap",
+      "parent": "upper_strap",
+      "interfaces": [
+        {
+          "target": "upper_strap",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "lower_lugs",
+      "label": "Lower lug pair",
+      "function": "Supports the spring bar at the 22 mm strap fitting.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "case",
+      "parent": "case_middle",
+      "interfaces": [
+        {
+          "target": "case_middle",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "lower_bar",
+      "label": "Lower spring bar",
+      "function": "Pins the leather strap between the lugs.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "strap",
+      "parent": "lower_lugs",
+      "interfaces": [
+        {
+          "target": "lower_lugs",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "lower_strap",
+      "label": "Lower black leather strap",
+      "function": "Wraps around the wrist and connects to the clasp.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "strap",
+      "parent": "lower_bar",
+      "interfaces": [
+        {
+          "target": "lower_bar",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "lower_emboss",
+      "label": "Lower leather embossing",
+      "function": "Forms the visible raised grain of the leather.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "strap",
+      "parent": "lower_strap",
+      "interfaces": [
+        {
+          "target": "lower_strap",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "lower_stitch",
+      "label": "Lower strap stitching",
+      "function": "Holds the strap edge layers together.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "strap",
+      "parent": "lower_strap",
+      "interfaces": [
+        {
+          "target": "lower_strap",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "clasp",
+      "label": "Steel folding clasp cover",
+      "function": "Covers the folding hardware that closes the strap.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "strap",
+      "parent": "upper_strap",
+      "interfaces": [
+        {
+          "target": "upper_strap",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "clasp_mark",
+      "label": "Clasp emblem",
+      "function": "Identifies the clasp.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "strap",
+      "parent": "clasp",
+      "interfaces": [
+        {
+          "target": "clasp",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "clasp_blade_1",
+      "label": "Folding clasp blade",
+      "function": "Folds beneath the clasp cover to link the two strap ends.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "strap",
+      "parent": "clasp",
+      "interfaces": [
+        {
+          "target": "clasp",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "clasp_blade_3",
+      "label": "Folding clasp blade",
+      "function": "Folds beneath the clasp cover to link the two strap ends.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "strap",
+      "parent": "clasp",
+      "interfaces": [
+        {
+          "target": "clasp",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "chapter_ring",
+      "label": "Graphite chapter ring",
+      "function": "Carries the minute graduations and twelve appliqué hour markers.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "case_middle",
+      "interfaces": [
+        {
+          "target": "case_middle",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_marker_00",
+      "label": "12 o’clock appliqué",
+      "function": "Marks the hour on the chapter ring.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_lume_00",
+      "label": "12 o’clock lume",
+      "function": "Bright inlay improves hour legibility.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "hour_marker_00",
+      "interfaces": [
+        {
+          "target": "hour_marker_00",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_marker_01",
+      "label": "1 o’clock appliqué",
+      "function": "Marks the hour on the chapter ring.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_lume_01",
+      "label": "1 o’clock lume",
+      "function": "Bright inlay improves hour legibility.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "hour_marker_01",
+      "interfaces": [
+        {
+          "target": "hour_marker_01",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_marker_02",
+      "label": "2 o’clock appliqué",
+      "function": "Marks the hour on the chapter ring.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_lume_02",
+      "label": "2 o’clock lume",
+      "function": "Bright inlay improves hour legibility.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "hour_marker_02",
+      "interfaces": [
+        {
+          "target": "hour_marker_02",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_marker_03",
+      "label": "3 o’clock appliqué",
+      "function": "Marks the hour on the chapter ring.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_lume_03",
+      "label": "3 o’clock lume",
+      "function": "Bright inlay improves hour legibility.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "hour_marker_03",
+      "interfaces": [
+        {
+          "target": "hour_marker_03",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_marker_04",
+      "label": "4 o’clock appliqué",
+      "function": "Marks the hour on the chapter ring.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_lume_04",
+      "label": "4 o’clock lume",
+      "function": "Bright inlay improves hour legibility.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "hour_marker_04",
+      "interfaces": [
+        {
+          "target": "hour_marker_04",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_marker_05",
+      "label": "5 o’clock appliqué",
+      "function": "Marks the hour on the chapter ring.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_lume_05",
+      "label": "5 o’clock lume",
+      "function": "Bright inlay improves hour legibility.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "hour_marker_05",
+      "interfaces": [
+        {
+          "target": "hour_marker_05",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_marker_06",
+      "label": "6 o’clock appliqué",
+      "function": "Marks the hour on the chapter ring.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_lume_06",
+      "label": "6 o’clock lume",
+      "function": "Bright inlay improves hour legibility.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "hour_marker_06",
+      "interfaces": [
+        {
+          "target": "hour_marker_06",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_marker_07",
+      "label": "7 o’clock appliqué",
+      "function": "Marks the hour on the chapter ring.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_lume_07",
+      "label": "7 o’clock lume",
+      "function": "Bright inlay improves hour legibility.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "hour_marker_07",
+      "interfaces": [
+        {
+          "target": "hour_marker_07",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_marker_08",
+      "label": "8 o’clock appliqué",
+      "function": "Marks the hour on the chapter ring.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_lume_08",
+      "label": "8 o’clock lume",
+      "function": "Bright inlay improves hour legibility.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "hour_marker_08",
+      "interfaces": [
+        {
+          "target": "hour_marker_08",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_marker_09",
+      "label": "9 o’clock appliqué",
+      "function": "Marks the hour on the chapter ring.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_lume_09",
+      "label": "9 o’clock lume",
+      "function": "Bright inlay improves hour legibility.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "hour_marker_09",
+      "interfaces": [
+        {
+          "target": "hour_marker_09",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_marker_10",
+      "label": "10 o’clock appliqué",
+      "function": "Marks the hour on the chapter ring.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_lume_10",
+      "label": "10 o’clock lume",
+      "function": "Bright inlay improves hour legibility.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "hour_marker_10",
+      "interfaces": [
+        {
+          "target": "hour_marker_10",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_marker_11",
+      "label": "11 o’clock appliqué",
+      "function": "Marks the hour on the chapter ring.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_lume_11",
+      "label": "11 o’clock lume",
+      "function": "Bright inlay improves hour legibility.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "hour_marker_11",
+      "interfaces": [
+        {
+          "target": "hour_marker_11",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "minute_scale",
+      "label": "Minute graduations",
+      "function": "Divides the chapter ring into one-minute intervals.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "swiss",
+      "label": "SWISS",
+      "function": "Prints the origin marking on the dial.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "made",
+      "label": "MADE",
+      "function": "Prints the origin marking on the dial.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "nameplate",
+      "label": "Graphite nameplate",
+      "function": "Carries the Tissot signature on the open dial.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "chapter_ring",
+      "interfaces": [
+        {
+          "target": "chapter_ring",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "signature",
+      "label": "TISSOT 1853 signature",
+      "function": "Identifies the watchmaker.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "nameplate",
+      "interfaces": [
+        {
+          "target": "nameplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "mainplate",
+      "label": "Skeleton mainplate perimeter",
+      "function": "Locates the skeletonized movement and its cross members.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "movement_spacer",
+      "interfaces": [
+        {
+          "target": "movement_spacer",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "dial_web",
+      "label": "Openworked dial-side plate",
+      "function": "Supports the offset seconds pivot and exposes the barrel and wheels between three projecting arms.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "balance_cock",
+      "label": "Dial-side balance cock",
+      "function": "Supports the upper balance staff jewel.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "setting_bridge",
+      "label": "Winding and setting bridge",
+      "function": "Carries parts of the setting transmission beside the stem.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "rear_train_bridge",
+      "label": "Rear train bridge",
+      "function": "Locates the lower pivots of the going train.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "rear_barrel_bridge",
+      "label": "Rear barrel bridge",
+      "function": "Carries the winding barrel arbor and click.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "rear_balance_cock",
+      "label": "Rear balance cock",
+      "function": "Supports the rear balance jewel and regulator.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "barrel",
+      "label": "Mainspring barrel",
+      "function": "Contains the mainspring and delivers torque to the going train.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "winding",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        },
+        {
+          "target": "center_wheel",
+          "type": "drives",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "rotation",
+        "space": "model",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "pivot": [
+          0.00445,
+          -0.008199999999999999,
+          -0.0023799999999999997
+        ],
+        "range": [
+          0.0,
+          0.15707963267948966
+        ],
+        "unit": "radians",
+        "note": "Axis follows the indicated pivot; range describes the illustrative clip."
+      }
+    },
+    {
+      "id": "barrel_cap",
+      "label": "Barrel cover",
+      "function": "Closes the mainspring barrel around the arbor.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "winding",
+      "parent": "barrel",
+      "interfaces": [
+        {
+          "target": "barrel",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "ratchet_wheel",
+      "label": "Ratchet wheel",
+      "function": "Winds the barrel arbor and works against the click.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "winding",
+      "parent": "barrel",
+      "interfaces": [
+        {
+          "target": "barrel",
+          "type": "mounts to",
+          "evidence": "inferred"
+        },
+        {
+          "target": "barrel",
+          "type": "winds",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "rotation",
+        "space": "model",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "pivot": [
+          0.00445,
+          -0.008199999999999999,
+          -0.00398
+        ],
+        "range": [
+          -1.3962634015954636,
+          -0.0
+        ],
+        "unit": "radians",
+        "note": "Axis follows the indicated pivot; range describes the illustrative clip."
+      }
+    },
+    {
+      "id": "crown_wheel",
+      "label": "Crown wheel",
+      "function": "Transmits the winding stem's input to the ratchet wheel.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "winding",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        },
+        {
+          "target": "ratchet_wheel",
+          "type": "drives",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "rotation",
+        "space": "model",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "pivot": [
+          0.010400000000000001,
+          -5e-05,
+          -0.0038799999999999998
+        ],
+        "range": [
+          0.0,
+          2.0943951023931953
+        ],
+        "unit": "radians",
+        "note": "Axis follows the indicated pivot; range describes the illustrative clip."
+      }
+    },
+    {
+      "id": "click",
+      "label": "Ratchet click",
+      "function": "Prevents the ratchet wheel from unwinding through the crown.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "winding",
+      "parent": "rear_barrel_bridge",
+      "interfaces": [
+        {
+          "target": "rear_barrel_bridge",
+          "type": "mounts to",
+          "evidence": "inferred"
+        },
+        {
+          "target": "ratchet_wheel",
+          "type": "locks reverse rotation of",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "center_wheel",
+      "label": "Center wheel",
+      "function": "Receives torque from the barrel and carries the center arbor.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "train",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        },
+        {
+          "target": "third_wheel",
+          "type": "drives",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "rotation",
+        "space": "model",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "pivot": [
+          0.0,
+          0.0,
+          -0.00061
+        ],
+        "range": [
+          -1.2566370614359172,
+          -0.0
+        ],
+        "unit": "radians",
+        "note": "Axis follows the indicated pivot; range describes the illustrative clip."
+      }
+    },
+    {
+      "id": "third_wheel",
+      "label": "Third wheel",
+      "function": "Transfers torque between the center and fourth wheels.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "train",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        },
+        {
+          "target": "fourth_wheel",
+          "type": "drives",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "rotation",
+        "space": "model",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "pivot": [
+          -0.006019999999999999,
+          -0.00313,
+          -0.00151
+        ],
+        "range": [
+          0.0,
+          9.42477796076938
+        ],
+        "unit": "radians",
+        "note": "Axis follows the indicated pivot; range describes the illustrative clip."
+      }
+    },
+    {
+      "id": "fourth_wheel",
+      "label": "Fourth wheel",
+      "function": "Drives the escape pinion and carries the small-seconds indicator.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "train",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        },
+        {
+          "target": "escape_wheel",
+          "type": "drives",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "rotation",
+        "space": "model",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "pivot": [
+          -0.010199999999999999,
+          4e-05,
+          -0.0008100000000000001
+        ],
+        "range": [
+          -75.39822368615503,
+          -0.0
+        ],
+        "unit": "radians",
+        "note": "Axis follows the indicated pivot; range describes the illustrative clip."
+      }
+    },
+    {
+      "id": "escape_wheel",
+      "label": "Escape wheel",
+      "function": "Releases a tooth when the pallet fork unlocks.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "regulation",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        },
+        {
+          "target": "pallet_fork",
+          "type": "intermittently engages",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "rotation",
+        "space": "model",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "pivot": [
+          -0.010150000000000001,
+          0.004940000000000001,
+          -0.00168
+        ],
+        "range": [
+          0.0,
+          753.9822368615504
+        ],
+        "unit": "radians",
+        "note": "Axis follows the indicated pivot; range describes the illustrative clip."
+      }
+    },
+    {
+      "id": "minute_wheel",
+      "label": "Minute wheel",
+      "function": "Provides the reduction between the cannon pinion and hour wheel.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "train",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        },
+        {
+          "target": "hour_wheel",
+          "type": "drives",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "rotation",
+        "space": "model",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "pivot": [
+          0.00226,
+          0.004240000000000001,
+          0.00256
+        ],
+        "range": [
+          0.0,
+          0.3141592653589793
+        ],
+        "unit": "radians",
+        "note": "Axis follows the indicated pivot; range describes the illustrative clip."
+      }
+    },
+    {
+      "id": "hour_wheel",
+      "label": "Hour wheel",
+      "function": "Carries the hour hand around the center arbor.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "train",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "rotation",
+        "space": "model",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "pivot": [
+          0.0,
+          0.0,
+          0.00199
+        ],
+        "range": [
+          -0.10471975511965978,
+          -0.0
+        ],
+        "unit": "radians",
+        "note": "Axis follows the indicated pivot; range describes the illustrative clip."
+      }
+    },
+    {
+      "id": "cannon_pinion",
+      "label": "Cannon Pinion",
+      "function": "Couples the center arbor to the minute hand.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "train",
+      "parent": "center_wheel",
+      "interfaces": [
+        {
+          "target": "center_wheel",
+          "type": "mounts to",
+          "evidence": "inferred"
+        },
+        {
+          "target": "minute_wheel",
+          "type": "drives",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "sliding_pinion",
+      "label": "Sliding Pinion",
+      "function": "Selects winding or setting as the stem moves.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "winding",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "winding_pinion",
+      "label": "Winding Pinion",
+      "function": "Transmits stem rotation into the winding train.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "winding",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "stem",
+      "label": "Winding stem",
+      "function": "Connects the external crown to the winding and setting pinions.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "winding",
+      "parent": "case_middle",
+      "interfaces": [
+        {
+          "target": "case_middle",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "crown",
+      "label": "Fluted winding crown",
+      "function": "Lets the wearer wind the mainspring and set the hands.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "winding",
+      "parent": "stem",
+      "interfaces": [
+        {
+          "target": "stem",
+          "type": "mounts to",
+          "evidence": "inferred"
+        },
+        {
+          "target": "winding_pinion",
+          "type": "drives through stem",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "crown_inset",
+      "label": "Crown cap detail",
+      "function": "Provides the raised cap detail at the crown face.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "winding",
+      "parent": "crown",
+      "interfaces": [
+        {
+          "target": "crown",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "balance",
+      "label": "Gold balance wheel",
+      "function": "Oscillates with the hairspring to regulate the escapement.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "regulation",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "rotation",
+        "space": "model",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "pivot": [
+          -0.00425,
+          0.0096,
+          -0.00125
+        ],
+        "range": [
+          -0.7330382858376184,
+          0.7330382858376184
+        ],
+        "unit": "radians",
+        "note": "Axis follows the indicated pivot; range describes the illustrative clip."
+      }
+    },
+    {
+      "id": "hairspring",
+      "label": "Coiled hairspring",
+      "function": "Applies restoring torque to the balance staff.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "regulation",
+      "parent": "rear_balance_cock",
+      "interfaces": [
+        {
+          "target": "rear_balance_cock",
+          "type": "mounts to",
+          "evidence": "inferred"
+        },
+        {
+          "target": "balance",
+          "type": "supplies restoring torque to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": "pallet_fork",
+      "label": "Swiss lever pallet fork",
+      "function": "Alternately locks the escape wheel and gives the balance an impulse.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "regulation",
+      "parent": "mainplate",
+      "interfaces": [
+        {
+          "target": "mainplate",
+          "type": "mounts to",
+          "evidence": "inferred"
+        },
+        {
+          "target": "balance",
+          "type": "impulses",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "rotation",
+        "space": "model",
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "pivot": [
+          -0.00847,
+          0.00649,
+          -0.00223
+        ],
+        "range": [
+          -0.19198621771937624,
+          0.19198621771937624
+        ],
+        "unit": "radians",
+        "note": "Axis follows the indicated pivot; range describes the illustrative clip."
+      }
+    },
+    {
+      "id": "pallet_1",
+      "label": "Pallet stone 1",
+      "function": "Contacts the tips of the escape wheel teeth.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "regulation",
+      "parent": "pallet_fork",
+      "interfaces": [
+        {
+          "target": "pallet_fork",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "pallet_2",
+      "label": "Pallet stone 2",
+      "function": "Contacts the tips of the escape wheel teeth.",
+      "evidence": "inferred",
+      "evidenceNote": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated.",
+      "assembly": "regulation",
+      "parent": "pallet_fork",
+      "interfaces": [
+        {
+          "target": "pallet_fork",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "front_setting_1",
+      "label": "Front jewel setting 1",
+      "function": "Retains the ruby bearing on the balance cock.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "balance_cock",
+      "interfaces": [
+        {
+          "target": "balance_cock",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "front_jewel_1",
+      "label": "Front ruby bearing 1",
+      "function": "Provides a low-friction pivot bearing on the balance cock.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "front_setting_1",
+      "interfaces": [
+        {
+          "target": "front_setting_1",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "front_setting_2",
+      "label": "Front jewel setting 2",
+      "function": "Retains the ruby bearing on the dial web.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "dial_web",
+      "interfaces": [
+        {
+          "target": "dial_web",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "front_jewel_2",
+      "label": "Front ruby bearing 2",
+      "function": "Provides a low-friction pivot bearing on the dial web.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "front_setting_2",
+      "interfaces": [
+        {
+          "target": "front_setting_2",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "front_setting_3",
+      "label": "Front jewel setting 3",
+      "function": "Retains the ruby bearing on the dial web.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "dial_web",
+      "interfaces": [
+        {
+          "target": "dial_web",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "front_jewel_3",
+      "label": "Front ruby bearing 3",
+      "function": "Provides a low-friction pivot bearing on the dial web.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "front_setting_3",
+      "interfaces": [
+        {
+          "target": "front_setting_3",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "front_setting_4",
+      "label": "Front jewel setting 4",
+      "function": "Retains the ruby bearing on the dial web.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "dial_web",
+      "interfaces": [
+        {
+          "target": "dial_web",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "front_jewel_4",
+      "label": "Front ruby bearing 4",
+      "function": "Provides a low-friction pivot bearing on the dial web.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "front_setting_4",
+      "interfaces": [
+        {
+          "target": "front_setting_4",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "rear_setting_1",
+      "label": "Rear jewel setting 1",
+      "function": "Retains the ruby bearing on the rear balance cock.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "rear_balance_cock",
+      "interfaces": [
+        {
+          "target": "rear_balance_cock",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "rear_jewel_1",
+      "label": "Rear ruby bearing 1",
+      "function": "Provides a low-friction pivot bearing on the rear balance cock.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "rear_setting_1",
+      "interfaces": [
+        {
+          "target": "rear_setting_1",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "rear_setting_2",
+      "label": "Rear jewel setting 2",
+      "function": "Retains the ruby bearing on the rear train bridge.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "rear_train_bridge",
+      "interfaces": [
+        {
+          "target": "rear_train_bridge",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "rear_jewel_2",
+      "label": "Rear ruby bearing 2",
+      "function": "Provides a low-friction pivot bearing on the rear train bridge.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "rear_setting_2",
+      "interfaces": [
+        {
+          "target": "rear_setting_2",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "rear_setting_3",
+      "label": "Rear jewel setting 3",
+      "function": "Retains the ruby bearing on the rear train bridge.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "rear_train_bridge",
+      "interfaces": [
+        {
+          "target": "rear_train_bridge",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "rear_jewel_3",
+      "label": "Rear ruby bearing 3",
+      "function": "Provides a low-friction pivot bearing on the rear train bridge.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "rear_setting_3",
+      "interfaces": [
+        {
+          "target": "rear_setting_3",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "rear_setting_4",
+      "label": "Rear jewel setting 4",
+      "function": "Retains the ruby bearing on the rear train bridge.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "rear_train_bridge",
+      "interfaces": [
+        {
+          "target": "rear_train_bridge",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "rear_jewel_4",
+      "label": "Rear ruby bearing 4",
+      "function": "Provides a low-friction pivot bearing on the rear train bridge.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "rear_setting_4",
+      "interfaces": [
+        {
+          "target": "rear_setting_4",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "rear_setting_5",
+      "label": "Rear jewel setting 5",
+      "function": "Retains the ruby bearing on the rear barrel bridge.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "rear_barrel_bridge",
+      "interfaces": [
+        {
+          "target": "rear_barrel_bridge",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "rear_jewel_5",
+      "label": "Rear ruby bearing 5",
+      "function": "Provides a low-friction pivot bearing on the rear barrel bridge.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "rear_setting_5",
+      "interfaces": [
+        {
+          "target": "rear_setting_5",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_01",
+      "label": "Balance Cock screw",
+      "function": "Fastens the balance cock at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "balance_cock",
+      "interfaces": [
+        {
+          "target": "balance_cock",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_02",
+      "label": "Balance Cock screw",
+      "function": "Fastens the balance cock at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "balance_cock",
+      "interfaces": [
+        {
+          "target": "balance_cock",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_03",
+      "label": "Balance Cock screw",
+      "function": "Fastens the balance cock at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "balance_cock",
+      "interfaces": [
+        {
+          "target": "balance_cock",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_04",
+      "label": "Setting Bridge screw",
+      "function": "Fastens the setting bridge at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "setting_bridge",
+      "interfaces": [
+        {
+          "target": "setting_bridge",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_05",
+      "label": "Setting Bridge screw",
+      "function": "Fastens the setting bridge at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "setting_bridge",
+      "interfaces": [
+        {
+          "target": "setting_bridge",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_06",
+      "label": "Dial Web screw",
+      "function": "Fastens the dial web at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "dial_web",
+      "interfaces": [
+        {
+          "target": "dial_web",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_07",
+      "label": "Dial Web screw",
+      "function": "Fastens the dial web at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "dial_web",
+      "interfaces": [
+        {
+          "target": "dial_web",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_08",
+      "label": "Dial Web screw",
+      "function": "Fastens the dial web at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "dial_web",
+      "interfaces": [
+        {
+          "target": "dial_web",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_09",
+      "label": "Dial Web screw",
+      "function": "Fastens the dial web at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "dial_web",
+      "interfaces": [
+        {
+          "target": "dial_web",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_10",
+      "label": "Dial Web screw",
+      "function": "Fastens the dial web at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "dial_web",
+      "interfaces": [
+        {
+          "target": "dial_web",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_11",
+      "label": "Rear Train Bridge screw",
+      "function": "Fastens the rear train bridge at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "rear_train_bridge",
+      "interfaces": [
+        {
+          "target": "rear_train_bridge",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_12",
+      "label": "Rear Train Bridge screw",
+      "function": "Fastens the rear train bridge at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "rear_train_bridge",
+      "interfaces": [
+        {
+          "target": "rear_train_bridge",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_13",
+      "label": "Rear Balance Cock screw",
+      "function": "Fastens the rear balance cock at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "rear_balance_cock",
+      "interfaces": [
+        {
+          "target": "rear_balance_cock",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_14",
+      "label": "Rear Barrel Bridge screw",
+      "function": "Fastens the rear barrel bridge at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "rear_barrel_bridge",
+      "interfaces": [
+        {
+          "target": "rear_barrel_bridge",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_15",
+      "label": "Ratchet Wheel screw",
+      "function": "Fastens the ratchet wheel at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "ratchet_wheel",
+      "interfaces": [
+        {
+          "target": "ratchet_wheel",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "screw_16",
+      "label": "Crown Wheel screw",
+      "function": "Fastens the crown wheel at the illustrated location.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "structure",
+      "parent": "crown_wheel",
+      "interfaces": [
+        {
+          "target": "crown_wheel",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hour_hand",
+      "label": "Hour hand",
+      "function": "Indicates the current hour.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "hour_wheel",
+      "interfaces": [
+        {
+          "target": "hour_wheel",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": "hour_hand_inlay",
+      "label": "Hour hand luminous inlay",
+      "function": "Increases indicator legibility.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "hour_hand",
+      "interfaces": [
+        {
+          "target": "hour_hand",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "minute_hand",
+      "label": "Minute hand",
+      "function": "Indicates the current minute.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "cannon_pinion",
+      "interfaces": [
+        {
+          "target": "cannon_pinion",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": "minute_hand_inlay",
+      "label": "Minute hand luminous inlay",
+      "function": "Increases indicator legibility.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "minute_hand",
+      "interfaces": [
+        {
+          "target": "minute_hand",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "seconds_hand",
+      "label": "Small seconds hand",
+      "function": "Indicates seconds on the subsidiary dial.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "fourth_wheel",
+      "interfaces": [
+        {
+          "target": "fourth_wheel",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "unknown"
+      }
+    },
+    {
+      "id": "seconds_hand_inlay",
+      "label": "Small seconds hand luminous inlay",
+      "function": "Increases indicator legibility.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "seconds_hand",
+      "interfaces": [
+        {
+          "target": "seconds_hand",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "hand_cap",
+      "label": "Central hand stack cap",
+      "function": "Finishes the hand stack above the minute hand.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "minute_hand",
+      "interfaces": [
+        {
+          "target": "minute_hand",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    },
+    {
+      "id": "seconds_mark",
+      "label": "Subsidiary seconds legend",
+      "function": "Identifies the offset small seconds indication.",
+      "evidence": "observed",
+      "evidenceNote": "Exact-watch factory photos show the appearance; hidden dimensions are estimated.",
+      "assembly": "dial",
+      "parent": "dial_web",
+      "interfaces": [
+        {
+          "target": "dial_web",
+          "type": "mounts to",
+          "evidence": "inferred"
+        }
+      ],
+      "motion": {
+        "kind": "fixed"
+      }
+    }
+  ]
+}

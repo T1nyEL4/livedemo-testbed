@@ -1,0 +1,16 @@
+{
+  "loaded": true,
+  "parts": 123,
+  "reviewedSeparation": [
+    0,
+    0.25,
+    0.5,
+    1
+  ],
+  "balanceIsolated": true,
+  "section": true,
+  "reset": true,
+  "replay": true,
+  "narrowFits": true,
+  "errors": []
+}

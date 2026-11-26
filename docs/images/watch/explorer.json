@@ -1,0 +1,1974 @@
+{
+  "schemaVersion": 1,
+  "notice": "Illustrative display separation. Squelette geometry is photo-based and ETA movement interfaces are estimated.",
+  "groups": [
+    {
+      "id": "case_middle",
+      "label": "Stainless steel case middle",
+      "parts": [
+        "case_middle"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        -0.005
+      ],
+      "start": 0,
+      "end": 0.43,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "bezel",
+      "label": "Brushed front bezel",
+      "parts": [
+        "bezel"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.021
+      ],
+      "start": 0,
+      "end": 0.43,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "front_crystal",
+      "label": "Front sapphire crystal",
+      "parts": [
+        "front_crystal"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.034
+      ],
+      "start": 0,
+      "end": 0.43,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "front_gasket",
+      "label": "Front crystal gasket",
+      "parts": [
+        "front_gasket"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.015
+      ],
+      "start": 0,
+      "end": 0.43,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "caseback",
+      "label": "Exhibition caseback",
+      "parts": [
+        "caseback"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        -0.024
+      ],
+      "start": 0,
+      "end": 0.43,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "caseback_markings",
+      "label": "Caseback markings",
+      "parts": [
+        "caseback_markings"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        -0.026000000000000002
+      ],
+      "start": 0,
+      "end": 0.43,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "rear_crystal",
+      "label": "Rear sapphire crystal",
+      "parts": [
+        "rear_crystal"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        -0.033
+      ],
+      "start": 0,
+      "end": 0.43,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "movement_spacer",
+      "label": "Movement locating ring",
+      "parts": [
+        "movement_spacer"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        -0.01
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "upper_lugs",
+      "label": "Upper lug pair",
+      "parts": [
+        "upper_lugs"
+      ],
+      "offset": [
+        0.0,
+        0.007,
+        -0.003
+      ],
+      "start": 0,
+      "end": 0.43,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "upper_bar",
+      "label": "Upper spring bar",
+      "parts": [
+        "upper_bar"
+      ],
+      "offset": [
+        0.018000000000000002,
+        0.013000000000000001,
+        -0.002
+      ],
+      "start": 0,
+      "end": 0.42,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "upper_strap",
+      "label": "Upper black leather strap",
+      "parts": [
+        "upper_strap"
+      ],
+      "offset": [
+        0.0,
+        0.024,
+        -0.013000000000000001
+      ],
+      "start": 0,
+      "end": 0.42,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "upper_emboss",
+      "label": "Upper leather embossing",
+      "parts": [
+        "upper_emboss"
+      ],
+      "offset": [
+        0.0,
+        0.028,
+        -0.013000000000000001
+      ],
+      "start": 0,
+      "end": 0.42,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "upper_stitch",
+      "label": "Upper strap stitching",
+      "parts": [
+        "upper_stitch"
+      ],
+      "offset": [
+        0.0,
+        0.031,
+        -0.013000000000000001
+      ],
+      "start": 0,
+      "end": 0.42,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "lower_lugs",
+      "label": "Lower lug pair",
+      "parts": [
+        "lower_lugs"
+      ],
+      "offset": [
+        0.0,
+        -0.007,
+        -0.003
+      ],
+      "start": 0,
+      "end": 0.43,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "lower_bar",
+      "label": "Lower spring bar",
+      "parts": [
+        "lower_bar"
+      ],
+      "offset": [
+        -0.018000000000000002,
+        -0.013000000000000001,
+        -0.002
+      ],
+      "start": 0,
+      "end": 0.42,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "lower_strap",
+      "label": "Lower black leather strap",
+      "parts": [
+        "lower_strap"
+      ],
+      "offset": [
+        0.0,
+        -0.024,
+        -0.013000000000000001
+      ],
+      "start": 0,
+      "end": 0.42,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "lower_emboss",
+      "label": "Lower leather embossing",
+      "parts": [
+        "lower_emboss"
+      ],
+      "offset": [
+        0.0,
+        -0.028,
+        -0.013000000000000001
+      ],
+      "start": 0,
+      "end": 0.42,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "lower_stitch",
+      "label": "Lower strap stitching",
+      "parts": [
+        "lower_stitch"
+      ],
+      "offset": [
+        0.0,
+        -0.031,
+        -0.013000000000000001
+      ],
+      "start": 0,
+      "end": 0.42,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "clasp",
+      "label": "Steel folding clasp cover",
+      "parts": [
+        "clasp"
+      ],
+      "offset": [
+        0.01,
+        0.032,
+        -0.026000000000000002
+      ],
+      "start": 0,
+      "end": 0.42,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "clasp_mark",
+      "label": "Clasp emblem",
+      "parts": [
+        "clasp_mark"
+      ],
+      "offset": [
+        0.01,
+        0.035,
+        -0.025
+      ],
+      "start": 0,
+      "end": 0.42,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "clasp_blade_1",
+      "label": "Folding clasp blade",
+      "parts": [
+        "clasp_blade_1"
+      ],
+      "offset": [
+        -0.008,
+        0.023,
+        -0.03
+      ],
+      "start": 0,
+      "end": 0.42,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "clasp_blade_3",
+      "label": "Folding clasp blade",
+      "parts": [
+        "clasp_blade_3"
+      ],
+      "offset": [
+        0.008,
+        0.023,
+        -0.03
+      ],
+      "start": 0,
+      "end": 0.42,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "chapter_ring",
+      "label": "Graphite chapter ring",
+      "parts": [
+        "chapter_ring"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.014
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_marker_00",
+      "label": "12 o’clock appliqué",
+      "parts": [
+        "hour_marker_00"
+      ],
+      "offset": [
+        0.0,
+        0.0105315,
+        0.017
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_lume_00",
+      "label": "12 o’clock lume",
+      "parts": [
+        "hour_lume_00"
+      ],
+      "offset": [
+        0.0,
+        0.012138000000000001,
+        0.019
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_marker_01",
+      "label": "1 o’clock appliqué",
+      "parts": [
+        "hour_marker_01"
+      ],
+      "offset": [
+        0.005265749999999999,
+        0.009120546539955816,
+        0.017
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_lume_01",
+      "label": "1 o’clock lume",
+      "parts": [
+        "hour_lume_01"
+      ],
+      "offset": [
+        0.006069,
+        0.010511816351135518,
+        0.019
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_marker_02",
+      "label": "2 o’clock appliqué",
+      "parts": [
+        "hour_marker_02"
+      ],
+      "offset": [
+        0.009120546539955816,
+        0.005265750000000001,
+        0.017
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_lume_02",
+      "label": "2 o’clock lume",
+      "parts": [
+        "hour_lume_02"
+      ],
+      "offset": [
+        0.010511816351135518,
+        0.0060690000000000015,
+        0.019
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_marker_03",
+      "label": "3 o’clock appliqué",
+      "parts": [
+        "hour_marker_03"
+      ],
+      "offset": [
+        0.0105315,
+        2.9833311450289848e-18,
+        0.017
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_lume_03",
+      "label": "3 o’clock lume",
+      "parts": [
+        "hour_lume_03"
+      ],
+      "offset": [
+        0.012138000000000001,
+        3.4384155569825593e-18,
+        0.019
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_marker_04",
+      "label": "4 o’clock appliqué",
+      "parts": [
+        "hour_marker_04"
+      ],
+      "offset": [
+        0.009120546539955816,
+        -0.005265749999999998,
+        0.017
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_lume_04",
+      "label": "4 o’clock lume",
+      "parts": [
+        "hour_lume_04"
+      ],
+      "offset": [
+        0.010511816351135518,
+        -0.006068999999999998,
+        0.019
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_marker_05",
+      "label": "5 o’clock appliqué",
+      "parts": [
+        "hour_marker_05"
+      ],
+      "offset": [
+        0.005265749999999999,
+        -0.009120546539955816,
+        0.017
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_lume_05",
+      "label": "5 o’clock lume",
+      "parts": [
+        "hour_lume_05"
+      ],
+      "offset": [
+        0.006069,
+        -0.010511816351135518,
+        0.019
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_marker_06",
+      "label": "6 o’clock appliqué",
+      "parts": [
+        "hour_marker_06"
+      ],
+      "offset": [
+        5.9666622900579696e-18,
+        -0.0105315,
+        0.017
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_lume_06",
+      "label": "6 o’clock lume",
+      "parts": [
+        "hour_lume_06"
+      ],
+      "offset": [
+        6.8768311139651185e-18,
+        -0.012138000000000001,
+        0.019
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_marker_07",
+      "label": "7 o’clock appliqué",
+      "parts": [
+        "hour_marker_07"
+      ],
+      "offset": [
+        -0.005265749999999998,
+        -0.009120546539955818,
+        0.017
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_lume_07",
+      "label": "7 o’clock lume",
+      "parts": [
+        "hour_lume_07"
+      ],
+      "offset": [
+        -0.006068999999999998,
+        -0.01051181635113552,
+        0.019
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_marker_08",
+      "label": "8 o’clock appliqué",
+      "parts": [
+        "hour_marker_08"
+      ],
+      "offset": [
+        -0.009120546539955813,
+        -0.005265750000000004,
+        0.017
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_lume_08",
+      "label": "8 o’clock lume",
+      "parts": [
+        "hour_lume_08"
+      ],
+      "offset": [
+        -0.010511816351135515,
+        -0.006069000000000007,
+        0.019
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_marker_09",
+      "label": "9 o’clock appliqué",
+      "parts": [
+        "hour_marker_09"
+      ],
+      "offset": [
+        -0.0105315,
+        -1.9346051647830525e-18,
+        0.017
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_lume_09",
+      "label": "9 o’clock lume",
+      "parts": [
+        "hour_lume_09"
+      ],
+      "offset": [
+        -0.012138000000000001,
+        -2.229714427207586e-18,
+        0.019
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_marker_10",
+      "label": "10 o’clock appliqué",
+      "parts": [
+        "hour_marker_10"
+      ],
+      "offset": [
+        -0.009120546539955816,
+        0.005265750000000001,
+        0.017
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_lume_10",
+      "label": "10 o’clock lume",
+      "parts": [
+        "hour_lume_10"
+      ],
+      "offset": [
+        -0.010511816351135518,
+        0.0060690000000000015,
+        0.019
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_marker_11",
+      "label": "11 o’clock appliqué",
+      "parts": [
+        "hour_marker_11"
+      ],
+      "offset": [
+        -0.005265749999999997,
+        0.009120546539955818,
+        0.017
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_lume_11",
+      "label": "11 o’clock lume",
+      "parts": [
+        "hour_lume_11"
+      ],
+      "offset": [
+        -0.006068999999999997,
+        0.01051181635113552,
+        0.019
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "minute_scale",
+      "label": "Minute graduations",
+      "parts": [
+        "minute_scale"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.018000000000000002
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "swiss",
+      "label": "SWISS",
+      "parts": [
+        "swiss"
+      ],
+      "offset": [
+        0.0,
+        -0.009000000000000001,
+        0.018000000000000002
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "made",
+      "label": "MADE",
+      "parts": [
+        "made"
+      ],
+      "offset": [
+        0.0,
+        -0.009000000000000001,
+        0.018000000000000002
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "nameplate",
+      "label": "Graphite nameplate",
+      "parts": [
+        "nameplate"
+      ],
+      "offset": [
+        0.012,
+        0.002,
+        0.016
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "signature",
+      "label": "TISSOT 1853 signature",
+      "parts": [
+        "signature"
+      ],
+      "offset": [
+        0.013000000000000001,
+        0.003,
+        0.018000000000000002
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "mainplate",
+      "label": "Skeleton mainplate perimeter",
+      "parts": [
+        "mainplate"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        -0.004
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "dial_web",
+      "label": "Openworked dial-side plate",
+      "parts": [
+        "dial_web"
+      ],
+      "offset": [
+        0.0,
+        -0.004,
+        0.007
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "balance_cock",
+      "label": "Dial-side balance cock",
+      "parts": [
+        "balance_cock"
+      ],
+      "offset": [
+        -0.009000000000000001,
+        0.013000000000000001,
+        0.012
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "setting_bridge",
+      "label": "Winding and setting bridge",
+      "parts": [
+        "setting_bridge"
+      ],
+      "offset": [
+        0.013000000000000001,
+        0.011,
+        0.009000000000000001
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "rear_train_bridge",
+      "label": "Rear train bridge",
+      "parts": [
+        "rear_train_bridge"
+      ],
+      "offset": [
+        -0.014,
+        0.002,
+        -0.016
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "rear_barrel_bridge",
+      "label": "Rear barrel bridge",
+      "parts": [
+        "rear_barrel_bridge"
+      ],
+      "offset": [
+        0.01,
+        -0.013000000000000001,
+        -0.018000000000000002
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "rear_balance_cock",
+      "label": "Rear balance cock",
+      "parts": [
+        "rear_balance_cock"
+      ],
+      "offset": [
+        -0.004,
+        0.016,
+        -0.016
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "barrel",
+      "label": "Mainspring barrel",
+      "parts": [
+        "barrel"
+      ],
+      "offset": [
+        0.015,
+        -0.014,
+        -0.01
+      ],
+      "start": 0.36,
+      "end": 0.9,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "barrel_cap",
+      "label": "Barrel cover",
+      "parts": [
+        "barrel_cap"
+      ],
+      "offset": [
+        0.013000000000000001,
+        -0.016,
+        -0.003
+      ],
+      "start": 0.36,
+      "end": 0.9,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "ratchet_wheel",
+      "label": "Ratchet wheel",
+      "parts": [
+        "ratchet_wheel"
+      ],
+      "offset": [
+        0.018000000000000002,
+        -0.015,
+        -0.024
+      ],
+      "start": 0.36,
+      "end": 0.9,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "crown_wheel",
+      "label": "Crown wheel",
+      "parts": [
+        "crown_wheel"
+      ],
+      "offset": [
+        0.023,
+        -0.001,
+        -0.02
+      ],
+      "start": 0.36,
+      "end": 0.9,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "click",
+      "label": "Ratchet click",
+      "parts": [
+        "click"
+      ],
+      "offset": [
+        0.004,
+        -0.023,
+        -0.024
+      ],
+      "start": 0.36,
+      "end": 0.9,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "center_wheel",
+      "label": "Center wheel",
+      "parts": [
+        "center_wheel"
+      ],
+      "offset": [
+        0.002,
+        0.0,
+        -0.01
+      ],
+      "start": 0.52,
+      "end": 1,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "third_wheel",
+      "label": "Third wheel",
+      "parts": [
+        "third_wheel"
+      ],
+      "offset": [
+        -0.012,
+        -0.009000000000000001,
+        -0.01
+      ],
+      "start": 0.52,
+      "end": 1,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "fourth_wheel",
+      "label": "Fourth wheel",
+      "parts": [
+        "fourth_wheel"
+      ],
+      "offset": [
+        -0.018000000000000002,
+        0.002,
+        -0.009000000000000001
+      ],
+      "start": 0.52,
+      "end": 1,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "escape_wheel",
+      "label": "Escape wheel",
+      "parts": [
+        "escape_wheel"
+      ],
+      "offset": [
+        -0.02,
+        0.01,
+        -0.009000000000000001
+      ],
+      "start": 0.54,
+      "end": 1,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "minute_wheel",
+      "label": "Minute wheel",
+      "parts": [
+        "minute_wheel"
+      ],
+      "offset": [
+        0.01,
+        0.011,
+        0.008
+      ],
+      "start": 0.52,
+      "end": 1,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "hour_wheel",
+      "label": "Hour wheel",
+      "parts": [
+        "hour_wheel"
+      ],
+      "offset": [
+        0.002,
+        0.002,
+        0.011
+      ],
+      "start": 0.52,
+      "end": 1,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "cannon_pinion",
+      "label": "Cannon Pinion",
+      "parts": [
+        "cannon_pinion"
+      ],
+      "offset": [
+        0.0,
+        0.004,
+        0.008
+      ],
+      "start": 0.52,
+      "end": 1,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "sliding_pinion",
+      "label": "Sliding Pinion",
+      "parts": [
+        "sliding_pinion"
+      ],
+      "offset": [
+        0.008419600000000001,
+        0.004,
+        0.008
+      ],
+      "start": 0.36,
+      "end": 0.9,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "winding_pinion",
+      "label": "Winding Pinion",
+      "parts": [
+        "winding_pinion"
+      ],
+      "offset": [
+        0.009523199999999999,
+        0.004,
+        0.008
+      ],
+      "start": 0.36,
+      "end": 0.9,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "stem",
+      "label": "Winding stem",
+      "parts": [
+        "stem"
+      ],
+      "offset": [
+        0.02,
+        0.0,
+        0.0
+      ],
+      "start": 0.36,
+      "end": 0.9,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "crown",
+      "label": "Fluted winding crown",
+      "parts": [
+        "crown"
+      ],
+      "offset": [
+        0.031,
+        0.0,
+        0.0
+      ],
+      "start": 0.36,
+      "end": 0.9,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "crown_inset",
+      "label": "Crown cap detail",
+      "parts": [
+        "crown_inset"
+      ],
+      "offset": [
+        0.034,
+        0.0,
+        0.0
+      ],
+      "start": 0.36,
+      "end": 0.9,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "balance",
+      "label": "Gold balance wheel",
+      "parts": [
+        "balance"
+      ],
+      "offset": [
+        -0.01,
+        0.02,
+        -0.009000000000000001
+      ],
+      "start": 0.54,
+      "end": 1,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hairspring",
+      "label": "Coiled hairspring",
+      "parts": [
+        "hairspring"
+      ],
+      "offset": [
+        -0.013000000000000001,
+        0.024,
+        -0.015
+      ],
+      "start": 0.54,
+      "end": 1,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "pallet_fork",
+      "label": "Swiss lever pallet fork",
+      "parts": [
+        "pallet_fork"
+      ],
+      "offset": [
+        -0.022,
+        0.015,
+        -0.014
+      ],
+      "start": 0.54,
+      "end": 1,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "pallet_1",
+      "label": "Pallet stone 1",
+      "parts": [
+        "pallet_1"
+      ],
+      "offset": [
+        -0.024,
+        0.012,
+        -0.016
+      ],
+      "start": 0.54,
+      "end": 1,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "pallet_2",
+      "label": "Pallet stone 2",
+      "parts": [
+        "pallet_2"
+      ],
+      "offset": [
+        -0.026000000000000002,
+        0.017,
+        -0.016
+      ],
+      "start": 0.54,
+      "end": 1,
+      "evidence": "inferred",
+      "note": "The ETA 6497-1 technical communication supports the function; Squelette-specific dimensions and interfaces are estimated."
+    },
+    {
+      "id": "front_setting_1",
+      "label": "Front jewel setting 1",
+      "parts": [
+        "front_setting_1"
+      ],
+      "offset": [
+        -0.0063750000000000005,
+        0.01344,
+        0.013000000000000001
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "front_jewel_1",
+      "label": "Front ruby bearing 1",
+      "parts": [
+        "front_jewel_1"
+      ],
+      "offset": [
+        -0.0068850000000000005,
+        0.0144,
+        0.015
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "front_setting_2",
+      "label": "Front jewel setting 2",
+      "parts": [
+        "front_setting_2"
+      ],
+      "offset": [
+        -0.0153,
+        5.599999999999999e-05,
+        0.0141
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "front_jewel_2",
+      "label": "Front ruby bearing 2",
+      "parts": [
+        "front_jewel_2"
+      ],
+      "offset": [
+        -0.016524,
+        6e-05,
+        0.016100000000000003
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "front_setting_3",
+      "label": "Front jewel setting 3",
+      "parts": [
+        "front_setting_3"
+      ],
+      "offset": [
+        -0.015225000000000002,
+        0.006916,
+        0.0152
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "front_jewel_3",
+      "label": "Front ruby bearing 3",
+      "parts": [
+        "front_jewel_3"
+      ],
+      "offset": [
+        -0.016443000000000003,
+        0.00741,
+        0.0172
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "front_setting_4",
+      "label": "Front jewel setting 4",
+      "parts": [
+        "front_setting_4"
+      ],
+      "offset": [
+        -0.009149999999999998,
+        -0.00315,
+        0.016300000000000002
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "front_jewel_4",
+      "label": "Front ruby bearing 4",
+      "parts": [
+        "front_jewel_4"
+      ],
+      "offset": [
+        -0.009882,
+        -0.003375,
+        0.0183
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "rear_setting_1",
+      "label": "Rear jewel setting 1",
+      "parts": [
+        "rear_setting_1"
+      ],
+      "offset": [
+        -0.0063750000000000005,
+        0.01344,
+        -0.013000000000000001
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "rear_jewel_1",
+      "label": "Rear ruby bearing 1",
+      "parts": [
+        "rear_jewel_1"
+      ],
+      "offset": [
+        -0.0068850000000000005,
+        0.0144,
+        -0.015
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "rear_setting_2",
+      "label": "Rear jewel setting 2",
+      "parts": [
+        "rear_setting_2"
+      ],
+      "offset": [
+        -0.0153,
+        5.599999999999999e-05,
+        -0.0141
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "rear_jewel_2",
+      "label": "Rear ruby bearing 2",
+      "parts": [
+        "rear_jewel_2"
+      ],
+      "offset": [
+        -0.016524,
+        6e-05,
+        -0.016100000000000003
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "rear_setting_3",
+      "label": "Rear jewel setting 3",
+      "parts": [
+        "rear_setting_3"
+      ],
+      "offset": [
+        -0.015225000000000002,
+        0.006916,
+        -0.0152
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "rear_jewel_3",
+      "label": "Rear ruby bearing 3",
+      "parts": [
+        "rear_jewel_3"
+      ],
+      "offset": [
+        -0.016443000000000003,
+        0.00741,
+        -0.0172
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "rear_setting_4",
+      "label": "Rear jewel setting 4",
+      "parts": [
+        "rear_setting_4"
+      ],
+      "offset": [
+        -0.010649999999999998,
+        -0.0032199999999999998,
+        -0.016300000000000002
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "rear_jewel_4",
+      "label": "Rear ruby bearing 4",
+      "parts": [
+        "rear_jewel_4"
+      ],
+      "offset": [
+        -0.011502,
+        -0.00345,
+        -0.0183
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "rear_setting_5",
+      "label": "Rear jewel setting 5",
+      "parts": [
+        "rear_setting_5"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        -0.0174
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "rear_jewel_5",
+      "label": "Rear ruby bearing 5",
+      "parts": [
+        "rear_jewel_5"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        -0.0194
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_01",
+      "label": "Balance Cock screw",
+      "parts": [
+        "screw_01"
+      ],
+      "offset": [
+        -0.00871,
+        0.018900000000000004,
+        0.015
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_02",
+      "label": "Balance Cock screw",
+      "parts": [
+        "screw_02"
+      ],
+      "offset": [
+        -0.011596,
+        0.009720000000000001,
+        0.017
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_03",
+      "label": "Balance Cock screw",
+      "parts": [
+        "screw_03"
+      ],
+      "offset": [
+        -0.0027300000000000007,
+        0.009450000000000002,
+        0.019
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_04",
+      "label": "Setting Bridge screw",
+      "parts": [
+        "screw_04"
+      ],
+      "offset": [
+        0.014443,
+        0.015795,
+        0.015
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_05",
+      "label": "Setting Bridge screw",
+      "parts": [
+        "screw_05"
+      ],
+      "offset": [
+        0.013091000000000002,
+        0.004914000000000001,
+        0.017
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_06",
+      "label": "Dial Web screw",
+      "parts": [
+        "screw_06"
+      ],
+      "offset": [
+        -0.01911,
+        0.0014850000000000004,
+        0.019
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_07",
+      "label": "Dial Web screw",
+      "parts": [
+        "screw_07"
+      ],
+      "offset": [
+        -0.01703,
+        -0.01107,
+        0.015
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_08",
+      "label": "Dial Web screw",
+      "parts": [
+        "screw_08"
+      ],
+      "offset": [
+        -0.009555,
+        -0.017415000000000003,
+        0.017
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_09",
+      "label": "Dial Web screw",
+      "parts": [
+        "screw_09"
+      ],
+      "offset": [
+        0.013481,
+        -0.014093999999999999,
+        0.019
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_10",
+      "label": "Dial Web screw",
+      "parts": [
+        "screw_10"
+      ],
+      "offset": [
+        0.01859,
+        -0.004050000000000001,
+        0.015
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_11",
+      "label": "Rear Train Bridge screw",
+      "parts": [
+        "screw_11"
+      ],
+      "offset": [
+        -0.01716,
+        -0.011596500000000001,
+        -0.017
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_12",
+      "label": "Rear Train Bridge screw",
+      "parts": [
+        "screw_12"
+      ],
+      "offset": [
+        -0.0182,
+        0.0084375,
+        -0.019
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_13",
+      "label": "Rear Balance Cock screw",
+      "parts": [
+        "screw_13"
+      ],
+      "offset": [
+        0.0016120000000000002,
+        0.019844999999999998,
+        -0.015
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_14",
+      "label": "Rear Barrel Bridge screw",
+      "parts": [
+        "screw_14"
+      ],
+      "offset": [
+        0.011635,
+        -0.016200000000000003,
+        -0.017
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_15",
+      "label": "Ratchet Wheel screw",
+      "parts": [
+        "screw_15"
+      ],
+      "offset": [
+        0.005785,
+        -0.01107,
+        -0.019
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "screw_16",
+      "label": "Crown Wheel screw",
+      "parts": [
+        "screw_16"
+      ],
+      "offset": [
+        0.01352,
+        -6.75e-05,
+        -0.015
+      ],
+      "start": 0.32,
+      "end": 0.84,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_hand",
+      "label": "Hour hand",
+      "parts": [
+        "hour_hand"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.019740000000000004
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hour_hand_inlay",
+      "label": "Hour hand luminous inlay",
+      "parts": [
+        "hour_hand_inlay"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.022740000000000003
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "minute_hand",
+      "label": "Minute hand",
+      "parts": [
+        "minute_hand"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.02074
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "minute_hand_inlay",
+      "label": "Minute hand luminous inlay",
+      "parts": [
+        "minute_hand_inlay"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.023740000000000004
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "seconds_hand",
+      "label": "Small seconds hand",
+      "parts": [
+        "seconds_hand"
+      ],
+      "offset": [
+        -0.00867,
+        3.8e-05,
+        0.01784
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "seconds_hand_inlay",
+      "label": "Small seconds hand luminous inlay",
+      "parts": [
+        "seconds_hand_inlay"
+      ],
+      "offset": [
+        -0.01122,
+        4.4000000000000006e-05,
+        0.02084
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "hand_cap",
+      "label": "Central hand stack cap",
+      "parts": [
+        "hand_cap"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.026000000000000002
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    },
+    {
+      "id": "seconds_mark",
+      "label": "Subsidiary seconds legend",
+      "parts": [
+        "seconds_mark"
+      ],
+      "offset": [
+        -0.016,
+        0.003,
+        0.01
+      ],
+      "start": 0.19,
+      "end": 0.65,
+      "evidence": "observed",
+      "note": "Exact-watch factory photos show the appearance; hidden dimensions are estimated."
+    }
+  ]
+}

@@ -1,10 +1,104 @@
 <!doctype html>
 <html lang="en">
+<head>
   <meta charset="utf-8">
-  <title>Live demo testbed</title>
-  <h1>Live demo testbed</h1>
-  <details>
-    <summary>Try the demo</summary>
-    <p>The live page is working.</p>
-  </details>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore interactive 3D reconstructions of the Sirius 7 radial engine and Tissot T-Complication Squelette.">
+  <title>MakeTwin · Your Digital Product Explorer</title>
+  <link rel="icon" href="./photos/symbol.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./home.css">
+  <script>
+    try {
+      const introKey = 'maketwin-intro-v1';
+      if (!matchMedia('(prefers-reduced-motion: reduce)').matches && !sessionStorage.getItem(introKey)) {
+        sessionStorage.setItem(introKey, 'played');
+        document.documentElement.classList.add('intro-playing');
+      }
+    } catch {
+      // Leave the homepage visible if session storage is unavailable.
+    }
+  </script>
+  <script src="./intro.js" defer onerror="document.documentElement.classList.remove('intro-playing')"></script>
+</head>
+<body>
+  <div class="page-dots" aria-hidden="true"></div>
+  <div class="site-shell" id="homepage">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="MakeTwin home">
+        <img class="brand-symbol" src="./photos/symbol.svg" alt="" width="169" height="149">
+        <img class="brand-wordmark" src="./photos/wordmark.webp" alt="" width="1024" height="173">
+      </a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <h1 id="page-title" tabindex="-1">Your <em>Digital</em><br>
+        <em>Product</em> Explorer.</h1>
+      </section>
+
+      <div class="home-content">
+        <section class="demos" aria-labelledby="demos-title">
+          <div class="demos-intro">
+            <h2 id="demos-title">Live Demos</h2>
+            <p>Click and <em>Explore</em></p>
+          </div>
+          <a class="product-card product-card--engine" href="./products/Sirius7/index.html">
+            <span class="product-visual">
+              <img src="./photos/engine-transparent.webp" alt="">
+            </span>
+            <span class="product-name">O.S. Engines<br>FR7-420 Sirius</span>
+          </a>
+          <a class="product-card product-card--watch" href="./products/Tissot/index.html">
+            <span class="product-visual">
+              <img src="./photos/watch-transparent.webp" alt="">
+            </span>
+            <span class="product-name">Tissot<br>T-Complication Squelette</span>
+          </a>
+        </section>
+
+        <section class="workflow" aria-labelledby="workflow-title">
+          <h2 id="workflow-title">From Photos to <em>Digital Twins</em></h2>
+          <ol class="workflow-steps">
+            <li class="workflow-step">
+              <div class="workflow-visual workflow-prompt" aria-label="You and the AI agent">
+                <span class="prompt-message">Read SKILL.md. Model the radial engine shown in /engine-photos.</span>
+                <span class="prompt-reply">On it!</span>
+              </div>
+              <p>Start with product photos and a short brief describing what to recreate.</p>
+            </li>
+            <li class="workflow-step">
+              <div class="workflow-visual">
+                <img src="./photos/annotated-engine-transparent.webp" alt="Radial engine with component dimensions marked by the agent" loading="lazy">
+              </div>
+              <p>The agent models individual parts and assembles them into a 3D model.</p>
+            </li>
+            <li class="workflow-step">
+              <div class="workflow-visual">
+                <img src="./photos/engine-explode.webp" alt="Radial engine with its front assembly pulled apart" loading="lazy">
+              </div>
+              <p>Rotate the finished model and pull the assembly apart to see how it fits together.</p>
+            </li>
+          </ol>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <div class="intro" hidden>
+    <button class="intro-skip" type="button">Skip intro</button>
+    <div class="intro-lockup" aria-hidden="true">
+      <div class="intro-symbol">
+        <img class="intro-layer" data-layer="base" src="./photos/logo-base.svg" alt="" width="169" height="149">
+        <img class="intro-layer" data-layer="top" src="./photos/logo-top.svg" alt="" width="169" height="149">
+        <img class="intro-layer" data-layer="middle" src="./photos/logo-middle.svg" alt="" width="169" height="149">
+        <img class="intro-layer" data-layer="bottom" src="./photos/logo-bottom.svg" alt="" width="169" height="149">
+      </div>
+      <img class="intro-wordmark" data-layer="wordmark" src="./photos/wordmark.webp" alt="" width="1024" height="173">
+    </div>
+    <div class="selection-box" aria-hidden="true"></div>
+    <svg class="intro-cursor" aria-hidden="true" width="25" height="29" viewBox="0 0 25 29" fill="none">
+      <path d="M2 2 4.8 24.2 10.5 18.3 15.1 26.7 19 24.6 14.5 16.3 22.7 15.2 2 2Z" fill="currentColor"/>
+    </svg>
+  </div>
+</body>
 </html>

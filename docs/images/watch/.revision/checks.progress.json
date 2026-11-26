@@ -1,0 +1,2344 @@
+{
+  "status": "incomplete",
+  "completedStages": [
+    {
+      "stage": "naming/materials",
+      "seconds": 0.001
+    },
+    {
+      "stage": "placement",
+      "seconds": 0.002
+    },
+    {
+      "stage": "mesh health",
+      "seconds": 0.129
+    },
+    {
+      "stage": "z-fighting",
+      "seconds": 10.562
+    },
+    {
+      "stage": "contact declarations",
+      "seconds": 0.0
+    },
+    {
+      "stage": "rest overlaps",
+      "seconds": 0.065
+    },
+    {
+      "stage": "support/floating",
+      "seconds": 0.136
+    },
+    {
+      "stage": "joint pivots",
+      "seconds": 0.001
+    },
+    {
+      "stage": "motion collisions",
+      "seconds": 10.016
+    }
+  ],
+  "findings": [
+    {
+      "severity": "warning",
+      "code": "placement",
+      "message": "product bottom is at z=-36.0 mm; it should rest on z=0",
+      "parts": [],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'front_crystal': 3584 of 5632 creased edges are shallow (8-40 deg) and shaded flat (0/3074 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "front_crystal"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "open_mesh",
+      "message": "'caseback_markings': 8232 open edges, 0 non-manifold edges; close holes or give the surface thickness (shapes.shell)",
+      "parts": [
+        "caseback_markings"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'rear_crystal': 3584 of 5632 creased edges are shallow (8-40 deg) and shaded flat (0/3074 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "rear_crystal"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'upper_lugs': 190 of 260 creased edges are shallow (8-40 deg) and shaded flat (0/128 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "upper_lugs"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'upper_bar': 850 of 1536 creased edges are shallow (8-40 deg) and shaded flat (0/770 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "upper_bar"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'upper_strap': 177 of 490 creased edges are shallow (8-40 deg) and shaded flat (0/320 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "upper_strap"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'upper_emboss': 2880 of 2880 creased edges are shallow (8-40 deg) and shaded flat (0/1470 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "upper_emboss"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'upper_stitch': 5760 of 5760 creased edges are shallow (8-40 deg) and shaded flat (0/2940 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "upper_stitch"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'lower_lugs': 190 of 260 creased edges are shallow (8-40 deg) and shaded flat (0/128 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "lower_lugs"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'lower_bar': 850 of 1536 creased edges are shallow (8-40 deg) and shaded flat (0/770 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "lower_bar"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'lower_strap': 177 of 490 creased edges are shallow (8-40 deg) and shaded flat (0/320 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "lower_strap"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'lower_emboss': 2880 of 2880 creased edges are shallow (8-40 deg) and shaded flat (0/1470 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "lower_emboss"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'lower_stitch': 5760 of 5760 creased edges are shallow (8-40 deg) and shaded flat (0/2940 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "lower_stitch"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'clasp': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "clasp"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "open_mesh",
+      "message": "'clasp_mark': 32 open edges, 0 non-manifold edges; close holes or give the surface thickness (shapes.shell)",
+      "parts": [
+        "clasp_mark"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'clasp_blade_1': 82 of 119 creased edges are shallow (8-40 deg) and shaded flat (0/59 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "clasp_blade_1"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'clasp_blade_3': 82 of 119 creased edges are shallow (8-40 deg) and shaded flat (0/59 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "clasp_blade_3"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_marker_00': 72 of 108 creased edges are shallow (8-40 deg) and shaded flat (0/54 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_marker_00"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_lume_00': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_lume_00"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'minute_scale': 9216 of 9216 creased edges are shallow (8-40 deg) and shaded flat (0/4704 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "minute_scale"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_marker_01': 72 of 108 creased edges are shallow (8-40 deg) and shaded flat (0/54 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_marker_01"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_lume_01': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_lume_01"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_marker_02': 72 of 108 creased edges are shallow (8-40 deg) and shaded flat (0/54 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_marker_02"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_lume_02': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_lume_02"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_marker_03': 72 of 108 creased edges are shallow (8-40 deg) and shaded flat (0/54 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_marker_03"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_lume_03': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_lume_03"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_marker_04': 72 of 108 creased edges are shallow (8-40 deg) and shaded flat (0/54 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_marker_04"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_lume_04': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_lume_04"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_marker_05': 72 of 108 creased edges are shallow (8-40 deg) and shaded flat (0/54 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_marker_05"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_lume_05': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_lume_05"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_marker_06': 72 of 108 creased edges are shallow (8-40 deg) and shaded flat (0/54 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_marker_06"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_lume_06': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_lume_06"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_marker_07': 72 of 108 creased edges are shallow (8-40 deg) and shaded flat (0/54 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_marker_07"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_lume_07': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_lume_07"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_marker_08': 72 of 108 creased edges are shallow (8-40 deg) and shaded flat (0/54 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_marker_08"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_lume_08': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_lume_08"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_marker_09': 72 of 108 creased edges are shallow (8-40 deg) and shaded flat (0/54 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_marker_09"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_lume_09': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_lume_09"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_marker_10': 72 of 108 creased edges are shallow (8-40 deg) and shaded flat (0/54 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_marker_10"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_lume_10': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_lume_10"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_marker_11': 72 of 108 creased edges are shallow (8-40 deg) and shaded flat (0/54 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_marker_11"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_lume_11': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_lume_11"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "open_mesh",
+      "message": "'swiss': 1532 open edges, 0 non-manifold edges; close holes or give the surface thickness (shapes.shell)",
+      "parts": [
+        "swiss"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "open_mesh",
+      "message": "'made': 368 open edges, 0 non-manifold edges; close holes or give the surface thickness (shapes.shell)",
+      "parts": [
+        "made"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'nameplate': 121 of 162 creased edges are shallow (8-40 deg) and shaded flat (0/80 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "nameplate"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "open_mesh",
+      "message": "'signature': 3124 open edges, 0 non-manifold edges; close holes or give the surface thickness (shapes.shell)",
+      "parts": [
+        "signature"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'dial_web': 1566 of 2027 creased edges are shallow (8-40 deg) and shaded flat (0/989 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "dial_web"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'balance_cock': 196 of 271 creased edges are shallow (8-40 deg) and shaded flat (0/133 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "balance_cock"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'setting_bridge': 290 of 389 creased edges are shallow (8-40 deg) and shaded flat (0/189 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "setting_bridge"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'rear_train_bridge': 476 of 644 creased edges are shallow (8-40 deg) and shaded flat (0/317 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "rear_train_bridge"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'rear_barrel_bridge': 352 of 476 creased edges are shallow (8-40 deg) and shaded flat (0/234 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "rear_barrel_bridge"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'rear_balance_cock': 138 of 173 creased edges are shallow (8-40 deg) and shaded flat (0/85 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "rear_balance_cock"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'click': 87 of 119 creased edges are shallow (8-40 deg) and shaded flat (0/59 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "click"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'stem': 898 of 1536 creased edges are shallow (8-40 deg) and shaded flat (0/770 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "stem"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'crown': 3424 of 6999 creased edges are shallow (8-40 deg) and shaded flat (0/3264 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "crown"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'crown_inset': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "crown_inset"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'balance': 1248 of 3697 creased edges are shallow (8-40 deg) and shaded flat (774/1934 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "balance"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'pallet_fork': 257 of 324 creased edges are shallow (8-40 deg) and shaded flat (0/158 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "pallet_fork"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'pallet_1': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "pallet_1"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'pallet_2': 192 of 192 creased edges are shallow (8-40 deg) and shaded flat (0/98 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "pallet_2"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'front_jewel_1': 1048 of 1920 creased edges are shallow (8-40 deg) and shaded flat (0/962 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "front_jewel_1"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'front_jewel_2': 1084 of 1920 creased edges are shallow (8-40 deg) and shaded flat (0/962 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "front_jewel_2"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'front_jewel_3': 1040 of 1920 creased edges are shallow (8-40 deg) and shaded flat (0/962 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "front_jewel_3"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'front_jewel_4': 1052 of 1920 creased edges are shallow (8-40 deg) and shaded flat (0/962 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "front_jewel_4"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'rear_jewel_1': 1048 of 1920 creased edges are shallow (8-40 deg) and shaded flat (0/962 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "rear_jewel_1"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'rear_jewel_2': 1082 of 1920 creased edges are shallow (8-40 deg) and shaded flat (0/962 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "rear_jewel_2"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'rear_jewel_3': 1040 of 1920 creased edges are shallow (8-40 deg) and shaded flat (0/962 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "rear_jewel_3"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'rear_jewel_4': 1056 of 1920 creased edges are shallow (8-40 deg) and shaded flat (0/962 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "rear_jewel_4"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'rear_jewel_5': 1114 of 1920 creased edges are shallow (8-40 deg) and shaded flat (0/962 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "rear_jewel_5"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_01': 808 of 1460 creased edges are shallow (8-40 deg) and shaded flat (0/730 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_01"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_02': 808 of 1472 creased edges are shallow (8-40 deg) and shaded flat (0/734 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_02"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_03': 816 of 1472 creased edges are shallow (8-40 deg) and shaded flat (0/734 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_03"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_04': 808 of 1460 creased edges are shallow (8-40 deg) and shaded flat (0/730 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_04"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_05': 808 of 1460 creased edges are shallow (8-40 deg) and shaded flat (0/730 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_05"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_06': 844 of 1500 creased edges are shallow (8-40 deg) and shaded flat (0/742 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_06"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_07': 808 of 1452 creased edges are shallow (8-40 deg) and shaded flat (0/726 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_07"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_08': 808 of 1458 creased edges are shallow (8-40 deg) and shaded flat (0/728 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_08"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_09': 808 of 1452 creased edges are shallow (8-40 deg) and shaded flat (0/726 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_09"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_10': 808 of 1464 creased edges are shallow (8-40 deg) and shaded flat (0/730 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_10"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_11': 808 of 1456 creased edges are shallow (8-40 deg) and shaded flat (0/728 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_11"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_12': 808 of 1468 creased edges are shallow (8-40 deg) and shaded flat (0/732 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_12"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_13': 832 of 1502 creased edges are shallow (8-40 deg) and shaded flat (0/744 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_13"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_14': 808 of 1452 creased edges are shallow (8-40 deg) and shaded flat (0/726 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_14"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_15': 876 of 1550 creased edges are shallow (8-40 deg) and shaded flat (0/762 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_15"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'screw_16': 876 of 1550 creased edges are shallow (8-40 deg) and shaded flat (0/762 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "screw_16"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hour_hand': 117 of 164 creased edges are shallow (8-40 deg) and shaded flat (0/80 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hour_hand"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'minute_hand': 115 of 164 creased edges are shallow (8-40 deg) and shaded flat (0/80 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "minute_hand"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'seconds_hand': 101 of 164 creased edges are shallow (8-40 deg) and shaded flat (0/80 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "seconds_hand"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "faceted",
+      "message": "'hand_cap': 1320 of 2304 creased edges are shallow (8-40 deg) and shaded flat (0/1154 faces smooth): add segments/subdivision and use core.smooth()",
+      "parts": [
+        "hand_cap"
+      ],
+      "where": null
+    },
+    {
+      "severity": "warning",
+      "code": "open_mesh",
+      "message": "'seconds_mark': 1120 open edges, 0 non-manifold edges; close holes or give the surface thickness (shapes.shell)",
+      "parts": [
+        "seconds_mark"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "384 face pairs lie in the same plane between 'bezel' and 'front_gasket' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "bezel",
+        "front_gasket"
+      ],
+      "where": [
+        0.0188,
+        -0.0049,
+        0.0005
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1588 face pairs lie in the same plane between 'caseback' and 'caseback_markings' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "caseback",
+        "caseback_markings"
+      ],
+      "where": [
+        0.0014,
+        0.006,
+        0.0185
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "65 face pairs lie in the same plane inside 'caseback_markings' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "caseback_markings"
+      ],
+      "where": [
+        0.0022,
+        0.0061,
+        0.0189
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "242 face pairs lie in the same plane between 'caseback_markings' and 'rear_crystal' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "caseback_markings",
+        "rear_crystal"
+      ],
+      "where": [
+        0.0111,
+        0.0061,
+        0.0106
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "64 face pairs lie in the same plane inside 'upper_bar' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "upper_bar"
+      ],
+      "where": [
+        -0.0111,
+        0.003,
+        0.0238
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "4 face pairs lie in the same plane between 'upper_emboss' and 'upper_strap' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "upper_emboss",
+        "upper_strap"
+      ],
+      "where": [
+        0.0,
+        0.0008,
+        0.0222
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "64 face pairs lie in the same plane inside 'lower_bar' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "lower_bar"
+      ],
+      "where": [
+        -0.0111,
+        0.003,
+        -0.0241
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "4 face pairs lie in the same plane between 'lower_emboss' and 'lower_strap' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "lower_emboss",
+        "lower_strap"
+      ],
+      "where": [
+        0.0,
+        0.0008,
+        -0.0222
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "4 face pairs lie in the same plane between 'clasp' and 'clasp_mark' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "clasp",
+        "clasp_mark"
+      ],
+      "where": [
+        0.0,
+        0.0143,
+        0.0332
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "3 face pairs lie in the same plane inside 'clasp_mark' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "clasp_mark"
+      ],
+      "where": [
+        0.0009,
+        0.0143,
+        0.0341
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "56 face pairs lie in the same plane between 'chapter_ring' and 'minute_scale' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "chapter_ring",
+        "minute_scale"
+      ],
+      "where": [
+        0.0166,
+        -0.0042,
+        0.0074
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'hour_lume_00' and 'hour_marker_00' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "hour_lume_00",
+        "hour_marker_00"
+      ],
+      "where": [
+        0.0,
+        -0.0045,
+        0.0178
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'hour_lume_01' and 'hour_marker_01' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "hour_lume_01",
+        "hour_marker_01"
+      ],
+      "where": [
+        0.0089,
+        -0.0045,
+        0.0154
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'hour_lume_02' and 'hour_marker_02' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "hour_lume_02",
+        "hour_marker_02"
+      ],
+      "where": [
+        0.0154,
+        -0.0045,
+        0.0089
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'hour_lume_03' and 'hour_marker_03' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "hour_lume_03",
+        "hour_marker_03"
+      ],
+      "where": [
+        0.0178,
+        -0.0045,
+        0.0
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'hour_lume_04' and 'hour_marker_04' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "hour_lume_04",
+        "hour_marker_04"
+      ],
+      "where": [
+        0.0154,
+        -0.0045,
+        -0.0089
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'hour_lume_05' and 'hour_marker_05' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "hour_lume_05",
+        "hour_marker_05"
+      ],
+      "where": [
+        0.0089,
+        -0.0045,
+        -0.0154
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'hour_lume_06' and 'hour_marker_06' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "hour_lume_06",
+        "hour_marker_06"
+      ],
+      "where": [
+        0.0,
+        -0.0045,
+        -0.0178
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'hour_lume_07' and 'hour_marker_07' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "hour_lume_07",
+        "hour_marker_07"
+      ],
+      "where": [
+        -0.0089,
+        -0.0045,
+        -0.0154
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'hour_lume_08' and 'hour_marker_08' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "hour_lume_08",
+        "hour_marker_08"
+      ],
+      "where": [
+        -0.0154,
+        -0.0045,
+        -0.0089
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'hour_lume_09' and 'hour_marker_09' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "hour_lume_09",
+        "hour_marker_09"
+      ],
+      "where": [
+        -0.0178,
+        -0.0045,
+        0.0
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'hour_lume_10' and 'hour_marker_10' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "hour_lume_10",
+        "hour_marker_10"
+      ],
+      "where": [
+        -0.0154,
+        -0.0045,
+        0.0089
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'hour_lume_11' and 'hour_marker_11' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "hour_lume_11",
+        "hour_marker_11"
+      ],
+      "where": [
+        -0.0089,
+        -0.0045,
+        0.0154
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "26 face pairs lie in the same plane inside 'swiss' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "swiss"
+      ],
+      "where": [
+        -0.0038,
+        -0.0043,
+        -0.0167
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "7 face pairs lie in the same plane inside 'made' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "made"
+      ],
+      "where": [
+        0.0035,
+        -0.0043,
+        -0.0169
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "763 face pairs lie in the same plane between 'nameplate' and 'signature' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "nameplate",
+        "signature"
+      ],
+      "where": [
+        0.0141,
+        -0.0034,
+        0.0064
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "6 face pairs lie in the same plane between 'mainplate' and 'stem' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "mainplate",
+        "stem"
+      ],
+      "where": [
+        0.0182,
+        -0.0003,
+        0.0
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'ratchet_wheel' and 'rear_barrel_bridge' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "ratchet_wheel",
+        "rear_barrel_bridge"
+      ],
+      "where": [
+        0.0041,
+        0.0038,
+        -0.0053
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "140 face pairs lie in the same plane between 'barrel' and 'barrel_cap' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "barrel",
+        "barrel_cap"
+      ],
+      "where": [
+        0.0098,
+        0.0018,
+        -0.0034
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "6 face pairs lie in the same plane between 'barrel_cap' and 'third_wheel' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "barrel_cap",
+        "third_wheel"
+      ],
+      "where": [
+        -0.0025,
+        0.0018,
+        -0.0045
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "9 face pairs lie in the same plane between 'crown_wheel' and 'ratchet_wheel' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "crown_wheel",
+        "ratchet_wheel"
+      ],
+      "where": [
+        0.0087,
+        0.0042,
+        -0.0034
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'ratchet_wheel' and 'screw_15' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "ratchet_wheel",
+        "screw_15"
+      ],
+      "where": [
+        0.0044,
+        0.0042,
+        -0.0084
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "2 face pairs lie in the same plane between 'click' and 'ratchet_wheel' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "click",
+        "ratchet_wheel"
+      ],
+      "where": [
+        0.0039,
+        0.0042,
+        -0.0149
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "2 face pairs lie in the same plane between 'sliding_pinion' and 'stem' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "sliding_pinion",
+        "stem"
+      ],
+      "where": [
+        0.0136,
+        0.0009,
+        -0.0
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "64 face pairs lie in the same plane inside 'stem' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "stem"
+      ],
+      "where": [
+        0.013,
+        0.0007,
+        -0.0001
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "120 face pairs lie in the same plane between 'crown' and 'crown_inset' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "crown",
+        "crown_inset"
+      ],
+      "where": [
+        0.0248,
+        0.0002,
+        -0.0
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "10 face pairs lie in the same plane inside 'balance' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "balance"
+      ],
+      "where": [
+        -0.0035,
+        0.0011,
+        0.0101
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "4 face pairs lie in the same plane between 'pallet_2' and 'pallet_fork' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "pallet_2",
+        "pallet_fork"
+      ],
+      "where": [
+        -0.0104,
+        0.0023,
+        0.0069
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "2 face pairs lie in the same plane between 'pallet_1' and 'pallet_fork' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "pallet_1",
+        "pallet_fork"
+      ],
+      "where": [
+        -0.0101,
+        0.0023,
+        0.0058
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "120 face pairs lie in the same plane inside 'front_jewel_1' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "front_jewel_1"
+      ],
+      "where": [
+        -0.0041,
+        -0.0025,
+        0.0101
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "120 face pairs lie in the same plane inside 'front_jewel_2' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "front_jewel_2"
+      ],
+      "where": [
+        -0.0101,
+        -0.0021,
+        0.0004
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "120 face pairs lie in the same plane inside 'front_jewel_3' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "front_jewel_3"
+      ],
+      "where": [
+        -0.01,
+        -0.002,
+        0.0053
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "120 face pairs lie in the same plane inside 'front_jewel_4' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "front_jewel_4"
+      ],
+      "where": [
+        -0.006,
+        -0.0021,
+        -0.0019
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "120 face pairs lie in the same plane inside 'rear_jewel_1' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "rear_jewel_1"
+      ],
+      "where": [
+        -0.0041,
+        0.0037,
+        0.0101
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "120 face pairs lie in the same plane inside 'rear_jewel_2' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "rear_jewel_2"
+      ],
+      "where": [
+        -0.01,
+        0.004,
+        0.0004
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "120 face pairs lie in the same plane inside 'rear_jewel_3' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "rear_jewel_3"
+      ],
+      "where": [
+        -0.01,
+        0.004,
+        0.0054
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "120 face pairs lie in the same plane inside 'rear_jewel_4' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "rear_jewel_4"
+      ],
+      "where": [
+        -0.0069,
+        0.004,
+        -0.0019
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "120 face pairs lie in the same plane inside 'rear_jewel_5' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "rear_jewel_5"
+      ],
+      "where": [
+        0.0002,
+        0.004,
+        0.0005
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "4 face pairs lie in the same plane inside 'screw_01' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "screw_01"
+      ],
+      "where": [
+        -0.0065,
+        -0.0021,
+        0.0145
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'balance_cock' and 'screw_01' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "balance_cock",
+        "screw_01"
+      ],
+      "where": [
+        -0.0068,
+        -0.0022,
+        0.0145
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "12 face pairs lie in the same plane inside 'screw_02' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "screw_02"
+      ],
+      "where": [
+        -0.0085,
+        -0.002,
+        0.0074
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "3 face pairs lie in the same plane between 'balance_cock' and 'screw_02' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "balance_cock",
+        "screw_02"
+      ],
+      "where": [
+        -0.0092,
+        -0.0022,
+        0.0072
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "12 face pairs lie in the same plane inside 'screw_03' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "screw_03"
+      ],
+      "where": [
+        -0.0019,
+        -0.0021,
+        0.0075
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'balance_cock' and 'screw_03' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "balance_cock",
+        "screw_03"
+      ],
+      "where": [
+        -0.0021,
+        -0.0022,
+        0.007
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "4 face pairs lie in the same plane inside 'screw_04' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "screw_04"
+      ],
+      "where": [
+        0.0114,
+        -0.0023,
+        0.0122
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'screw_04' and 'setting_bridge' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "screw_04",
+        "setting_bridge"
+      ],
+      "where": [
+        0.0111,
+        -0.0024,
+        0.0117
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "4 face pairs lie in the same plane inside 'screw_05' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "screw_05"
+      ],
+      "where": [
+        0.0103,
+        -0.0023,
+        0.0041
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'screw_05' and 'setting_bridge' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "screw_05",
+        "setting_bridge"
+      ],
+      "where": [
+        0.0101,
+        -0.0024,
+        0.0036
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "30 face pairs lie in the same plane inside 'screw_06' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "screw_06"
+      ],
+      "where": [
+        -0.0145,
+        -0.0018,
+        0.0016
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'dial_web' and 'screw_07' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "dial_web",
+        "screw_07"
+      ],
+      "where": [
+        -0.0132,
+        -0.0019,
+        -0.0087
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "4 face pairs lie in the same plane inside 'screw_08' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "screw_08"
+      ],
+      "where": [
+        -0.0068,
+        -0.0018,
+        -0.0128
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'dial_web' and 'screw_08' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "dial_web",
+        "screw_08"
+      ],
+      "where": [
+        -0.0074,
+        -0.0018,
+        -0.0129
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "8 face pairs lie in the same plane inside 'screw_10' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "screw_10"
+      ],
+      "where": [
+        0.0145,
+        -0.0018,
+        -0.0025
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "2 face pairs lie in the same plane inside 'screw_11' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "screw_11"
+      ],
+      "where": [
+        -0.013,
+        0.0038,
+        -0.0091
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'rear_train_bridge' and 'screw_11' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "rear_train_bridge",
+        "screw_11"
+      ],
+      "where": [
+        -0.0132,
+        0.0039,
+        -0.0086
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "6 face pairs lie in the same plane inside 'screw_12' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "screw_12"
+      ],
+      "where": [
+        -0.0139,
+        0.0038,
+        0.0068
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'rear_train_bridge' and 'screw_12' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "rear_train_bridge",
+        "screw_12"
+      ],
+      "where": [
+        -0.014,
+        0.0039,
+        0.0063
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "28 face pairs lie in the same plane inside 'screw_13' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "screw_13"
+      ],
+      "where": [
+        0.0013,
+        0.0035,
+        0.0152
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'rear_balance_cock' and 'screw_13' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "rear_balance_cock",
+        "screw_13"
+      ],
+      "where": [
+        0.0012,
+        0.0036,
+        0.0147
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "4 face pairs lie in the same plane between 'ratchet_wheel' and 'screw_14' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "ratchet_wheel",
+        "screw_14"
+      ],
+      "where": [
+        0.0087,
+        0.0041,
+        -0.012
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'rear_barrel_bridge' and 'screw_14' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "rear_barrel_bridge",
+        "screw_14"
+      ],
+      "where": [
+        0.009,
+        0.004,
+        -0.012
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "3 face pairs lie in the same plane between 'crown_wheel' and 'screw_16' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "crown_wheel",
+        "screw_16"
+      ],
+      "where": [
+        0.0104,
+        0.0042,
+        -0.0
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'hour_hand' and 'hour_hand_inlay' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "hour_hand",
+        "hour_hand_inlay"
+      ],
+      "where": [
+        -0.0054,
+        -0.0036,
+        0.003
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'minute_hand' and 'minute_hand_inlay' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "minute_hand",
+        "minute_hand_inlay"
+      ],
+      "where": [
+        0.006,
+        -0.004,
+        0.0048
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "1 face pairs lie in the same plane between 'seconds_hand' and 'seconds_hand_inlay' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "seconds_hand",
+        "seconds_hand_inlay"
+      ],
+      "where": [
+        -0.0121,
+        -0.0026,
+        -0.0017
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "144 face pairs lie in the same plane inside 'hand_cap' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "hand_cap"
+      ],
+      "where": [
+        0.0006,
+        -0.0042,
+        0.0005
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "zfight",
+      "message": "272 face pairs lie in the same plane between 'dial_web' and 'seconds_mark' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm",
+      "parts": [
+        "dial_web",
+        "seconds_mark"
+      ],
+      "where": [
+        -0.0109,
+        -0.0017,
+        0.0018
+      ]
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'bezel' and 'front_gasket' pass through each other (492 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "bezel",
+        "front_gasket"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'bezel' and 'hour_marker_09' pass through each other (14 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "bezel",
+        "hour_marker_09"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'bezel' and 'hour_marker_08' pass through each other (14 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "bezel",
+        "hour_marker_08"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'bezel' and 'hour_marker_10' pass through each other (14 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "bezel",
+        "hour_marker_10"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'case_middle' and 'upper_strap' pass through each other (60 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "case_middle",
+        "upper_strap"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'case_middle' and 'lower_strap' pass through each other (60 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "case_middle",
+        "lower_strap"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'clasp' and 'upper_strap' pass through each other (48 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "clasp",
+        "upper_strap"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'upper_stitch' and 'upper_strap' pass through each other (350 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "upper_stitch",
+        "upper_strap"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'lower_stitch' and 'lower_strap' pass through each other (350 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "lower_stitch",
+        "lower_strap"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'bezel' and 'hour_marker_07' pass through each other (14 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "bezel",
+        "hour_marker_07"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'bezel' and 'hour_marker_11' pass through each other (14 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "bezel",
+        "hour_marker_11"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'balance_cock' and 'screw_02' pass through each other (104 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "balance_cock",
+        "screw_02"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'upper_emboss' and 'upper_strap' pass through each other (294 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "upper_emboss",
+        "upper_strap"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'lower_emboss' and 'lower_strap' pass through each other (294 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "lower_emboss",
+        "lower_strap"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'balance_cock' and 'screw_01' pass through each other (32 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "balance_cock",
+        "screw_01"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'balance_cock' and 'screw_03' pass through each other (128 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "balance_cock",
+        "screw_03"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'ratchet_wheel' and 'rear_barrel_bridge' pass through each other (255 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "ratchet_wheel",
+        "rear_barrel_bridge"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'rear_barrel_bridge' and 'rear_setting_5' pass through each other (74 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "rear_barrel_bridge",
+        "rear_setting_5"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'bezel' and 'hour_marker_00' pass through each other (14 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "bezel",
+        "hour_marker_00"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'bezel' and 'hour_marker_06' pass through each other (14 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "bezel",
+        "hour_marker_06"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'click' and 'ratchet_wheel' pass through each other (57 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "click",
+        "ratchet_wheel"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'click' and 'rear_barrel_bridge' pass through each other (22 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "click",
+        "rear_barrel_bridge"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'chapter_ring' and 'nameplate' pass through each other (25 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "chapter_ring",
+        "nameplate"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'crown_wheel' and 'ratchet_wheel' pass through each other (52 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "crown_wheel",
+        "ratchet_wheel"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'bezel' and 'hour_marker_01' pass through each other (14 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "bezel",
+        "hour_marker_01"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'bezel' and 'hour_marker_05' pass through each other (14 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "bezel",
+        "hour_marker_05"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'crown_wheel' and 'screw_16' pass through each other (132 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "crown_wheel",
+        "screw_16"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'screw_05' and 'setting_bridge' pass through each other (128 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "screw_05",
+        "setting_bridge"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'screw_04' and 'setting_bridge' pass through each other (128 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "screw_04",
+        "setting_bridge"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'mainplate' and 'stem' pass through each other (248 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "mainplate",
+        "stem"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'sliding_pinion' and 'stem' pass through each other (240 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "sliding_pinion",
+        "stem"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'bezel' and 'hour_marker_02' pass through each other (14 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "bezel",
+        "hour_marker_02"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'bezel' and 'hour_marker_04' pass through each other (14 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "bezel",
+        "hour_marker_04"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'stem' and 'winding_pinion' pass through each other (240 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "stem",
+        "winding_pinion"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "overlap",
+      "message": "'bezel' and 'hour_marker_03' pass through each other (14 crossing triangle pairs): leave a gap or cut a receiving pocket; declare contact only for a real fitted interface",
+      "parts": [
+        "bezel",
+        "hour_marker_03"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "motion_collision",
+      "message": "clip 'manual_winding' frame 24: 'ratchet_wheel' passes through 'rear_barrel_bridge' (253 crossing triangle pairs): move the pivot, add clearance or reduce the range",
+      "parts": [
+        "ratchet_wheel",
+        "rear_barrel_bridge"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "motion_collision",
+      "message": "clip 'manual_winding' frame 24: 'click' passes through 'ratchet_wheel' (51 crossing triangle pairs): move the pivot, add clearance or reduce the range",
+      "parts": [
+        "click",
+        "ratchet_wheel"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "motion_collision",
+      "message": "clip 'manual_winding' frame 24: 'crown_wheel' passes through 'ratchet_wheel' (52 crossing triangle pairs): move the pivot, add clearance or reduce the range",
+      "parts": [
+        "crown_wheel",
+        "ratchet_wheel"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "motion_collision",
+      "message": "clip 'manual_winding' frame 24: 'crown_wheel' passes through 'screw_16' (132 crossing triangle pairs): move the pivot, add clearance or reduce the range",
+      "parts": [
+        "crown_wheel",
+        "screw_16"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "motion_collision",
+      "message": "clip 'manual_winding' frame 24: 'mainplate' passes through 'stem' (248 crossing triangle pairs): move the pivot, add clearance or reduce the range",
+      "parts": [
+        "mainplate",
+        "stem"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "motion_collision",
+      "message": "clip 'manual_winding' frame 24: 'sliding_pinion' passes through 'stem' (240 crossing triangle pairs): move the pivot, add clearance or reduce the range",
+      "parts": [
+        "sliding_pinion",
+        "stem"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "motion_collision",
+      "message": "clip 'manual_winding' frame 24: 'stem' passes through 'winding_pinion' (240 crossing triangle pairs): move the pivot, add clearance or reduce the range",
+      "parts": [
+        "stem",
+        "winding_pinion"
+      ],
+      "where": null
+    },
+    {
+      "severity": "error",
+      "code": "motion_collision",
+      "message": "clip 'manual_winding' frame 28: 'ratchet_wheel' passes through 'screw_14' (10 crossing triangle pairs): move the pivot, add clearance or reduce the range",
+      "parts": [
+        "ratchet_wheel",
+        "screw_14"
+      ],
+      "where": null
+    }
+  ],
+  "sourceBlend": {
+    "file": "model.blend",
+    "bytes": 7664576,
+    "sha256": "7f850c368889e98ef9c32f5173892d0990838925fdb330b58950e6a392cb8ea8"
+  }
+}

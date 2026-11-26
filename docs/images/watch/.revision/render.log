@@ -1,0 +1,234 @@
+Blender 4.5.1 LTS (hash b0a72b245dcf built 2025-07-29 05:37:45)
+Read blend: "/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/model.blend"
+Fra:0 Mem:83.21M (Peak 94.79M) | Time:00:00.67 | Rendering 1 / 48 samples
+Fra:0 Mem:83.30M (Peak 94.79M) | Time:00:01.04 | Rendering 25 / 48 samples
+Fra:0 Mem:83.36M (Peak 94.79M) | Time:00:01.32 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/front.png'
+Time: 00:01.39 (Saving: 00:00.05)
+
+Fra:0 Mem:88.32M (Peak 88.32M) | Time:00:00.08 | Rendering 1 / 48 samples
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.46 | Rendering 25 / 48 samples
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.83 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/front_left.png'
+Time: 00:00.86 (Saving: 00:00.03)
+
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.07 | Rendering 1 / 48 samples
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.40 | Rendering 25 / 48 samples
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.71 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/left.png'
+Time: 00:00.74 (Saving: 00:00.02)
+
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.07 | Rendering 1 / 48 samples
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.43 | Rendering 25 / 48 samples
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.79 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/back.png'
+Time: 00:00.82 (Saving: 00:00.03)
+
+Fra:0 Mem:88.33M (Peak 95.05M) | Time:00:00.07 | Rendering 1 / 48 samples
+Fra:0 Mem:88.33M (Peak 95.05M) | Time:00:00.46 | Rendering 25 / 48 samples
+Fra:0 Mem:88.33M (Peak 95.05M) | Time:00:00.84 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/top.png'
+Time: 00:00.87 (Saving: 00:00.02)
+
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.07 | Rendering 1 / 48 samples
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.46 | Rendering 25 / 48 samples
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.83 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/front_right.png'
+Time: 00:00.86 (Saving: 00:00.02)
+
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.39 | Rendering 25 / 48 samples
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.71 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/right.png'
+Time: 00:00.74 (Saving: 00:00.02)
+
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.39 | Rendering 25 / 48 samples
+Fra:0 Mem:88.33M (Peak 88.33M) | Time:00:00.71 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/low_front.png'
+Time: 00:00.75 (Saving: 00:00.03)
+
+Fra:0 Mem:88.13M (Peak 88.13M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:0 Mem:88.13M (Peak 88.13M) | Time:00:00.34 | Rendering 25 / 48 samples
+Fra:0 Mem:88.13M (Peak 88.13M) | Time:00:00.60 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/underside.png'
+Time: 00:00.63 (Saving: 00:00.03)
+
+Fra:0 Mem:88.13M (Peak 88.13M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:0 Mem:88.13M (Peak 88.13M) | Time:00:00.32 | Rendering 25 / 48 samples
+Fra:0 Mem:88.13M (Peak 88.13M) | Time:00:00.56 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/underside_back.png'
+Time: 00:00.59 (Saving: 00:00.03)
+
+Fra:0 Mem:88.86M (Peak 88.86M) | Time:00:00.07 | Rendering 1 / 48 samples
+Fra:0 Mem:88.86M (Peak 88.86M) | Time:00:00.46 | Rendering 25 / 48 samples
+Fra:0 Mem:88.86M (Peak 88.86M) | Time:00:00.84 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-run_cycle-phase-00.png'
+Time: 00:00.87 (Saving: 00:00.02)
+
+Fra:68 Mem:88.86M (Peak 88.86M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:68 Mem:88.86M (Peak 88.86M) | Time:00:00.47 | Rendering 25 / 48 samples
+Fra:68 Mem:88.86M (Peak 88.86M) | Time:00:00.86 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-run_cycle-phase-01.png'
+Time: 00:00.89 (Saving: 00:00.03)
+
+Fra:113 Mem:88.86M (Peak 88.86M) | Time:00:00.07 | Rendering 1 / 48 samples
+Fra:113 Mem:88.86M (Peak 88.86M) | Time:00:00.46 | Rendering 25 / 48 samples
+Fra:113 Mem:88.86M (Peak 88.86M) | Time:00:00.83 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-run_cycle-phase-02.png'
+Time: 00:00.87 (Saving: 00:00.03)
+
+Fra:158 Mem:88.86M (Peak 88.86M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:158 Mem:88.86M (Peak 88.86M) | Time:00:00.47 | Rendering 25 / 48 samples
+Fra:158 Mem:88.86M (Peak 88.86M) | Time:00:00.85 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-run_cycle-phase-03.png'
+Time: 00:00.89 (Saving: 00:00.03)
+
+Fra:203 Mem:88.86M (Peak 88.86M) | Time:00:00.07 | Rendering 1 / 48 samples
+Fra:203 Mem:88.86M (Peak 88.86M) | Time:00:00.47 | Rendering 25 / 48 samples
+Fra:203 Mem:88.86M (Peak 88.86M) | Time:00:00.84 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-run_cycle-phase-04.png'
+Time: 00:00.87 (Saving: 00:00.03)
+
+Fra:248 Mem:88.86M (Peak 88.86M) | Time:00:00.07 | Rendering 1 / 48 samples
+Fra:248 Mem:88.86M (Peak 88.86M) | Time:00:00.47 | Rendering 25 / 48 samples
+Fra:248 Mem:88.86M (Peak 88.86M) | Time:00:00.86 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-run_cycle-phase-05.png'
+Time: 00:00.90 (Saving: 00:00.03)
+
+Fra:294 Mem:88.86M (Peak 88.86M) | Time:00:00.07 | Rendering 1 / 48 samples
+Fra:294 Mem:88.86M (Peak 88.86M) | Time:00:00.46 | Rendering 25 / 48 samples
+Fra:294 Mem:88.86M (Peak 88.86M) | Time:00:00.83 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-run_cycle-phase-06.png'
+Time: 00:00.87 (Saving: 00:00.03)
+
+Fra:339 Mem:88.86M (Peak 88.86M) | Time:00:00.07 | Rendering 1 / 48 samples
+Fra:339 Mem:88.86M (Peak 88.86M) | Time:00:00.47 | Rendering 25 / 48 samples
+Fra:339 Mem:88.86M (Peak 88.86M) | Time:00:00.85 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-run_cycle-phase-07.png'
+Time: 00:00.89 (Saving: 00:00.03)
+
+Fra:384 Mem:88.86M (Peak 88.86M) | Time:00:00.07 | Rendering 1 / 48 samples
+Fra:384 Mem:88.86M (Peak 88.86M) | Time:00:00.45 | Rendering 25 / 48 samples
+Fra:384 Mem:88.86M (Peak 88.86M) | Time:00:00.83 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-run_cycle-phase-08.png'
+Time: 00:00.86 (Saving: 00:00.03)
+
+Fra:0 Mem:88.37M (Peak 88.37M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:0 Mem:88.37M (Peak 88.37M) | Time:00:00.44 | Rendering 25 / 48 samples
+Fra:0 Mem:88.37M (Peak 88.37M) | Time:00:00.82 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-how_to_use-phase-00.png'
+Time: 00:00.85 (Saving: 00:00.02)
+
+Fra:126 Mem:88.37M (Peak 88.37M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:126 Mem:88.37M (Peak 88.37M) | Time:00:00.44 | Rendering 25 / 48 samples
+Fra:126 Mem:88.37M (Peak 88.37M) | Time:00:00.79 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-how_to_use-phase-01.png'
+Time: 00:00.83 (Saving: 00:00.03)
+
+Fra:240 Mem:88.37M (Peak 88.37M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:240 Mem:88.37M (Peak 88.37M) | Time:00:00.42 | Rendering 25 / 48 samples
+Fra:240 Mem:88.37M (Peak 88.37M) | Time:00:00.77 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-how_to_use-phase-02.png'
+Time: 00:00.81 (Saving: 00:00.03)
+
+Fra:354 Mem:88.37M (Peak 88.37M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:354 Mem:88.37M (Peak 88.37M) | Time:00:00.44 | Rendering 25 / 48 samples
+Fra:354 Mem:88.37M (Peak 88.37M) | Time:00:00.79 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-how_to_use-phase-03.png'
+Time: 00:00.83 (Saving: 00:00.03)
+
+Fra:460 Mem:88.17M (Peak 88.17M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:460 Mem:88.17M (Peak 88.17M) | Time:00:00.46 | Rendering 25 / 48 samples
+Fra:460 Mem:88.17M (Peak 88.17M) | Time:00:00.85 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-how_to_use-phase-04.png'
+Time: 00:00.89 (Saving: 00:00.03)
+
+Fra:552 Mem:88.37M (Peak 95.09M) | Time:00:00.07 | Rendering 1 / 48 samples
+Fra:552 Mem:88.37M (Peak 95.09M) | Time:00:00.47 | Rendering 25 / 48 samples
+Fra:552 Mem:88.37M (Peak 95.09M) | Time:00:00.84 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-how_to_use-phase-05.png'
+Time: 00:00.88 (Saving: 00:00.03)
+
+Fra:603 Mem:88.37M (Peak 88.37M) | Time:00:00.07 | Rendering 1 / 48 samples
+Fra:603 Mem:88.37M (Peak 88.37M) | Time:00:00.46 | Rendering 25 / 48 samples
+Fra:603 Mem:88.37M (Peak 88.37M) | Time:00:00.84 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-how_to_use-phase-06.png'
+Time: 00:00.87 (Saving: 00:00.02)
+
+Fra:693 Mem:88.37M (Peak 88.37M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:693 Mem:88.37M (Peak 88.37M) | Time:00:00.43 | Rendering 25 / 48 samples
+Fra:693 Mem:88.37M (Peak 88.37M) | Time:00:00.79 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-how_to_use-phase-07.png'
+Time: 00:00.82 (Saving: 00:00.03)
+
+Fra:810 Mem:88.37M (Peak 88.37M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:810 Mem:88.37M (Peak 88.37M) | Time:00:00.44 | Rendering 25 / 48 samples
+Fra:810 Mem:88.37M (Peak 88.37M) | Time:00:00.81 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-how_to_use-phase-08.png'
+Time: 00:00.85 (Saving: 00:00.03)
+
+Fra:0 Mem:88.46M (Peak 88.46M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:0 Mem:88.46M (Peak 88.46M) | Time:00:00.45 | Rendering 25 / 48 samples
+Fra:0 Mem:88.46M (Peak 88.46M) | Time:00:00.83 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-manual_winding-phase-00.png'
+Time: 00:00.86 (Saving: 00:00.02)
+
+Fra:38 Mem:88.46M (Peak 88.46M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:38 Mem:88.46M (Peak 88.46M) | Time:00:00.47 | Rendering 25 / 48 samples
+Fra:38 Mem:88.46M (Peak 88.46M) | Time:00:00.85 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-manual_winding-phase-01.png'
+Time: 00:00.88 (Saving: 00:00.03)
+
+Fra:53 Mem:88.46M (Peak 88.46M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:53 Mem:88.46M (Peak 88.46M) | Time:00:00.45 | Rendering 25 / 48 samples
+Fra:53 Mem:88.46M (Peak 88.46M) | Time:00:00.82 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-manual_winding-phase-02.png'
+Time: 00:00.85 (Saving: 00:00.03)
+
+Fra:68 Mem:88.46M (Peak 88.46M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:68 Mem:88.46M (Peak 88.46M) | Time:00:00.46 | Rendering 25 / 48 samples
+Fra:68 Mem:88.46M (Peak 88.46M) | Time:00:00.86 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-manual_winding-phase-03.png'
+Time: 00:00.90 (Saving: 00:00.03)
+
+Fra:83 Mem:88.46M (Peak 95.18M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:83 Mem:88.46M (Peak 95.18M) | Time:00:00.44 | Rendering 25 / 48 samples
+Fra:83 Mem:88.46M (Peak 95.18M) | Time:00:00.82 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-manual_winding-phase-04.png'
+Time: 00:00.86 (Saving: 00:00.03)
+
+Fra:98 Mem:88.46M (Peak 88.46M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:98 Mem:88.46M (Peak 88.46M) | Time:00:00.47 | Rendering 25 / 48 samples
+Fra:98 Mem:88.46M (Peak 88.46M) | Time:00:00.85 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-manual_winding-phase-05.png'
+Time: 00:00.89 (Saving: 00:00.03)
+
+Fra:114 Mem:88.46M (Peak 88.46M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:114 Mem:88.46M (Peak 88.46M) | Time:00:00.46 | Rendering 25 / 48 samples
+Fra:114 Mem:88.46M (Peak 88.46M) | Time:00:00.83 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-manual_winding-phase-06.png'
+Time: 00:00.87 (Saving: 00:00.03)
+
+Fra:129 Mem:88.46M (Peak 88.46M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:129 Mem:88.46M (Peak 88.46M) | Time:00:00.46 | Rendering 25 / 48 samples
+Fra:129 Mem:88.46M (Peak 88.46M) | Time:00:00.85 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-manual_winding-phase-07.png'
+Time: 00:00.89 (Saving: 00:00.03)
+
+Fra:144 Mem:88.46M (Peak 88.46M) | Time:00:00.06 | Rendering 1 / 48 samples
+Fra:144 Mem:88.46M (Peak 88.46M) | Time:00:00.45 | Rendering 25 / 48 samples
+Fra:144 Mem:88.46M (Peak 88.46M) | Time:00:00.82 | Rendering 48 / 48 samples
+Saved: '/Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-manual_winding-phase-08.png'
+Time: 00:00.86 (Saving: 00:00.03)
+
+[c3d] render engine: BLENDER_EEVEE_NEXT
+[c3d] wrote /Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/views.png
+[c3d] run_cycle: rendering 9 of 723 sample frames (--max-frames)
+[c3d] wrote /Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-run_cycle.png
+[c3d] how_to_use: rendering 9 of 48 sample frames (--max-frames)
+[c3d] wrote /Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-how_to_use.png
+[c3d] manual_winding: rendering 9 of 243 sample frames (--max-frames)
+[c3d] wrote /Users/estherlee/Documents/Codex/MakeTwin/watch-test/test 1/.revision/renders/clip-manual_winding.png
+
+Blender quit

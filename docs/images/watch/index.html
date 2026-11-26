@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f6f7f5">
+<title>Tissot T-Complication Squelette</title>
+<link rel="stylesheet" href="guide.css?v=viewer-cleanup">
+<style>
+  /* Layout B: full-width 3D view, caption over the model, slim numbered step strip. */
+  .download-link{font-size:11px;display:flex;align-items:center;gap:7px;color:#606962;border:1px solid var(--line);border-radius:8px;padding:7px 11px;background:#fff;white-space:nowrap;flex:none}
+  /* Embedded in another page (?embed=1): just the guide card, no page chrome. */
+  body.embed .site-header,body.embed footer,body.embed .below-guide,body.embed .titlebar .eyebrow{display:none}
+  body.embed main{padding:0;max-width:none}
+  body.embed .titlebar{margin:0;padding:12px 16px;border-bottom:1px solid var(--line);background:#fff}
+  body.embed .titlebar h1{font-size:22px;margin:0}
+  body.embed .stage{border:0;border-radius:0;box-shadow:none}
+  body.embed .viewer-panel{height:clamp(440px,calc(100vh - 210px),720px)}
+  .titlebar{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:24px;flex-wrap:wrap}
+  .titlebar h1{margin-top:10px}
+  .picker{display:flex;align-items:center;gap:10px}
+  .picker label{font-size:10px;letter-spacing:1.2px;color:#8b928c;font-weight:600}
+  .picker select{font:inherit;font-size:12px;border:1px solid var(--line);border-radius:8px;background:#fff;padding:8px 10px;max-width:320px;color:var(--ink)}
+  .stage{border:1px solid var(--line);border-radius:18px;background:#fff;overflow:hidden;box-shadow:0 15px 50px #253a2c04}
+  .strip{display:flex;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line);background:#fcfdfb}
+  .strip>span{font-size:9px;letter-spacing:1.2px;color:#8b928c;font-weight:600;white-space:nowrap}
+  #dots{display:flex;gap:5px;overflow-x:auto;scrollbar-width:none;flex:1;padding:2px}
+  #dots button{flex:none;width:28px;height:28px;border-radius:50%;border:1px solid #dce1da;font-size:9px;color:#949c94;background:#fff}
+  #dots button.done{border-color:#c7d8cc;color:#63856b;background:#edf3ec}
+  #dots button.current{background:#776394;border-color:#776394;color:#fff}
+  .step-instruction{position:absolute;bottom:22px;z-index:3;border:1px solid #e1e5dc;border-radius:14px;padding:14px 18px;box-shadow:0 10px 30px #2a35290f;}
+  .step-instruction small{display:block;font-size:9px;letter-spacing:1.2px;color:#9b91a7;font-weight:600;margin-bottom:5px}
+  .step-instruction p{margin:0;font:400 18px/1.45 var(--serif);color:#2f2a38;letter-spacing:-.2px}
+  .step-instruction .tip{font-size:12px;color:#8b8670;margin-top:8px}
+  .controls{display:flex;align-items:center;gap:14px;padding:12px 18px 16px;border-top:1px solid #dfe5d8;background:#edf0eb}
+  .timeline-wrap{position:relative;flex:1;min-width:30px;display:flex;align-items:center}
+  .timeline-wrap #timeline{width:100%}
+  .ticks{position:absolute;left:0;right:0;top:50%;height:9px;transform:translateY(-50%);pointer-events:none}
+  .ticks i{position:absolute;width:1px;height:9px;background:#c6cdbf}
+  .step-buttons{display:flex;gap:8px}
+  .step-buttons .back-button{width:40px;height:38px;background:#fff}
+  .step-buttons .next-button{padding:10px 16px;min-width:150px}
+  @media(max-width:700px){.step-buttons{width:100%;margin-left:auto}.step-instruction{bottom:12px;padding:12px}.step-instruction p{font-size:15px}.timeline-wrap{min-width:180px}}
+</style>
+<script src="showcase-state.js"></script>
+<script src="explorer-state.js"></script>
+<link rel="stylesheet" href="explorer.css?v=viewer-cleanup">
+<link rel="stylesheet" href="maketwin.css?v=viewer-cleanup">
+<script type="importmap">{"imports": {"three": "./vendor-build-three.module.js", "three/addons/loaders/GLTFLoader.js": "./vendor-examples-jsm-loaders-GLTFLoader.js", "three/addons/controls/OrbitControls.js": "./vendor-examples-jsm-controls-OrbitControls.js", "three/addons/environments/RoomEnvironment.js": "./vendor-examples-jsm-environments-RoomEnvironment.js"}}</script>
+<link rel="stylesheet" href="reference-ui.css?v=viewer-cleanup">
+<link rel="stylesheet" href="../../products/viewer-nav.css">
+</head>
+<body>
+<header class="site-header">
+  <span class="brand"><img src="maketwin-logo.png" alt=""><span><strong>MakeTwin</strong><i aria-hidden="true"></i><em>Your Digital Product Explorer</em></span></span>
+</header>
+<main>
+  <p role="status" style="margin:0 0 14px;padding:10px 14px;background:#fff5df;border:1px solid #e4c685;border-radius:8px;color:#624818;font:14px/1.5 sans-serif">Generated model preview · Hidden details may be illustrative. See the included review for validation status.</p>
+  <div class="titlebar">
+    <div><h1 id="guide-title">Tissot T-Complication Squelette</h1></div>
+    <div class="download-actions"><a class="download-link" id="download" download><span aria-hidden="true">↓</span> Download 3D model (GLB)</a><a class="download-link" id="download-json" download><span aria-hidden="true">↓</span> Download Metadata (JSON)</a></div>
+  </div>
+  <div class="stage">
+    <div class="strip"><span id="count">STEP 1 / 1</span><div id="dots" role="group" aria-label="Steps"></div><div class="picker" id="picker"><label for="guide-select">GUIDE</label><select id="guide-select"><option value="" disabled selected>Guide dropdown</option></select></div></div>
+    <section class="viewer-panel" aria-label="Interactive 3D demonstration">
+      <div class="viewer-top"><div class="viewer-tools">
+          <button id="toggle-labels" class="labels-button" type="button" aria-pressed="false">Show labels</button>
+          <button id="reset-view" class="icon-button reset-button" aria-label="Reset viewing angle" title="Reset viewing angle"><span aria-hidden="true">↻</span><small>Reset</small></button>
+          <div class="orientation" role="group" aria-label="Rotate model to a standard view">
+            <div class="view-cube">
+              <button class="cube-face cube-front" data-view="front" aria-label="Front view">Front</button>
+              <button class="cube-face cube-back" data-view="back" aria-label="Back view">Back</button>
+              <button class="cube-face cube-right" data-view="right" aria-label="Right view">Right</button>
+              <button class="cube-face cube-left" data-view="left" aria-label="Left view">Left</button>
+              <button class="cube-face cube-top" data-view="top" aria-label="Top view">Top</button>
+              <button class="cube-face cube-bottom" data-view="bottom" aria-label="Bottom view">Bottom</button>
+            </div>
+          </div>
+      </div></div>
+
+      <aside class="showcase-readouts" aria-label="Model playback state"><dl><dt>Components</dt><dd id="metric-parts">—</dd><dt>Playback</dt><dd id="metric-speed">1×</dd><dt id="metric-label" hidden></dt><dd id="metric-value" hidden></dd></dl><small>Animation state. Dimensions and motion may include documented simplifications.</small></aside>
+      <div id="viewer">
+        <div id="loading"><div class="loading-ring"></div><p>Getting the model ready…</p></div>
+        <div id="labels" aria-hidden="true"></div>
+        <div id="gesture-hint">Drag to rotate <span>·</span> Scroll to zoom <span>·</span> Shift + drag to pan</div>
+      </div>
+      <div class="step-instruction" aria-live="polite"><small id="cap-step">STEP 01</small><p id="cap-text"></p><div class="tip" id="cap-tip" hidden></div></div>
+    </section>
+      <section id="explorer-panel" class="explorer-panel" aria-label="Model exploration controls">Loading controls…</section>
+    <div class="controls">
+      <button id="tour" type="button">Play Full Tour</button>
+      <button id="replay" class="replay-button" aria-label="Replay"><svg aria-hidden="true" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 15a8 8 0 1 0 1.8-10.7L3 7.5"/><path d="M3 2.5v5h5"/></svg></button>
+      <button id="play" class="play-button" aria-label="Play">▶</button>
+      <div class="timeline-wrap"><input id="timeline" type="range" min="0" max="1000" value="0" aria-label="Whole guide progress"><div class="ticks" id="ticks"></div></div>
+      <span id="time-label">0:00 / 0:00</span>
+      <button id="speed" class="speed-button" aria-label="Playback speed">1×</button>
+      <div class="step-buttons"><button id="back" class="back-button" aria-label="Previous step"><svg aria-hidden="true" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5m7-7-7 7 7 7"/></svg></button><button id="next" class="next-button"><span id="next-label">Next step</span><span aria-hidden="true">→</span></button></div>
+    </div>
+  </div>
+  <div class="below-guide"><span class="leaf-icon" aria-hidden="true">✧</span><p>Explore the components and follow the mechanism. <strong>Illustrative exhibit. Use the manufacturer’s instructions for the physical machine.</strong></p><button id="restart">Start over</button></div>
+</main>
+<footer><span>3D GUIDE · GENERATED MODEL</span><p>Generated from product photos and the manual with the mechanical-showcase Skill. Sizes are estimated and hidden internals are simplified.</p></footer>
+<script src="camera-director.js"></script>
+<script src="guide-player.js"></script>
+<script type="module">
+import {startGuide, pretty, fmt, drawTicks} from './guide-core.js?v=transparent-canvas';
+import {installExplorer} from './explorer-controller.js?v=separation-grid-2';
+const $ = id => document.getElementById(id);
+const params = new URLSearchParams(location.search), file = params.get('model') || 'model.glb?v=dial-motion-3';
+if (params.get('embed')) document.body.classList.add('embed');
+$('download').href = file;
+const metadataLink = $('download-json');
+metadataLink.href = 'parts.json';
+let current = -1, displayManifest = {};
+
+function buildDots(p) {
+  const dots = $('dots'); dots.replaceChildren(); current = -1;
+  p.guide.steps.forEach((s, i) => {
+    const b = document.createElement('button'); b.type = 'button'; b.textContent = String(i + 1).padStart(2, '0');
+    b.title = s.instruction; b.setAttribute('aria-label', `Step ${i + 1}: ${s.instruction}`);
+    b.onclick = () => p.playStep(i); dots.append(b);
+  });
+  drawTicks($('ticks'), p.guide.steps, p.duration);
+}
+
+function render(p) {
+  const steps = p.guide.steps, i = p.stepIndex(), n = steps.length, s = steps[i];
+  if (i !== current) {
+    [...$('dots').children].forEach((b, k) => { b.classList.toggle('current', k === i); b.classList.toggle('done', k < i); });
+    $('dots').children[i]?.scrollIntoView({block: 'nearest', inline: 'center'});
+    $('count').textContent = `STEP ${i + 1} / ${n}`;
+    $('cap-step').textContent = n > 1 ? `STEP ${String(i + 1).padStart(2, '0')}` : 'ANIMATION';
+    $('cap-text').textContent = s.instruction;
+    $('cap-tip').hidden = !s.tip; $('cap-tip').textContent = s.tip || '';
+    $('back').disabled = i === 0;
+    $('next-label').textContent = i === n - 1 ? 'Start over' : 'Next step';
+    current = i;
+  }
+  $('play').textContent = p.playing ? 'Ⅱ' : '▶';
+  $('timeline').value = p.duration ? Math.round(p.time / p.duration * 1000) : 0;
+  $('time-label').textContent = `${fmt(p.time)} / ${fmt(p.duration)}`;
+  $('speed').textContent = `${p.speed}×`;
+  const metrics=ShowcaseState.readout(p,displayManifest);
+  $('metric-parts').textContent=metrics.components||'—';
+  $('metric-speed').textContent=`${metrics.speed}×`;
+  renderMetric(metrics.metric);
+}
+
+function renderMetric(metric) {
+  $('metric-label').hidden = $('metric-value').hidden = !metric;
+  $('metric-label').textContent = metric?.label || '';
+  $('metric-value').textContent = metric ? `${metric.value.toFixed(metric.precision)}${metric.unit === '°' || metric.unit === '%' ? '' : ' '}${metric.unit}`.trim() : '';
+}
+const caption = document.querySelector('.step-instruction');
+const g = startGuide({onFrame:(dt,state)=>{state.explorer?.update(dt); if(state.player)renderMetric(state.explorer?.active ? null : ShowcaseState.readout(state.player,state.manifest).metric);},file, viewer: $('viewer'), labelLayer: $('labels'), onChange: render, background: null,
+  onOrientation: (x,y,z,w) => { document.querySelector('.view-cube').style.transform = `matrix3d(${new DOMMatrix().rotateAxisAngle(-x,y,-z,2*Math.acos(Math.max(-1,Math.min(1,w)))*180/Math.PI).toFloat64Array().join(',')})`; },
+  bottomInset: () => caption.offsetHeight + 22,
+  onError: e => {
+    $('loading').innerHTML = `<p>Could not load ${file}: ${e.message || e}</p><small>Open the viewer through a local web server to load the 3D model.</small>`;
+  },
+  async onReady(state) {
+    displayManifest=state.manifest;
+    const p = state.player, sel = $('guide-select');
+    const add = (parent, v, t) => { const o = document.createElement('option'); o.value = v; o.textContent = t; parent.append(o); };
+    if (state.guides.length) { const og = document.createElement('optgroup'); og.label = 'Guides'; state.guides.forEach(x => add(og, x.clip, x.title || pretty(x.clip))); sel.append(og); }
+    const others = state.clips.filter(c => !state.guides.some(x => x.clip === c.name));
+    if (others.length) { const og = document.createElement('optgroup'); og.label = 'More animations'; others.forEach(c => add(og, c.name, c.name === "run_cycle" ? "Run cycle · 60× watch time" : pretty(c.name))); sel.append(og); }
+    sel.querySelector('option[value=""]')?.remove();
+    $('picker').hidden = sel.options.length < 1;
+    const open = id => { p.select(id); sel.value = id; buildDots(p); render(p); p.playStep(0); };
+    sel.onchange = () => open(sel.value);
+    const start = params.get('clip');
+    open(start && state.clips.some(c => c.name === start) ? start : ShowcaseState.primary(state.clips,state.guides));
+    p.restart();
+    $('loading').hidden = true;
+    state.explorer=await installExplorer(state, $('explorer-panel'), file);
+    for(const element of [document.querySelector('.controls'),$('dots'),$('guide-select'),$('restart')]){
+      for(const event of ['click','input','change'])element.addEventListener(event,()=>state.explorer?.restore(),true);
+    }
+  }});
+const P = () => g.state.player;
+const cube = document.querySelector('.view-cube');
+let drag = null, suppressClick = false;
+cube.addEventListener('pointerdown', e => { drag = {x:e.clientX,y:e.clientY,distance:0}; suppressClick=false; e.target.setPointerCapture(e.pointerId); });
+cube.addEventListener('pointermove', e => {
+  if (!drag) return;
+  const dx=e.clientX-drag.x, dy=e.clientY-drag.y;
+  drag.distance += Math.abs(dx)+Math.abs(dy);
+  if(drag.distance>4){suppressClick=true;g.rotateView(dx,dy);}
+  drag.x=e.clientX;drag.y=e.clientY;
+});
+cube.addEventListener('pointerup', () => {drag=null;});
+cube.addEventListener('pointercancel', () => {drag=null;});
+document.querySelectorAll('[data-view]').forEach(button => button.onclick = () => {if(!suppressClick)g.setView(button.dataset.view);});
+
+$('play').onclick = () => P()?.toggle();
+$('tour').onclick = () => {const p=P();if(!p)return;const id=ShowcaseState.primary(g.state.clips,g.state.guides);p.select(id);$('guide-select').value=id;buildDots(p);p.playAll();};
+$('replay').onclick = () => P()?.replayStep();
+$('timeline').oninput = e => { const p = P(); if (!p) return; p.pause(); p.seek(Number(e.target.value) / 1000 * p.duration); };
+const speeds = [1, 1.5, 2, .5];
+$('speed').onclick = () => { const p = P(); if (p) p.speed = speeds[(speeds.indexOf(p.speed) + 1) % speeds.length]; };
+$('back').onclick = () => { const p = P(); if (p) p.playStep(p.stepIndex() - 1); };
+$('next').onclick = () => { const p = P(); if (!p) return; const i = p.stepIndex(); if (i >= p.guide.steps.length - 1) { p.restart(); p.playStep(0); } else p.playStep(i + 1); };
+$('restart').onclick = () => { P()?.restart(); P()?.playStep(0); };
+$('toggle-labels').onclick = e => { const on = e.currentTarget.getAttribute('aria-pressed') !== 'true'; g.setLabels(on); e.currentTarget.setAttribute('aria-pressed', on); e.currentTarget.textContent = on ? 'Hide labels' : 'Show labels'; };
+if (params.get('labels') === '1') { $('toggle-labels').setAttribute('aria-pressed', 'true'); $('toggle-labels').textContent = 'Hide labels'; }
+$('reset-view').onclick = () => g.auto();
+</script>
+<a class="demo-home-link" href="../../">All demos</a>
+</body>
+</html>

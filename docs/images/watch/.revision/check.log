@@ -1,0 +1,45 @@
+[c3d] START naming/materials
+[c3d] DONE naming/materials 0.001 s
+[c3d] START placement
+[c3d] DONE placement 0.002 s
+[c3d] START mesh health
+[c3d] DONE mesh health 0.129 s
+[c3d] START z-fighting
+[c3d] DONE z-fighting 10.562 s
+[c3d] START contact declarations
+[c3d] DONE contact declarations 0.0 s
+[c3d] START rest overlaps
+[c3d] DONE rest overlaps 0.065 s
+[c3d] START support/floating
+[c3d] DONE support/floating 0.136 s
+[c3d] START joint pivots
+[c3d] DONE joint pivots 0.001 s
+[c3d] START motion collisions
+[c3d] motion run_cycle: 0/723 snapshots
+[c3d] motion run_cycle: 100/723 snapshots
+[c3d] motion run_cycle: 200/723 snapshots
+[c3d] motion run_cycle: 300/723 snapshots
+[c3d] motion run_cycle: 400/723 snapshots
+[c3d] motion run_cycle: 500/723 snapshots
+[c3d] motion run_cycle: 600/723 snapshots
+[c3d] motion run_cycle: 700/723 snapshots
+[c3d] motion how_to_use: 0/150 snapshots
+[c3d] motion how_to_use: 100/150 snapshots
+[c3d] motion manual_winding: 0/243 snapshots
+[c3d] motion manual_winding: 100/243 snapshots
+[c3d] motion manual_winding: 200/243 snapshots
+[c3d] DONE motion collisions 10.016 s
+[c3d] ERROR   zfight           384 face pairs lie in the same plane between 'bezel' and 'front_gasket' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm
+[c3d] ERROR   zfight           1588 face pairs lie in the same plane between 'caseback' and 'caseback_markings' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm
+[c3d] ERROR   zfight           65 face pairs lie in the same plane inside 'caseback_markings' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm
+[c3d] ERROR   zfight           242 face pairs lie in the same plane between 'caseback_markings' and 'rear_crystal' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm
+[c3d] ERROR   zfight           64 face pairs lie in the same plane inside 'upper_bar' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm
+[c3d] ERROR   zfight           4 face pairs lie in the same plane between 'upper_emboss' and 'upper_strap' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm
+[c3d] ERROR   zfight           64 face pairs lie in the same plane inside 'lower_bar' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm
+[c3d] ERROR   zfight           4 face pairs lie in the same plane between 'lower_emboss' and 'lower_strap' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm
+[c3d] ERROR   zfight           4 face pairs lie in the same plane between 'clasp' and 'clasp_mark' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm
+[c3d] ERROR   zfight           3 face pairs lie in the same plane inside 'clasp_mark' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm
+[c3d] ERROR   zfight           56 face pairs lie in the same plane between 'chapter_ring' and 'minute_scale' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm
+[c3d] ERROR   zfight           1 face pairs lie in the same plane between 'hour_lume_00' and 'hour_marker_00' (closer than 0.20 mm): inset/raise one side by core.gap() = 0.30 mm
+[c3d] ... 199 more findings in the report file
+[c3d] 120 errors, 91 warnings, 123 parts, clips: how_to_use, manual_winding, run_cycle

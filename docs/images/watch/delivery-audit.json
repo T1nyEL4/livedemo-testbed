@@ -1,0 +1,21 @@
+{
+  "technicalPassed": false,
+  "humanAcceptance": "not_assessed",
+  "issues": [
+    "Check report contains 120 error(s).",
+    "Export is partial or has no validated export status."
+  ],
+  "sourceBlend": {
+    "file": "model.blend",
+    "bytes": 7664576,
+    "sha256": "7f850c368889e98ef9c32f5173892d0990838925fdb330b58950e6a392cb8ea8"
+  },
+  "artifact": {
+    "file": "model.glb",
+    "bytes": 7847680,
+    "sha256": "6f15bae73efdda7b3a717cb1846abb213f7d4146c403a96faf209c835ad35703"
+  },
+  "meshCount": 123,
+  "clipCount": 3,
+  "warningCount": 91
+}

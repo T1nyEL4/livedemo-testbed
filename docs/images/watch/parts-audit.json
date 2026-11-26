@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "exportedParts": 123,
+  "metadataParts": 123,
+  "errors": [],
+  "limitations": "Schema, coverage and references only; function accuracy and physical movement require review."
+}
